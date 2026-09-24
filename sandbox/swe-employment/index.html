@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software developer employment &mdash; Drew&rsquo;s Sandbox</title>
+  <meta name="description" content="U.S. software developer employment by year, May 2006&ndash;2025, from the BLS Occupational Employment and Wage Statistics national estimates.">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+  <main>
+    <p class="back"><a href="../">&larr; Drew&rsquo;s Sandbox</a></p>
+
+    <h1>Software developer employment in the United States</h1>
+    <p class="meta">BLS OEWS national estimates &middot; May 2006 &ndash; May 2025 &middot; counts jobs, not people or postings</p>
+
+    <p>Each point is the number of jobs held by software developers in the United States in May of that year: 801,580 in 2006, 1,687,890 in 2025 &mdash; an increase of 886,310 (110.6%). The numbers come from the Bureau of Labor Statistics&rsquo; Occupational Employment and Wage Statistics (OEWS) program, which surveys employers rather than households.</p>
+
+    <p>What it counts: jobs, not people. The survey covers part-time and full-time workers paid a wage or salary, so one person holding two covered jobs counts twice, and the self-employed, owners and partners in unincorporated firms, household workers and unpaid family workers are not counted at all. Each value is a May snapshot, not an annual average, and it is not job postings or industry payroll totals.</p>
+
+    <section>
+      <h2>Employment by year</h2>
+
+      <figure>
+        <div class="chart">
+          <canvas id="chart" role="img"
+                  aria-label="Line chart of U.S. software developer employment from May 2006 to May 2025, rising from 801,580 to 1,687,890 jobs."></canvas>
+        </div>
+        <figcaption id="chart-caption">May 2006 &ndash; May 2025. The two hollow points (2019 and 2020) used a broader occupation definition that includes software QA analysts and testers, so they are not directly comparable with the years on either side.</figcaption>
+      </figure>
+
+      <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
+
+      <table class="data-table">
+        <caption>Every value behind the chart, with the occupation code(s) BLS used that year.</caption>
+        <thead>
+          <tr><th scope="col">May survey year</th><th scope="col" class="num">Employment</th><th scope="col">SOC code(s)</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>2006</td><td class="num">801,580</td><td>15-1031 + 15-1032</td></tr>
+        <tr><td>2007</td><td class="num">844,950</td><td>15-1031 + 15-1032</td></tr>
+        <tr><td>2008</td><td class="num">875,990</td><td>15-1031 + 15-1032</td></tr>
+        <tr><td>2009</td><td class="num">880,700</td><td>15-1031 + 15-1032</td></tr>
+        <tr><td>2010</td><td class="num">878,200</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2011</td><td class="num">926,930</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2012</td><td class="num">978,040</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2013</td><td class="num">1,017,340</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2014</td><td class="num">1,068,870</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2015</td><td class="num">1,138,480</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2016</td><td class="num">1,203,820</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2017</td><td class="num">1,243,820</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2018</td><td class="num">1,308,490</td><td>15-1132 + 15-1133</td></tr>
+        <tr><td>2019</td><td class="num">1,406,870</td><td>15-1256 (includes QA)</td></tr>
+        <tr><td>2020</td><td class="num">1,476,800</td><td>15-1256 (includes QA)</td></tr>
+        <tr><td>2021</td><td class="num">1,364,180</td><td>15-1252</td></tr>
+        <tr><td>2022</td><td class="num">1,534,790</td><td>15-1252</td></tr>
+        <tr><td>2023</td><td class="num">1,656,880</td><td>15-1252</td></tr>
+        <tr><td>2024</td><td class="num">1,654,440</td><td>15-1252</td></tr>
+        <tr><td>2025</td><td class="num">1,687,890</td><td>15-1252</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>How the data was sourced</h2>
+
+      <ul class="bullets">
+        <li>One point per May survey, read from that year&rsquo;s OEWS national estimates workbook (<code>national_M{YYYY}_dl.xls</code> / <code>.xlsx</code>) in BLS&rsquo;s <code>oesm{YY}nat.zip</code>, using the <code>TOT_EMP</code> column for whichever software-developer occupation code(s) BLS published that year.</li>
+        <li>Where the occupation was split across two codes (2006&ndash;2018), employment is the sum of the two rows. 2019&ndash;2020 used the combined code <code>15-1256</code>; 2021 on uses <code>15-1252</code>.</li>
+        <li>The current release file was taken from BLS directly. The older zip files were retrieved from the Internet Archive&rsquo;s raw snapshots of the same BLS URLs, because bls.gov returns 403 to this machine&rsquo;s IP range.</li>
+        <li>Checks run before publishing: all 20 years re-read from the raw workbooks match the charted series exactly; May 2018 also matches BLS&rsquo;s published static national table (903,160 applications + 405,330 systems software = 1,308,490); the latest release on BLS&rsquo;s list is May 2025, which is the 1,687,890 shown here.</li>
+        <li>Caveats: OEWS estimates are not revised after release. Employment for software developers fell from 1,476,800 in 2020 to 1,364,180 in 2021, but part of that drop is definitional &mdash; the 2019&ndash;2020 numbers include QA analysts and testers, who moved to their own code (15-1253) in 2021.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      <ul class="sources">
+        <li><a href="https://www.bls.gov/oes/tables.htm">BLS &mdash; OEWS national estimates: tables and data files, all years</a></li>
+        <li><a href="https://www.bls.gov/oes/special-requests/oesm25nat.zip">BLS &mdash; May 2025 national data file</a> (<code>oesm25nat.zip</code>; the pattern is <code>oesm{YY}nat.zip</code>)</li>
+        <li><a href="https://data.bls.gov/timeseries/OEUN000000000000015125201">BLS &mdash; series OEUN000000000000015125201, software developers, employment</a></li>
+        <li><a href="https://www.bls.gov/oes/current/oes151252.htm">BLS &mdash; OEWS profile for SOC 15-1252, Software Developers</a></li>
+        <li><a href="https://www.bls.gov/oes/2018/may/oes_nat.htm">BLS &mdash; May 2018 national table, used for the cross-check</a></li>
+        <li><a href="https://www.bls.gov/oes/soc_2018.htm">BLS &mdash; implementing the 2018 SOC in OEWS, background on the 2019&ndash;2020 combined code</a></li>
+        <li><a href="https://www.bls.gov/oes/oes_ques.htm">BLS &mdash; OEWS questions and answers, definitions of &ldquo;employees&rdquo; and survey coverage</a></li>
+      </ul>
+      <p class="note">BLS data are in the public domain; BLS asks to be cited as the source. Series assembled and verified from the raw files &mdash; see the checks above.</p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+          integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4"
+          crossorigin="anonymous"></script>
+  <script src="chart.js"></script>
+</body>
+</html>

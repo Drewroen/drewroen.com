@@ -1,0 +1,243 @@
+{
+  "title": "Software developer employment in the United States",
+  "metric": "Jobs (employment), May survey of each year",
+  "unit": "jobs",
+  "release": "OEWS May 2025 (latest release)",
+  "series": [
+    {
+      "year": 2006,
+      "value": 801580,
+      "codes": [
+        "15-1031",
+        "15-1032"
+      ],
+      "era": "2006–2009"
+    },
+    {
+      "year": 2007,
+      "value": 844950,
+      "codes": [
+        "15-1031",
+        "15-1032"
+      ],
+      "era": "2006–2009"
+    },
+    {
+      "year": 2008,
+      "value": 875990,
+      "codes": [
+        "15-1031",
+        "15-1032"
+      ],
+      "era": "2006–2009"
+    },
+    {
+      "year": 2009,
+      "value": 880700,
+      "codes": [
+        "15-1031",
+        "15-1032"
+      ],
+      "era": "2006–2009"
+    },
+    {
+      "year": 2010,
+      "value": 878200,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2011,
+      "value": 926930,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2012,
+      "value": 978040,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2013,
+      "value": 1017340,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2014,
+      "value": 1068870,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2015,
+      "value": 1138480,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2016,
+      "value": 1203820,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2017,
+      "value": 1243820,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2018,
+      "value": 1308490,
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "era": "2010–2018"
+    },
+    {
+      "year": 2019,
+      "value": 1406870,
+      "codes": [
+        "15-1256"
+      ],
+      "era": "2019–2020"
+    },
+    {
+      "year": 2020,
+      "value": 1476800,
+      "codes": [
+        "15-1256"
+      ],
+      "era": "2019–2020"
+    },
+    {
+      "year": 2021,
+      "value": 1364180,
+      "codes": [
+        "15-1252"
+      ],
+      "era": "2021–2025"
+    },
+    {
+      "year": 2022,
+      "value": 1534790,
+      "codes": [
+        "15-1252"
+      ],
+      "era": "2021–2025"
+    },
+    {
+      "year": 2023,
+      "value": 1656880,
+      "codes": [
+        "15-1252"
+      ],
+      "era": "2021–2025"
+    },
+    {
+      "year": 2024,
+      "value": 1654440,
+      "codes": [
+        "15-1252"
+      ],
+      "era": "2021–2025"
+    },
+    {
+      "year": 2025,
+      "value": 1687890,
+      "codes": [
+        "15-1252"
+      ],
+      "era": "2021–2025"
+    }
+  ],
+  "eras": [
+    {
+      "label": "2006–2009",
+      "codes": [
+        "15-1031",
+        "15-1032"
+      ],
+      "definition": "Computer software engineers, applications + systems software",
+      "note": "SOC 2000 coding.",
+      "comparable": true
+    },
+    {
+      "label": "2010–2018",
+      "codes": [
+        "15-1132",
+        "15-1133"
+      ],
+      "definition": "Software developers, applications + systems software",
+      "note": "SOC 2010 coding; same scope as the earlier two codes.",
+      "comparable": true
+    },
+    {
+      "label": "2019–2020",
+      "codes": [
+        "15-1256"
+      ],
+      "definition": "Software developers and software quality assurance analysts and testers",
+      "note": "Broader definition — QA analysts and testers are included, so these two points are not directly comparable with the years either side.",
+      "comparable": false
+    },
+    {
+      "label": "2021–2025",
+      "codes": [
+        "15-1252"
+      ],
+      "definition": "Software developers",
+      "note": "SOC 2018 coding; QA split out into its own code (15-1253).",
+      "comparable": true
+    }
+  ],
+  "files": {
+    "2006": "national_M2006_dl.xls",
+    "2007": "national_M2007_dl.xls",
+    "2008": "national_M2008_dl.xls",
+    "2009": "national_M2009_dl.xls",
+    "2010": "national_M2010_dl.xls",
+    "2011": "national_M2011_dl.xls",
+    "2012": "national_M2012_dl.xls",
+    "2013": "national_M2013_dl.xls",
+    "2014": "national_M2014_dl.xlsx",
+    "2015": "national_M2015_dl.xlsx",
+    "2016": "national_M2016_dl.xlsx",
+    "2017": "national_M2017_dl.xlsx",
+    "2018": "national_M2018_dl.xlsx",
+    "2019": "national_M2019_dl.xlsx",
+    "2020": "national_M2020_dl.xlsx",
+    "2021": "national_M2021_dl.xlsx",
+    "2022": "national_M2022_dl.xlsx",
+    "2023": "national_M2023_dl.xlsx",
+    "2024": "national_M2024_dl.xlsx",
+    "2025": "national_M2025_dl.xlsx"
+  }
+}
