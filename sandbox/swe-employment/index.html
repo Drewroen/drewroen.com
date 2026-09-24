@@ -83,6 +83,60 @@
     </section>
 
     <section>
+      <h2>Hiring and layoffs in tech</h2>
+
+      <p>The same story from the industry side: JOLTS hires and layoffs &amp; discharges for the Information sector (NAICS 51) &mdash; the conventional &ldquo;tech&rdquo; cut, about 2.9 million workers. This is an industry measure, not an occupation one, so it cannot say how many <em>software developers</em> were hired or laid off, and most developers actually sit in computer systems design (NAICS 5415), which JOLTS does not publish separately.</p>
+
+      <figure>
+        <div class="chart">
+          <canvas id="chart-hires" role="img"
+                  aria-label="Bar chart of annual hires and layoffs and discharges in the U.S. Information sector, 2006 to 2025, with hires higher than layoffs in every year."></canvas>
+        </div>
+        <figcaption>Annual totals &mdash; the twelve monthly levels summed. Hires exceed layoffs in every year, because most separations are quits rather than layoffs. The COVID year is the one exception in shape: 661,000 layoffs in 2020 against 357,000 in 2021. 2026 is excluded because the year is not complete.</figcaption>
+      </figure>
+
+      <figure>
+        <div class="chart">
+          <canvas id="chart-yoy" role="img"
+                  aria-label="Line chart of year-over-year percent change in Information-sector hires and layoffs, 2007 to 2025."></canvas>
+        </div>
+        <figcaption>Year over year. The 2020 layoff spike (+43.1%) reversed harder in 2021 (&minus;46.0%) &mdash; the same year hires jumped 36.1%, still the record. Since then it tracks the developer series: hiring fell 31.3% in 2023 and has been flat to +3.3% since, while layoffs drifted back up 10.3% in 2025.</figcaption>
+      </figure>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>JOLTS Information sector: annual hires, layoffs and discharges, net hiring, and the year-over-year change in each.</caption>
+        <thead>
+          <tr><th scope="col">Year</th><th scope="col" class="num">Hires</th><th scope="col" class="num">Layoffs</th><th scope="col" class="num">Net</th><th scope="col" class="num">Hires YoY</th><th scope="col" class="num">Layoffs YoY</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2006</td><td class="num">1,118,000</td><td class="num">359,000</td><td class="num">759,000</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>2007</td><td class="num">985,000</td><td class="num">364,000</td><td class="num">621,000</td><td class="num">-11.9%</td><td class="num">+1.4%</td></tr>
+          <tr><td>2008</td><td class="num">774,000</td><td class="num">381,000</td><td class="num">393,000</td><td class="num">-21.4%</td><td class="num">+4.7%</td></tr>
+          <tr><td>2009</td><td class="num">740,000</td><td class="num">465,000</td><td class="num">275,000</td><td class="num">-4.4%</td><td class="num">+22.0%</td></tr>
+          <tr><td>2010</td><td class="num">691,000</td><td class="num">321,000</td><td class="num">370,000</td><td class="num">-6.6%</td><td class="num">-31.0%</td></tr>
+          <tr><td>2011</td><td class="num">748,000</td><td class="num">279,000</td><td class="num">469,000</td><td class="num">+8.2%</td><td class="num">-13.1%</td></tr>
+          <tr><td>2012</td><td class="num">781,000</td><td class="num">293,000</td><td class="num">488,000</td><td class="num">+4.4%</td><td class="num">+5.0%</td></tr>
+          <tr><td>2013</td><td class="num">949,000</td><td class="num">411,000</td><td class="num">538,000</td><td class="num">+21.5%</td><td class="num">+40.3%</td></tr>
+          <tr><td>2014</td><td class="num">1,005,000</td><td class="num">456,000</td><td class="num">549,000</td><td class="num">+5.9%</td><td class="num">+10.9%</td></tr>
+          <tr><td>2015</td><td class="num">979,000</td><td class="num">341,000</td><td class="num">638,000</td><td class="num">-2.6%</td><td class="num">-25.2%</td></tr>
+          <tr><td>2016</td><td class="num">981,000</td><td class="num">307,000</td><td class="num">674,000</td><td class="num">+0.2%</td><td class="num">-10.0%</td></tr>
+          <tr><td>2017</td><td class="num">1,018,000</td><td class="num">397,000</td><td class="num">621,000</td><td class="num">+3.8%</td><td class="num">+29.3%</td></tr>
+          <tr><td>2018</td><td class="num">1,089,000</td><td class="num">408,000</td><td class="num">681,000</td><td class="num">+7.0%</td><td class="num">+2.8%</td></tr>
+          <tr><td>2019</td><td class="num">1,136,000</td><td class="num">462,000</td><td class="num">674,000</td><td class="num">+4.3%</td><td class="num">+13.2%</td></tr>
+          <tr><td>2020</td><td class="num">983,000</td><td class="num">661,000</td><td class="num">322,000</td><td class="num">-13.5%</td><td class="num">+43.1%</td></tr>
+          <tr><td>2021</td><td class="num">1,338,000</td><td class="num">357,000</td><td class="num">981,000</td><td class="num">+36.1%</td><td class="num">-46.0%</td></tr>
+          <tr><td>2022</td><td class="num">1,273,000</td><td class="num">441,000</td><td class="num">832,000</td><td class="num">-4.9%</td><td class="num">+23.5%</td></tr>
+          <tr><td>2023</td><td class="num">875,000</td><td class="num">405,000</td><td class="num">470,000</td><td class="num">-31.3%</td><td class="num">-8.2%</td></tr>
+          <tr><td>2024</td><td class="num">904,000</td><td class="num">409,000</td><td class="num">495,000</td><td class="num">+3.3%</td><td class="num">+1.0%</td></tr>
+          <tr><td>2025</td><td class="num">907,000</td><td class="num">451,000</td><td class="num">456,000</td><td class="num">+0.3%</td><td class="num">+10.3%</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">Source levels are in thousands (<code>JTS510000000000000HIL</code>, <code>JTS510000000000000LDL</code>); annual totals are the sum of the twelve monthly values &times; 1,000. &ldquo;Layoffs and discharges&rdquo; means involuntary separations initiated by the employer &mdash; layoffs with no intent to rehire, absences over seven days, closures, mergers and firings &mdash; not just announced layoff rounds.</p>
+    </section>
+
+    <section>
       <h2>How the data was sourced</h2>
 
       <ul class="bullets">
@@ -91,6 +145,9 @@
         <li>The current release file was taken from BLS directly. The older zip files were retrieved from the Internet Archive&rsquo;s raw snapshots of the same BLS URLs, because bls.gov returns 403 to this machine&rsquo;s IP range.</li>
         <li>Checks run before publishing: all 20 years re-read from the raw workbooks match the charted series exactly; May 2018 also matches BLS&rsquo;s published static national table (903,160 applications + 405,330 systems software = 1,308,490); the latest release on BLS&rsquo;s list is May 2025, which is the 1,687,890 shown here.</li>
         <li>QA analysts and testers (<code>15-1253</code>) were read from the same files: 190,120 (2021), 196,420 (2022), 203,040 (2023), 199,800 (2024), 186,740 (2025). Adding them back is the closest available continuation of the 2019&ndash;2020 combined code.</li>
+        <li>The JOLTS section applies the same discipline on the industry side: hires (<code>JTS510000000000000HIL</code>) and layoffs and discharges (<code>JTS510000000000000LDL</code>) for Information, levels in thousands, not seasonally adjusted. Each annual total is the sum of that year&rsquo;s twelve monthly values &times; 1,000, and any year without twelve months is dropped &mdash; which is why 2026 is absent.</li>
+        <li>Both JOLTS series were checked by implied employment (level &divide; rate &asymp; 2.9 million, the Information sector&rsquo;s size) before being used. A hand-built JOLTS series ID resolves to <em>some</em> population and returns plausible-looking numbers for the wrong one; one such mistake earlier in this work pulled a series roughly twice the size of Information, so the check is not optional.</li>
+        <li>JOLTS numbers move: a first-published month is preliminary, revised the following month, and revised again in the annual update, so the most recent years carry the most uncertainty.</li>
         <li>Caveats: OEWS estimates are not revised after release, and no single basis is perfectly consistent for the whole window &mdash; the 2019&ndash;2020 code includes QA while the developer codes before and after it do not. So the 2020&rarr;2021 fall from 1,476,800 to 1,364,180 is definitional rather than economic: QA analysts and testers moved to their own code (15-1253) in 2021 and account for most of the gap.</li>
       </ul>
     </section>
@@ -98,6 +155,12 @@
     <section>
       <h2>Sources</h2>
       <ul class="sources">
+        <li><a href="https://www.bls.gov/jlt/">BLS &mdash; Job Openings and Labor Turnover Survey (JOLTS), the source of the hiring and layoffs section</a></li>
+        <li><a href="https://data.bls.gov/timeseries/JTS510000000000000HIL">BLS &mdash; series JTS510000000000000HIL, Information hires</a></li>
+        <li><a href="https://data.bls.gov/timeseries/JTS510000000000000LDL">BLS &mdash; series JTS510000000000000LDL, Information layoffs and discharges</a></li>
+        <li><a href="https://www.bls.gov/news.release/jolts.nr0.htm">BLS &mdash; latest JOLTS news release</a></li>
+        <li><a href="https://www.bls.gov/jlt/jltfaq.htm">BLS &mdash; JOLTS questions and answers: definitions, sample size, revisions</a></li>
+        <li><a href="https://www.bls.gov/opub/hom/jlt/">BLS &mdash; JOLTS Handbook of Methods</a></li>
         <li><a href="https://www.bls.gov/oes/tables.htm">BLS &mdash; OEWS national estimates: tables and data files, all years</a></li>
         <li><a href="https://www.bls.gov/oes/special-requests/oesm25nat.zip">BLS &mdash; May 2025 national data file</a> (<code>oesm25nat.zip</code>; the pattern is <code>oesm{YY}nat.zip</code>)</li>
         <li><a href="https://data.bls.gov/timeseries/OEUN000000000000015125201">BLS &mdash; series OEUN000000000000015125201, software developers, employment</a></li>

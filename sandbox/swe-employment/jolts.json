@@ -1,0 +1,176 @@
+{
+  "title": "Tech hiring and layoffs, U.S. Information sector",
+  "source_series": {
+    "hires": "JTS510000000000000HIL",
+    "layoffs": "JTS510000000000000LDL"
+  },
+  "units": "persons",
+  "series": [
+    {
+      "year": 2006,
+      "hires": 1118000,
+      "layoffs": 359000,
+      "net": 759000,
+      "hires_yoy": null,
+      "layoffs_yoy": null
+    },
+    {
+      "year": 2007,
+      "hires": 985000,
+      "layoffs": 364000,
+      "net": 621000,
+      "hires_yoy": -11.9,
+      "layoffs_yoy": 1.4
+    },
+    {
+      "year": 2008,
+      "hires": 774000,
+      "layoffs": 381000,
+      "net": 393000,
+      "hires_yoy": -21.4,
+      "layoffs_yoy": 4.7
+    },
+    {
+      "year": 2009,
+      "hires": 740000,
+      "layoffs": 465000,
+      "net": 275000,
+      "hires_yoy": -4.4,
+      "layoffs_yoy": 22.0
+    },
+    {
+      "year": 2010,
+      "hires": 691000,
+      "layoffs": 321000,
+      "net": 370000,
+      "hires_yoy": -6.6,
+      "layoffs_yoy": -31.0
+    },
+    {
+      "year": 2011,
+      "hires": 748000,
+      "layoffs": 279000,
+      "net": 469000,
+      "hires_yoy": 8.2,
+      "layoffs_yoy": -13.1
+    },
+    {
+      "year": 2012,
+      "hires": 781000,
+      "layoffs": 293000,
+      "net": 488000,
+      "hires_yoy": 4.4,
+      "layoffs_yoy": 5.0
+    },
+    {
+      "year": 2013,
+      "hires": 949000,
+      "layoffs": 411000,
+      "net": 538000,
+      "hires_yoy": 21.5,
+      "layoffs_yoy": 40.3
+    },
+    {
+      "year": 2014,
+      "hires": 1005000,
+      "layoffs": 456000,
+      "net": 549000,
+      "hires_yoy": 5.9,
+      "layoffs_yoy": 10.9
+    },
+    {
+      "year": 2015,
+      "hires": 979000,
+      "layoffs": 341000,
+      "net": 638000,
+      "hires_yoy": -2.6,
+      "layoffs_yoy": -25.2
+    },
+    {
+      "year": 2016,
+      "hires": 981000,
+      "layoffs": 307000,
+      "net": 674000,
+      "hires_yoy": 0.2,
+      "layoffs_yoy": -10.0
+    },
+    {
+      "year": 2017,
+      "hires": 1018000,
+      "layoffs": 397000,
+      "net": 621000,
+      "hires_yoy": 3.8,
+      "layoffs_yoy": 29.3
+    },
+    {
+      "year": 2018,
+      "hires": 1089000,
+      "layoffs": 408000,
+      "net": 681000,
+      "hires_yoy": 7.0,
+      "layoffs_yoy": 2.8
+    },
+    {
+      "year": 2019,
+      "hires": 1136000,
+      "layoffs": 462000,
+      "net": 674000,
+      "hires_yoy": 4.3,
+      "layoffs_yoy": 13.2
+    },
+    {
+      "year": 2020,
+      "hires": 983000,
+      "layoffs": 661000,
+      "net": 322000,
+      "hires_yoy": -13.5,
+      "layoffs_yoy": 43.1
+    },
+    {
+      "year": 2021,
+      "hires": 1338000,
+      "layoffs": 357000,
+      "net": 981000,
+      "hires_yoy": 36.1,
+      "layoffs_yoy": -46.0
+    },
+    {
+      "year": 2022,
+      "hires": 1273000,
+      "layoffs": 441000,
+      "net": 832000,
+      "hires_yoy": -4.9,
+      "layoffs_yoy": 23.5
+    },
+    {
+      "year": 2023,
+      "hires": 875000,
+      "layoffs": 405000,
+      "net": 470000,
+      "hires_yoy": -31.3,
+      "layoffs_yoy": -8.2
+    },
+    {
+      "year": 2024,
+      "hires": 904000,
+      "layoffs": 409000,
+      "net": 495000,
+      "hires_yoy": 3.3,
+      "layoffs_yoy": 1.0
+    },
+    {
+      "year": 2025,
+      "hires": 907000,
+      "layoffs": 451000,
+      "net": 456000,
+      "hires_yoy": 0.3,
+      "layoffs_yoy": 10.3
+    }
+  ],
+  "notes": {
+    "annual": "Annual totals are the sum of the 12 monthly not-seasonally-adjusted levels x 1,000; years with fewer than 12 months are excluded, so 2026 is not shown.",
+    "scope": "JOLTS is an industry survey. Information (NAICS 51) is the conventional tech cut (~2.9M workers: software publishers, data processing and hosting, telecom, publishing, motion pictures). Most software developers work in computer systems design (NAICS 5415), part of Professional and business services, which JOLTS does not publish separately.",
+    "layoffs_definition": "Layoffs and discharges are involuntary separations initiated by the employer - layoffs with no intent to rehire, suspensions lasting more than 7 days, discharges from mergers, downsizing or closings, and firings. Quits and retirements are separate measures.",
+    "announced": "This counts separations that occurred, not announcements, so it is not comparable with announced-layoff trackers (crowd-sourced, 2020+, global headcount, tech firms only). Official Information-sector layoffs have exceeded the largest tracker totals every year."
+  }
+}
