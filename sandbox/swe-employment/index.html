@@ -18,15 +18,17 @@
 
     <p>What it counts: jobs, not people. The survey covers part-time and full-time workers paid a wage or salary, so one person holding two covered jobs counts twice, and the self-employed, owners and partners in unincorporated firms, household workers and unpaid family workers are not counted at all. Each value is a May snapshot, not an annual average, and it is not job postings or industry payroll totals.</p>
 
+    <p>One wrinkle: in 2019 and 2020 BLS published software developers together with software QA analysts and testers in a single code, then split QA out again in 2021. That makes the 2020 &rarr; 2021 step look like a decline (1,476,800 to 1,364,180) when most of it is definitional &mdash; add QA back and 2021 was 1,554,300, up 5.2% on 2020, and 2022 was up another 11.4%.</p>
+
     <section>
       <h2>Employment by year</h2>
 
       <figure>
         <div class="chart">
           <canvas id="chart" role="img"
-                  aria-label="Line chart of U.S. software developer employment from May 2006 to May 2025, rising from 801,580 to 1,687,890 jobs."></canvas>
+                  aria-label="Line chart of U.S. software developer employment from May 2006 to May 2025, rising from 801,580 to 1,687,890 jobs, with a dashed comparable line for 2019 to 2025 that includes software QA analysts and testers."></canvas>
         </div>
-        <figcaption id="chart-caption">May 2006 &ndash; May 2025. The two hollow points (2019 and 2020) used a broader occupation definition that includes software QA analysts and testers, so they are not directly comparable with the years on either side.</figcaption>
+        <figcaption id="chart-caption">May 2006 &ndash; May 2025. Hollow points (2019, 2020) used the combined code <code>15-1256</code>, which includes software QA analysts and testers, so they sit on a broader definition than the years either side. The dashed line adds QA back from 2019 on (<code>15-1253</code>), which is the closest like-for-like continuation &mdash; on that basis employment rose 5.0% in 2020, 5.2% in 2021 and 11.4% in 2022.</figcaption>
       </figure>
 
       <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
@@ -59,6 +61,25 @@
         <tr><td>2025</td><td class="num">1,687,890</td><td>15-1252</td></tr>
         </tbody>
       </table>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>On a comparable basis: developers, QA analysts and testers, and the two together.</caption>
+        <thead>
+          <tr><th scope="col">May survey year</th><th scope="col" class="num">Developers</th><th scope="col" class="num">QA (15-1253)</th><th scope="col" class="num">Both</th><th scope="col" class="num">Change</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2019</td><td class="num">1,406,870</td><td class="num">&mdash;</td><td class="num">1,406,870</td><td class="num">&mdash;</td></tr>
+          <tr><td>2020</td><td class="num">1,476,800</td><td class="num">&mdash;</td><td class="num">1,476,800</td><td class="num">+5.0%</td></tr>
+          <tr><td>2021</td><td class="num">1,364,180</td><td class="num">190,120</td><td class="num">1,554,300</td><td class="num">+5.2%</td></tr>
+          <tr><td>2022</td><td class="num">1,534,790</td><td class="num">196,420</td><td class="num">1,731,210</td><td class="num">+11.4%</td></tr>
+          <tr><td>2023</td><td class="num">1,656,880</td><td class="num">203,040</td><td class="num">1,859,920</td><td class="num">+7.4%</td></tr>
+          <tr><td>2024</td><td class="num">1,654,440</td><td class="num">199,800</td><td class="num">1,854,240</td><td class="num">&minus;0.3%</td></tr>
+          <tr><td>2025</td><td class="num">1,687,890</td><td class="num">186,740</td><td class="num">1,874,630</td><td class="num">+1.1%</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">The 2019 and 2020 developer column is the combined code <code>15-1256</code>, so it already contains QA; no separate QA count exists for those years. 2006&ndash;2018 used developer-only codes, which is why the comparable line starts in 2019.</p>
     </section>
 
     <section>
@@ -69,7 +90,8 @@
         <li>Where the occupation was split across two codes (2006&ndash;2018), employment is the sum of the two rows. 2019&ndash;2020 used the combined code <code>15-1256</code>; 2021 on uses <code>15-1252</code>.</li>
         <li>The current release file was taken from BLS directly. The older zip files were retrieved from the Internet Archive&rsquo;s raw snapshots of the same BLS URLs, because bls.gov returns 403 to this machine&rsquo;s IP range.</li>
         <li>Checks run before publishing: all 20 years re-read from the raw workbooks match the charted series exactly; May 2018 also matches BLS&rsquo;s published static national table (903,160 applications + 405,330 systems software = 1,308,490); the latest release on BLS&rsquo;s list is May 2025, which is the 1,687,890 shown here.</li>
-        <li>Caveats: OEWS estimates are not revised after release. Employment for software developers fell from 1,476,800 in 2020 to 1,364,180 in 2021, but part of that drop is definitional &mdash; the 2019&ndash;2020 numbers include QA analysts and testers, who moved to their own code (15-1253) in 2021.</li>
+        <li>QA analysts and testers (<code>15-1253</code>) were read from the same files: 190,120 (2021), 196,420 (2022), 203,040 (2023), 199,800 (2024), 186,740 (2025). Adding them back is the closest available continuation of the 2019&ndash;2020 combined code.</li>
+        <li>Caveats: OEWS estimates are not revised after release, and no single basis is perfectly consistent for the whole window &mdash; the 2019&ndash;2020 code includes QA while the developer codes before and after it do not. So the 2020&rarr;2021 fall from 1,476,800 to 1,364,180 is definitional rather than economic: QA analysts and testers moved to their own code (15-1253) in 2021 and account for most of the gap.</li>
       </ul>
     </section>
 
@@ -80,6 +102,7 @@
         <li><a href="https://www.bls.gov/oes/special-requests/oesm25nat.zip">BLS &mdash; May 2025 national data file</a> (<code>oesm25nat.zip</code>; the pattern is <code>oesm{YY}nat.zip</code>)</li>
         <li><a href="https://data.bls.gov/timeseries/OEUN000000000000015125201">BLS &mdash; series OEUN000000000000015125201, software developers, employment</a></li>
         <li><a href="https://www.bls.gov/oes/current/oes151252.htm">BLS &mdash; OEWS profile for SOC 15-1252, Software Developers</a></li>
+        <li><a href="https://www.bls.gov/oes/current/oes151253.htm">BLS &mdash; OEWS profile for SOC 15-1253, Software Quality Assurance Analysts and Testers</a></li>
         <li><a href="https://www.bls.gov/oes/2018/may/oes_nat.htm">BLS &mdash; May 2018 national table, used for the cross-check</a></li>
         <li><a href="https://www.bls.gov/oes/soc_2018.htm">BLS &mdash; implementing the 2018 SOC in OEWS, background on the 2019&ndash;2020 combined code</a></li>
         <li><a href="https://www.bls.gov/oes/oes_ques.htm">BLS &mdash; OEWS questions and answers, definitions of &ldquo;employees&rdquo; and survey coverage</a></li>

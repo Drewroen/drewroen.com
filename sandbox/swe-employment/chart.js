@@ -15,7 +15,8 @@
       inkSoft: t('--text-secondary', '#5e5d59'),
       surface: t('--bg-raised', '#ffffff'),
       border: t('--border', '#e8e6dc'),
-      accent: t('--clay', '#d97757')
+      accent: t('--clay', '#d97757'),
+      compare: t('--olive', '#788c5d')
     };
   };
 
@@ -65,18 +66,34 @@
       type: 'line',
       data: {
         labels,
-        datasets: [{
-          data: data.series.map((p) => p.value),
-          borderColor: c.accent,
-          borderWidth: 2,
-          tension: 0,
-          fill: false,
-          pointRadius: 3,
-          pointHoverRadius: 5,
-          pointBackgroundColor: hollow.map((h) => (h ? c.surface : c.accent)),
-          pointBorderColor: c.accent,
-          pointBorderWidth: 2
-        }]
+        datasets: [
+          {
+            label: 'Software developers (as published)',
+            data: data.series.map((p) => p.value),
+            borderColor: c.accent,
+            borderWidth: 2,
+            tension: 0,
+            fill: false,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            pointBackgroundColor: hollow.map((h) => (h ? c.surface : c.accent)),
+            pointBorderColor: c.accent,
+            pointBorderWidth: 2
+          },
+          {
+            label: 'Developers + QA analysts and testers',
+            data: data.series.map((p) => (p.year >= 2019 ? p.comparable : null)),
+            borderColor: c.compare,
+            borderWidth: 2,
+            borderDash: [5, 4],
+            tension: 0,
+            fill: false,
+            pointRadius: 2.5,
+            pointHoverRadius: 4.5,
+            pointBackgroundColor: c.compare,
+            pointBorderColor: c.compare
+          }
+        ]
       },
       options: {
         responsive: true,
@@ -85,7 +102,12 @@
         layout: { padding: { top: 8, right: 8 } },
         interaction: { mode: 'index', intersect: false },
         plugins: {
-          legend: { display: false },
+          legend: {
+            display: true,
+            position: 'top',
+            align: 'end',
+            labels: { color: c.inkSoft, boxWidth: 18, boxHeight: 2, padding: 12, font: { size: 11 }, usePointStyle: false }
+          },
           tooltip: {
             displayColors: false,
             backgroundColor: c.surface,
@@ -98,7 +120,8 @@
             callbacks: {
               label: (item) => {
                 const p = data.series[item.dataIndex];
-                return number(p.value) + ' employed \u00b7 SOC ' + p.codes.join(' + ');
+                if (item.datasetIndex === 1) return 'incl. QA: ' + number(p.comparable) + ' (developers ' + number(p.value) + ' + QA ' + number(p.qa) + ')';
+                return number(p.value) + ' employed \u00b7 SOC ' + p.codes.join(' + ') + (p.qa ? ' (QA counted separately: ' + number(p.qa) + ')' : '');
               }
             }
           }
