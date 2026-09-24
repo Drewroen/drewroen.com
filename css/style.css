@@ -31,6 +31,7 @@
   /* text-level clay: darkens Anthropic's clay to clear 4.5:1 on parchment
      (#c6613f only reaches 3.85:1) */
   --link: #b0512c;
+  --olive: #788c5d;
   --error: #bf4d43;
   --focus: var(--clay-dark);
 
@@ -92,6 +93,7 @@
     --border-subtle: var(--gray-700);
     --ring: var(--gray-700);
     --link: var(--clay);
+    --olive: #93a877;
     --shadow-sm: 0 2px 8px #00000040;
     --shadow-md: 0 4px 20px #00000040;
   }
@@ -280,6 +282,14 @@ figcaption {
   padding-right: var(--sp-16);
   text-align: right;
 }
+
+/* wide tables scroll inside their own box rather than the page */
+.table-scroll {
+  margin-bottom: var(--sp-16);
+  overflow-x: auto;
+}
+
+.table-scroll .data-table { min-width: 520px; }
 
 .sources {
   margin: 0;
