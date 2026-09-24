@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dancing with the Stars professional dancers &mdash; Drew&rsquo;s Sandbox</title>
+  <meta name="description" content="Every professional partner on Dancing with the Stars, 2005&ndash;2026: seasons competed, Mirrorball wins, win rate and average finishing position, with all 437 celebrity&ndash;professional couples listed.">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+  <main>
+    <p class="back"><a href="../">&larr; Drew&rsquo;s Sandbox</a></p>
+
+    <h1>Dancing with the Stars: the professional dancers</h1>
+    <p class="meta">35 seasons &middot; 437 celebrity&ndash;professional couples &middot; 54 professionals &middot; 2005 &ndash; 2026</p>
+
+    <p>Every season since 2005 the show pairs a celebrity with a professional dancer, and the professional leaves with whatever the celebrity earned. This page counts what happened to the professionals rather than the celebrities: 437 couples across 35 seasons, 424 distinct celebrities and 54 professional partners. Nineteen of those professionals have won at least one Mirrorball Trophy; the 34 completed seasons contain exactly 34 wins, so every trophy is accounted for.</p>
+
+    <p>What counts as one competition: a season in which the professional was paired with a celebrity. That is not the same as appearing on the show &mdash; the dance troupe has always contained professionals who were never given a celebrity partner, and they are not counted here (see the caveats at the bottom). A partnership that withdrew mid-season counts as a season competed but is excluded from every average, because it has no finishing position. Season 35 is airing as this was written: its 13 surviving couples are listed but excluded from win rates and averages.</p>
+
+    <section>
+      <h2>Mirrorball wins</h2>
+
+      <figure>
+        <div class="chart">
+          <canvas id="chart-wins" role="img"
+                  aria-label="Bar chart of Mirrorball Trophy wins by professional dancer: Derek Hough six, Mark Ballas and Valentin Chmerkovskiy three each, and sixteen others with one or two."></canvas>
+        </div>
+        <figcaption>All 19 professionals who have won, by number of wins. Derek Hough&rsquo;s six is the record; the other 18 winners share the remaining 28 trophies.</figcaption>
+      </figure>
+
+      <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>Every professional who has won, with the celebrities they won with.</caption>
+        <thead>
+          <tr><th scope="col">Professional</th><th scope="col" class="num">Wins</th><th scope="col" class="num">Seasons</th><th scope="col" class="num">Win rate</th><th scope="col">Winning partners</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Derek Hough</td><td class="num">6</td><td class="num">17</td><td class="num">35%</td><td>Brooke Burke, Nicole Scherzinger, Jennifer Grey, Kellie Pickler, Amber Riley, Bindi Irwin</td></tr>
+        <tr><td>Mark Ballas</td><td class="num">3</td><td class="num">22</td><td class="num">14%</td><td>Kristi Yamaguchi, Shawn Johnson, Charli D&#x27;Amelio</td></tr>
+        <tr><td>Valentin Chmerkovskiy</td><td class="num">3</td><td class="num">22</td><td class="num">15%</td><td>Rumer Willis, Laurie Hernandez, Xochitl Gomez</td></tr>
+        <tr><td>Cheryl Burke</td><td class="num">2</td><td class="num">25</td><td class="num">9%</td><td>Drew Lachey, Emmitt Smith</td></tr>
+        <tr><td>Witney Carson</td><td class="num">2</td><td class="num">16</td><td class="num">13%</td><td>Alfonso Ribeiro, Robert Irwin</td></tr>
+        <tr><td>Kym Johnson</td><td class="num">2</td><td class="num">15</td><td class="num">13%</td><td>Donny Osmond, Hines Ward</td></tr>
+        <tr><td>Peta Murgatroyd</td><td class="num">2</td><td class="num">15</td><td class="num">13%</td><td>Donald Driver, Nyle DiMarco</td></tr>
+        <tr><td>Jenna Johnson</td><td class="num">2</td><td class="num">10</td><td class="num">22%</td><td>Adam Rippon, Joey Graziadei</td></tr>
+        <tr><td>Julianne Hough</td><td class="num">2</td><td class="num">5</td><td class="num">40%</td><td>Apolo Anton Ohno, Hélio Castroneves</td></tr>
+        <tr><td>Tony Dovolani</td><td class="num">1</td><td class="num">21</td><td class="num">5%</td><td>Melissa Rycroft</td></tr>
+        <tr><td>Karina Smirnoff</td><td class="num">1</td><td class="num">18</td><td class="num">6%</td><td>J.R. Martinez</td></tr>
+        <tr><td>Emma Slater</td><td class="num">1</td><td class="num">18</td><td class="num">6%</td><td>Rashad Jennings</td></tr>
+        <tr><td>Maksim Chmerkovskiy</td><td class="num">1</td><td class="num">17</td><td class="num">6%</td><td>Meryl Davis</td></tr>
+        <tr><td>Sharna Burgess</td><td class="num">1</td><td class="num">15</td><td class="num">7%</td><td>Bobby Bones</td></tr>
+        <tr><td>Artem Chigvintsev</td><td class="num">1</td><td class="num">12</td><td class="num">8%</td><td>Kaitlyn Bristowe</td></tr>
+        <tr><td>Alan Bersten</td><td class="num">1</td><td class="num">11</td><td class="num">9%</td><td>Hannah Brown</td></tr>
+        <tr><td>Lindsay Arnold</td><td class="num">1</td><td class="num">10</td><td class="num">10%</td><td>Jordan Fisher</td></tr>
+        <tr><td>Daniella Karagach</td><td class="num">1</td><td class="num">7</td><td class="num">17%</td><td>Iman Shumpert</td></tr>
+        <tr><td>Alec Mazo</td><td class="num">1</td><td class="num">5</td><td class="num">20%</td><td>Kelly Monaco</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">Win rate is wins divided by completed seasons that have a recorded finish, so a withdrawal does not count against it.</p>
+    </section>
+
+    <section>
+      <h2>Every professional dancer</h2>
+
+      <figure>
+        <div class="chart">
+          <canvas id="chart-scatter" role="img"
+                  aria-label="Bubble chart of seasons competed against average finishing position for all 54 professional dancers, with bubble size showing Mirrorball wins."></canvas>
+        </div>
+        <figcaption>Seasons competed (across) against average finishing position (up), one bubble per professional, sized by Mirrorball wins. The axis is inverted so the top of the plot is first place. Derek Hough sits alone in the top right: the most successful record over a long career. The cluster along the bottom is the one-and-two-season professionals, most of whom left early.</figcaption>
+      </figure>
+
+      <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>All 54 professionals, ordered by wins, then seasons. Hover a row for the seasons they danced.</caption>
+        <thead>
+          <tr><th scope="col">Professional</th><th scope="col" class="num">Seasons</th><th scope="col" class="num">Span</th><th scope="col" class="num">Wins</th><th scope="col" class="num">Win rate</th><th scope="col" class="num">Finals</th><th scope="col" class="num">Avg place</th><th scope="col" class="num">Median</th><th scope="col" class="num">Avg finish</th><th scope="col" class="num">Best</th><th scope="col" class="num">Worst</th><th scope="col" class="num">Last out</th><th scope="col">Notes</th></tr>
+        </thead>
+        <tbody>
+        <tr title="Seasons: S5, S6, S7, S8, S9, S10, S11, S13, S14, S15, S16, S17, S18, S19, S20, S21, S23"><td>Derek Hough</td><td class="num">17</td><td class="num">5&ndash;23</td><td class="num">6</td><td class="num">35%</td><td class="num">9</td><td class="num">2.9</td><td class="num">3.0</td><td class="num">83%</td><td class="num">1</td><td class="num">6</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S25, S31, S34, S35"><td>Mark Ballas</td><td class="num">22</td><td class="num">5&ndash;35</td><td class="num">3</td><td class="num">14%</td><td class="num">10</td><td class="num">5.2</td><td class="num">4.0</td><td class="num">64%</td><td class="num">1</td><td class="num">11</td><td class="num">1</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S27, S28, S29, S30, S31, S32, S33, S34, S35"><td>Valentin Chmerkovskiy</td><td class="num">22</td><td class="num">13&ndash;35</td><td class="num">3</td><td class="num">15%</td><td class="num">10</td><td class="num">5.2</td><td class="num">4.0</td><td class="num">64%</td><td class="num">1</td><td class="num">11</td><td class="num">0</td><td>S35 still dancing; 1 withdrawal</td></tr>
+        <tr title="Seasons: S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S23, S25, S27, S28, S29, S30, S31"><td>Cheryl Burke</td><td class="num">25</td><td class="num">2&ndash;31</td><td class="num">2</td><td class="num">9%</td><td class="num">8</td><td class="num">5.3</td><td class="num">5.0</td><td class="num">64%</td><td class="num">1</td><td class="num">13</td><td class="num">0</td><td>2 withdrawals</td></tr>
+        <tr title="Seasons: S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S30, S31, S33, S34, S35"><td>Witney Carson</td><td class="num">16</td><td class="num">18&ndash;35</td><td class="num">2</td><td class="num">13%</td><td class="num">6</td><td class="num">5.1</td><td class="num">4.0</td><td class="num">64%</td><td class="num">1</td><td class="num">12</td><td class="num">1</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S3, S4, S5, S6, S7, S8, S9, S11, S12, S13, S14, S15, S16, S20, S24"><td>Kym Johnson</td><td class="num">15</td><td class="num">3&ndash;24</td><td class="num">2</td><td class="num">13%</td><td class="num">4</td><td class="num">6.5</td><td class="num">6.0</td><td class="num">50%</td><td class="num">1</td><td class="num">12</td><td class="num">2</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S13, S14, S15, S16, S17, S18, S19, S20, S22, S24, S25, S28, S29, S31, S32"><td>Peta Murgatroyd</td><td class="num">15</td><td class="num">13&ndash;32</td><td class="num">2</td><td class="num">13%</td><td class="num">2</td><td class="num">7.4</td><td class="num">7.0</td><td class="num">47%</td><td class="num">1</td><td class="num">16</td><td class="num">2</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S23, S26, S27, S28, S29, S30, S32, S33, S34, S35"><td>Jenna Johnson</td><td class="num">10</td><td class="num">23&ndash;35</td><td class="num">2</td><td class="num">22%</td><td class="num">4</td><td class="num">6.3</td><td class="num">5.0</td><td class="num">57%</td><td class="num">1</td><td class="num">13</td><td class="num">1</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S4, S5, S6, S7, S8"><td>Julianne Hough</td><td class="num">5</td><td class="num">4&ndash;8</td><td class="num">2</td><td class="num">40%</td><td class="num">2</td><td class="num">4.2</td><td class="num">4.0</td><td class="num">72%</td><td class="num">1</td><td class="num">9</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22"><td>Tony Dovolani</td><td class="num">21</td><td class="num">2&ndash;22</td><td class="num">1</td><td class="num">5%</td><td class="num">3</td><td class="num">7.6</td><td class="num">8.0</td><td class="num">41%</td><td class="num">1</td><td class="num">14</td><td class="num">1</td><td>2 withdrawals</td></tr>
+        <tr title="Seasons: S3, S4, S5, S6, S7, S8, S9, S11, S12, S13, S14, S15, S16, S17, S18, S19, S21, S22"><td>Karina Smirnoff</td><td class="num">18</td><td class="num">3&ndash;22</td><td class="num">1</td><td class="num">6%</td><td class="num">4</td><td class="num">6.7</td><td class="num">7.0</td><td class="num">50%</td><td class="num">1</td><td class="num">12</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S17, S18, S19, S20, S21, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35"><td>Emma Slater</td><td class="num">18</td><td class="num">17&ndash;35</td><td class="num">1</td><td class="num">6%</td><td class="num">1</td><td class="num">7.7</td><td class="num">7.0</td><td class="num">45%</td><td class="num">1</td><td class="num">15</td><td class="num">2</td><td>S35 still dancing; 1 withdrawal</td></tr>
+        <tr title="Seasons: S2, S3, S4, S5, S7, S8, S9, S10, S11, S12, S13, S14, S15, S18, S23, S24, S25"><td>Maksim Chmerkovskiy</td><td class="num">17</td><td class="num">2&ndash;25</td><td class="num">1</td><td class="num">6%</td><td class="num">5</td><td class="num">5.8</td><td class="num">5.5</td><td class="num">59%</td><td class="num">1</td><td class="num">12</td><td class="num">0</td><td>1 withdrawal</td></tr>
+        <tr title="Seasons: S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S29, S30, S35"><td>Sharna Burgess</td><td class="num">15</td><td class="num">16&ndash;35</td><td class="num">1</td><td class="num">7%</td><td class="num">5</td><td class="num">6.5</td><td class="num">5.0</td><td class="num">54%</td><td class="num">1</td><td class="num">13</td><td class="num">1</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S19, S20, S22, S23, S24, S25, S26, S27, S29, S30, S31, S32"><td>Artem Chigvintsev</td><td class="num">12</td><td class="num">19&ndash;32</td><td class="num">1</td><td class="num">8%</td><td class="num">1</td><td class="num">7.2</td><td class="num">7.5</td><td class="num">47%</td><td class="num">1</td><td class="num">12</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35"><td>Alan Bersten</td><td class="num">11</td><td class="num">25&ndash;35</td><td class="num">1</td><td class="num">9%</td><td class="num">2</td><td class="num">6.7</td><td class="num">5.0</td><td class="num">57%</td><td class="num">1</td><td class="num">14</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S16, S21, S22, S23, S24, S25, S26, S27, S28, S30"><td>Lindsay Arnold</td><td class="num">10</td><td class="num">16&ndash;30</td><td class="num">1</td><td class="num">10%</td><td class="num">4</td><td class="num">5.3</td><td class="num">5.0</td><td class="num">63%</td><td class="num">1</td><td class="num">12</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S29, S30, S31, S32, S33, S34, S35"><td>Daniella Karagach</td><td class="num">7</td><td class="num">29&ndash;35</td><td class="num">1</td><td class="num">17%</td><td class="num">3</td><td class="num">4.5</td><td class="num">3.5</td><td class="num">74%</td><td class="num">1</td><td class="num">11</td><td class="num">0</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S1, S4, S5, S7, S9"><td>Alec Mazo</td><td class="num">5</td><td class="num">1&ndash;9</td><td class="num">1</td><td class="num">20%</td><td class="num">1</td><td class="num">8.4</td><td class="num">10.0</td><td class="num">36%</td><td class="num">1</td><td class="num">12</td><td class="num">2</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S16, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34"><td>Gleb Savchenko</td><td class="num">13</td><td class="num">16&ndash;34</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">8.5</td><td class="num">9.0</td><td class="num">38%</td><td class="num">4</td><td class="num">13</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S17, S22, S23, S24, S26, S27, S28, S29, S30, S31, S32, S33"><td>Sasha Farber</td><td class="num">12</td><td class="num">17&ndash;33</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">2</td><td class="num">5.5</td><td class="num">5.0</td><td class="num">62%</td><td class="num">3</td><td class="num">9</td><td class="num">0</td><td>1 withdrawal</td></tr>
+        <tr title="Seasons: S1, S2, S3, S6, S9, S10, S11, S12, S15, S21, S31"><td>Louis van Amstel</td><td class="num">11</td><td class="num">1&ndash;31</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">7.0</td><td class="num">6.0</td><td class="num">43%</td><td class="num">3</td><td class="num">14</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S22"><td>Edyta Śliwińska</td><td class="num">11</td><td class="num">1&ndash;22</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">2</td><td class="num">7.5</td><td class="num">6.0</td><td class="num">39%</td><td class="num">2</td><td class="num">16</td><td class="num">3</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S2, S5, S6, S9, S10, S11, S12, S13, S14, S15, S21"><td>Anna Trebunskaya</td><td class="num">11</td><td class="num">2&ndash;21</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">2</td><td class="num">8.2</td><td class="num">10.0</td><td class="num">37%</td><td class="num">2</td><td class="num">11</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S27, S28, S29, S30, S31, S32, S33, S34, S35"><td>Brandon Armstrong</td><td class="num">9</td><td class="num">27&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">9.1</td><td class="num">10.0</td><td class="num">36%</td><td class="num">3</td><td class="num">12</td><td class="num">1</td><td>S35 still dancing; 1 withdrawal</td></tr>
+        <tr title="Seasons: S19, S20, S21, S22, S24, S25, S26, S27, S29"><td>Keo Motsepe</td><td class="num">9</td><td class="num">19&ndash;29</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">9.7</td><td class="num">11.0</td><td class="num">26%</td><td class="num">3</td><td class="num">13</td><td class="num">3</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S28, S29, S30, S31, S32, S33, S34, S35"><td>Pasha Pashkov</td><td class="num">8</td><td class="num">28&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">10.4</td><td class="num">12.0</td><td class="num">29%</td><td class="num">3</td><td class="num">15</td><td class="num">0</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S8, S9, S10, S11, S12, S14, S15"><td>Chelsie Hightower</td><td class="num">7</td><td class="num">8&ndash;15</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">7.3</td><td class="num">7.0</td><td class="num">45%</td><td class="num">4</td><td class="num">11</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S1, S2, S4, S5, S6, S8, S9"><td>Jonathan Roberts</td><td class="num">7</td><td class="num">1&ndash;9</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">8.7</td><td class="num">8.0</td><td class="num">29%</td><td class="num">3</td><td class="num">15</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S29, S30, S31, S32, S33, S34, S35"><td>Britt Stewart</td><td class="num">7</td><td class="num">29&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">10.0</td><td class="num">10.5</td><td class="num">32%</td><td class="num">5</td><td class="num">15</td><td class="num">1</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S7, S8, S9, S11, S12, S13"><td>Lacey Schwimmer</td><td class="num">6</td><td class="num">7&ndash;13</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">2</td><td class="num">6.2</td><td class="num">6.5</td><td class="num">55%</td><td class="num">2</td><td class="num">11</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S13, S14, S15, S16, S17"><td>Tristan MacManus</td><td class="num">5</td><td class="num">13&ndash;17</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">9.0</td><td class="num">9.0</td><td class="num">30%</td><td class="num">5</td><td class="num">13</td><td class="num">1</td><td>1 withdrawal</td></tr>
+        <tr title="Seasons: S32, S33, S34, S35"><td>Rylee Arnold</td><td class="num">4</td><td class="num">32&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">6.7</td><td class="num">6.0</td><td class="num">56%</td><td class="num">4</td><td class="num">10</td><td class="num">0</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S19, S20, S21, S23"><td>Allison Holker</td><td class="num">4</td><td class="num">19&ndash;23</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">7.0</td><td class="num">8.0</td><td class="num">50%</td><td class="num">2</td><td class="num">10</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S1, S2, S3, S10"><td>Ashly DelGrosso</td><td class="num">4</td><td class="num">1&ndash;10</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">7.2</td><td class="num">8.0</td><td class="num">31%</td><td class="num">3</td><td class="num">10</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S8, S9, S12"><td>Dmitry Chaplin</td><td class="num">3</td><td class="num">8&ndash;12</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">7.0</td><td class="num">8.0</td><td class="num">47%</td><td class="num">2</td><td class="num">11</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S33, S34, S35"><td>Ezra Sosa</td><td class="num">3</td><td class="num">33&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">7.5</td><td class="num">7.5</td><td class="num">46%</td><td class="num">3</td><td class="num">12</td><td class="num">0</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S7, S11"><td>Corky Ballas</td><td class="num">2</td><td class="num">7&ndash;11</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">7.5</td><td class="num">7.5</td><td class="num">43%</td><td class="num">7</td><td class="num">8</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S2, S3"><td>Nick Kosovich</td><td class="num">2</td><td class="num">2&ndash;3</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">8.5</td><td class="num">8.5</td><td class="num">21%</td><td class="num">8</td><td class="num">9</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S34, S35"><td>Jan Ravnik</td><td class="num">2</td><td class="num">34&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">9.0</td><td class="num">9.0</td><td class="num">38%</td><td class="num">9</td><td class="num">9</td><td class="num">0</td><td>S35 still dancing</td></tr>
+        <tr title="Seasons: S3, S4"><td>Elena Grinenko</td><td class="num">2</td><td class="num">3&ndash;4</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">9.5</td><td class="num">9.5</td><td class="num">15%</td><td class="num">8</td><td class="num">11</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S31, S32"><td>Koko Iwasaki</td><td class="num">2</td><td class="num">31&ndash;32</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">10.5</td><td class="num">10.5</td><td class="num">30%</td><td class="num">7</td><td class="num">14</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S1"><td>Charlotte Jørgensen</td><td class="num">1</td><td class="num">1&ndash;1</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">1</td><td class="num">2.0</td><td class="num">2.0</td><td class="num">80%</td><td class="num">2</td><td class="num">2</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S10"><td>Damian Whitewood</td><td class="num">1</td><td class="num">10&ndash;10</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">6.0</td><td class="num">6.0</td><td class="num">50%</td><td class="num">6</td><td class="num">6</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S6"><td>Fabian Sanchez</td><td class="num">1</td><td class="num">6&ndash;6</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">7.0</td><td class="num">7.0</td><td class="num">45%</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S9"><td>Anna Demidova</td><td class="num">1</td><td class="num">9&ndash;9</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">7.0</td><td class="num">7.0</td><td class="num">60%</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S2"><td>Andrea Hale</td><td class="num">1</td><td class="num">2&ndash;2</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">10.0</td><td class="num">10.0</td><td class="num">0%</td><td class="num">10</td><td class="num">10</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S3"><td>Jesse DeSoto</td><td class="num">1</td><td class="num">3&ndash;3</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">10.0</td><td class="num">10.0</td><td class="num">10%</td><td class="num">10</td><td class="num">10</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S4"><td>Brian Fortuna</td><td class="num">1</td><td class="num">4&ndash;4</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">10.0</td><td class="num">10.0</td><td class="num">10%</td><td class="num">10</td><td class="num">10</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S17"><td>Tyne Stecklein</td><td class="num">1</td><td class="num">17&ndash;17</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">11.0</td><td class="num">11.0</td><td class="num">9%</td><td class="num">11</td><td class="num">11</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S7"><td>Inna Brayer</td><td class="num">1</td><td class="num">7&ndash;7</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">12.0</td><td class="num">12.0</td><td class="num">8%</td><td class="num">12</td><td class="num">12</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S18"><td>Henry Byalikov</td><td class="num">1</td><td class="num">18&ndash;18</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">12.0</td><td class="num">12.0</td><td class="num">0%</td><td class="num">12</td><td class="num">12</td><td class="num">1</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S35"><td>Hailey Bills</td><td class="num">1</td><td class="num">35&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">15.0</td><td class="num">15.0</td><td class="num">7%</td><td class="num">15</td><td class="num">15</td><td class="num">0</td><td>&mdash;</td></tr>
+        <tr title="Seasons: S35"><td>Adele Zaikman</td><td class="num">1</td><td class="num">35&ndash;35</td><td class="num">&mdash;</td><td class="num">0%</td><td class="num">0</td><td class="num">16.0</td><td class="num">16.0</td><td class="num">0%</td><td class="num">16</td><td class="num">16</td><td class="num">1</td><td>&mdash;</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">Finals counts top-three finishes. &ldquo;Last out&rdquo; counts seasons where the couple was the first eliminated. &ldquo;Avg finish&rdquo; rescales each finish to the size of that season&rsquo;s field: 100% is a win, 0% is the first celebrity eliminated. Without that rescaling a 3rd place among 6 couples would look identical to a 3rd place among 16, and the two are not the same achievement &mdash; which is also why average place alone can mislead across eras.</p>
+    </section>
+
+    <section>
+      <h2>Every couple</h2>
+
+      <p>All 437 celebrity&ndash;professional partnerships, season by season. This is the raw material every number above is computed from.</p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>One row per celebrity&ndash;professional partnership, oldest season first.</caption>
+        <thead>
+          <tr><th scope="col" class="num">Season</th><th scope="col">Celebrity</th><th scope="col">Professional</th><th scope="col">Finish</th><th scope="col" class="num">Field</th></tr>
+        </thead>
+        <tbody>
+        <tr><td class="num">1</td><td>Kelly Monaco</td><td>Alec Mazo</td><td><strong>1st</strong></td><td class="num">6</td></tr>
+        <tr><td class="num">1</td><td>John O&#x27;Hurley</td><td>Charlotte Jørgensen</td><td>2nd</td><td class="num">6</td></tr>
+        <tr><td class="num">1</td><td>Joey McIntyre</td><td>Ashly DelGrosso</td><td>3rd</td><td class="num">6</td></tr>
+        <tr><td class="num">1</td><td>Rachel Hunter</td><td>Jonathan Roberts</td><td>4th</td><td class="num">6</td></tr>
+        <tr><td class="num">1</td><td>Evander Holyfield</td><td>Edyta Śliwińska</td><td>5th</td><td class="num">6</td></tr>
+        <tr><td class="num">1</td><td>Trista Sutter</td><td>Louis van Amstel</td><td>6th</td><td class="num">6</td></tr>
+        <tr><td class="num">2</td><td>Drew Lachey</td><td>Cheryl Burke</td><td><strong>1st</strong></td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Jerry Rice</td><td>Anna Trebunskaya</td><td>2nd</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Stacy Keibler</td><td>Tony Dovolani</td><td>3rd</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Lisa Rinna</td><td>Louis van Amstel</td><td>4th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>George Hamilton</td><td>Edyta Śliwińska</td><td>5th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Tia Carrere</td><td>Maksim Chmerkovskiy</td><td>6th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Master P</td><td>Ashly DelGrosso</td><td>7th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Giselle Fernandez</td><td>Jonathan Roberts</td><td>8th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Tatum O&#x27;Neal</td><td>Nick Kosovich</td><td>9th</td><td class="num">10</td></tr>
+        <tr><td class="num">2</td><td>Kenny Mayne</td><td>Andrea Hale</td><td>10th</td><td class="num">10</td></tr>
+        <tr><td class="num">3</td><td>Emmitt Smith</td><td>Cheryl Burke</td><td><strong>1st</strong></td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Mario Lopez</td><td>Karina Smirnoff</td><td>2nd</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Joey Lawrence</td><td>Edyta Śliwińska</td><td>3rd</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Monique Coleman</td><td>Louis van Amstel</td><td>4th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Jerry Springer</td><td>Kym Johnson</td><td>5th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Willa Ford</td><td>Maksim Chmerkovskiy</td><td>7th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Vivica A. Fox</td><td>Nick Kosovich</td><td>8th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Harry Hamlin</td><td>Ashly DelGrosso</td><td>9th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Shanna Moakler</td><td>Jesse DeSoto</td><td>10th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Tucker Carlson</td><td>Elena Grinenko</td><td>11th</td><td class="num">11</td></tr>
+        <tr><td class="num">3</td><td>Sara Evans</td><td>Tony Dovolani</td><td>WD</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Apolo Anton Ohno</td><td>Julianne Hough</td><td><strong>1st</strong></td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Joey Fatone</td><td>Kym Johnson</td><td>2nd</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Laila Ali</td><td>Maksim Chmerkovskiy</td><td>3rd</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Ian Ziering</td><td>Cheryl Burke</td><td>4th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Billy Ray Cyrus</td><td>Karina Smirnoff</td><td>5th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>John Ratzenberger</td><td>Edyta Śliwińska</td><td>6th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Heather Mills</td><td>Jonathan Roberts</td><td>7th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Clyde Drexler</td><td>Elena Grinenko</td><td>8th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Leeza Gibbons</td><td>Tony Dovolani</td><td>9th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Shandi Finnessey</td><td>Brian Fortuna</td><td>10th</td><td class="num">11</td></tr>
+        <tr><td class="num">4</td><td>Paulina Porizkova</td><td>Alec Mazo</td><td>11th</td><td class="num">11</td></tr>
+        <tr><td class="num">5</td><td>Hélio Castroneves</td><td>Julianne Hough</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Mel B</td><td>Maksim Chmerkovskiy</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Marie Osmond</td><td>Jonathan Roberts</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Jennie Garth</td><td>Derek Hough</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Cameron Mathison</td><td>Edyta Śliwińska</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Jane Seymour</td><td>Tony Dovolani</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Sabrina Bryan</td><td>Mark Ballas</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Mark Cuban</td><td>Kym Johnson</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Floyd Mayweather Jr.</td><td>Karina Smirnoff</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Wayne Newton</td><td>Cheryl Burke</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Albert Reed</td><td>Anna Trebunskaya</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">5</td><td>Josie Maran</td><td>Alec Mazo</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Kristi Yamaguchi</td><td>Mark Ballas</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Jason Taylor</td><td>Edyta Śliwińska</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Cristián de la Fuente</td><td>Cheryl Burke</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Marissa Jaret Winokur</td><td>Tony Dovolani</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Mario </td><td>Karina Smirnoff</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Shannon Elizabeth</td><td>Derek Hough</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Marlee Matlin</td><td>Fabian Sanchez</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Priscilla Presley</td><td>Louis van Amstel</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Adam Carolla</td><td>Julianne Hough</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Steve Guttenberg</td><td>Anna Trebunskaya</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Monica Seles</td><td>Jonathan Roberts</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">6</td><td>Penn Jillette</td><td>Kym Johnson</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">7</td><td>Brooke Burke</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Warren Sapp</td><td>Kym Johnson</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Lance Bass</td><td>Lacey Schwimmer</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Cody Linley</td><td>Julianne Hough</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Maurice Greene</td><td>Cheryl Burke</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Susan Lucci</td><td>Tony Dovolani</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Cloris Leachman</td><td>Corky Ballas</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Toni Braxton</td><td>Alec Mazo</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Rocco DiSpirito</td><td>Karina Smirnoff</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Kim Kardashian</td><td>Mark Ballas</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Ted McGinley</td><td>Inna Brayer</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Jeffrey Ross</td><td>Edyta Śliwińska</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">7</td><td>Misty May-Treanor</td><td>Maksim Chmerkovskiy</td><td>WD</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Shawn Johnson</td><td>Mark Ballas</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Gilles Marini</td><td>Cheryl Burke</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Melissa Rycroft</td><td>Tony Dovolani</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Ty Murray</td><td>Chelsie Hightower</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Lil&#x27; Kim </td><td>Derek Hough</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Chuck Wicks</td><td>Julianne Hough</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Lawrence Taylor</td><td>Edyta Śliwińska</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Steve-O </td><td>Lacey Schwimmer</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>David Alan Grier</td><td>Kym Johnson</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Steve Wozniak</td><td>Karina Smirnoff</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Holly Madison</td><td>Dmitry Chaplin</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Denise Richards</td><td>Maksim Chmerkovskiy</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">8</td><td>Belinda Carlisle</td><td>Jonathan Roberts</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">9</td><td>Donny Osmond</td><td>Kym Johnson</td><td><strong>1st</strong></td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Mýa </td><td>Dmitry Chaplin</td><td>2nd</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Kelly Osbourne</td><td>Louis van Amstel</td><td>3rd</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Joanna Krupa</td><td>Derek Hough</td><td>4th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Aaron Carter</td><td>Karina Smirnoff</td><td>5th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Mark Dacascos</td><td>Lacey Schwimmer</td><td>6th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Michael Irvin</td><td>Anna Demidova</td><td>7th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Louie Vito</td><td>Chelsie Hightower</td><td>8th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Melissa Joan Hart</td><td>Mark Ballas</td><td>9th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Natalie Coughlin</td><td>Alec Mazo</td><td>10th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Chuck Liddell</td><td>Anna Trebunskaya</td><td>11th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Debi Mazar</td><td>Maksim Chmerkovskiy</td><td>12th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Kathy Ireland</td><td>Tony Dovolani</td><td>14th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Macy Gray</td><td>Jonathan Roberts</td><td>15th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Ashley Hamilton</td><td>Edyta Śliwińska</td><td>16th</td><td class="num">16</td></tr>
+        <tr><td class="num">9</td><td>Tom DeLay</td><td>Cheryl Burke</td><td>WD</td><td class="num">16</td></tr>
+        <tr><td class="num">10</td><td>Nicole Scherzinger</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Evan Lysacek</td><td>Anna Trebunskaya</td><td>2nd</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Erin Andrews</td><td>Maksim Chmerkovskiy</td><td>3rd</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Chad Ochocinco</td><td>Cheryl Burke</td><td>4th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Niecy Nash</td><td>Louis van Amstel</td><td>5th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Pamela Anderson</td><td>Damian Whitewood</td><td>6th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Jake Pavelka</td><td>Chelsie Hightower</td><td>7th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Kate Gosselin</td><td>Tony Dovolani</td><td>8th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Aiden Turner</td><td>Edyta Śliwińska</td><td>9th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Buzz Aldrin</td><td>Ashly DelGrosso</td><td>10th</td><td class="num">11</td></tr>
+        <tr><td class="num">10</td><td>Shannen Doherty</td><td>Mark Ballas</td><td>11th</td><td class="num">11</td></tr>
+        <tr><td class="num">11</td><td>Jennifer Grey</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Kyle Massey</td><td>Lacey Schwimmer</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Bristol Palin</td><td>Mark Ballas</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Brandy </td><td>Maksim Chmerkovskiy</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Kurt Warner</td><td>Anna Trebunskaya</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Rick Fox</td><td>Cheryl Burke</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Audrina Patridge</td><td>Tony Dovolani</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Florence Henderson</td><td>Corky Ballas</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>The Situation </td><td>Karina Smirnoff</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Margaret Cho</td><td>Louis van Amstel</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>Michael Bolton</td><td>Chelsie Hightower</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">11</td><td>David Hasselhoff</td><td>Kym Johnson</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">12</td><td>Hines Ward</td><td>Kym Johnson</td><td><strong>1st</strong></td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Kirstie Alley</td><td>Maksim Chmerkovskiy</td><td>2nd</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Chelsea Kane</td><td>Mark Ballas</td><td>3rd</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Ralph Macchio</td><td>Karina Smirnoff</td><td>4th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Romeo </td><td>Chelsie Hightower</td><td>5th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Kendra Wilkinson</td><td>Louis van Amstel</td><td>6th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Chris Jericho</td><td>Cheryl Burke</td><td>7th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Petra Němcová</td><td>Dmitry Chaplin</td><td>8th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Sugar Ray Leonard</td><td>Anna Trebunskaya</td><td>9th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Wendy Williams</td><td>Tony Dovolani</td><td>10th</td><td class="num">11</td></tr>
+        <tr><td class="num">12</td><td>Mike Catherwood</td><td>Lacey Schwimmer</td><td>11th</td><td class="num">11</td></tr>
+        <tr><td class="num">13</td><td>J.R. Martinez</td><td>Karina Smirnoff</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Rob Kardashian</td><td>Cheryl Burke</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Ricki Lake</td><td>Derek Hough</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Hope Solo</td><td>Maksim Chmerkovskiy</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Nancy Grace</td><td>Tristan MacManus</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>David Arquette</td><td>Kym Johnson</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Chaz Bono</td><td>Lacey Schwimmer</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Carson Kressley</td><td>Anna Trebunskaya</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Chynna Phillips</td><td>Tony Dovolani</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Kristin Cavallari</td><td>Mark Ballas</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Elisabetta Canalis</td><td>Valentin Chmerkovskiy</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">13</td><td>Metta World Peace</td><td>Peta Murgatroyd</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Donald Driver</td><td>Peta Murgatroyd</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Katherine Jenkins</td><td>Mark Ballas</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>William Levy</td><td>Cheryl Burke</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Maria Menounos</td><td>Derek Hough</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Melissa Gilbert</td><td>Maksim Chmerkovskiy</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Roshon Fegan</td><td>Chelsie Hightower</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Jaleel White</td><td>Kym Johnson</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Gladys Knight</td><td>Tristan MacManus</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Gavin DeGraw</td><td>Karina Smirnoff</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Sherri Shepherd</td><td>Valentin Chmerkovskiy</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Jack Wagner</td><td>Anna Trebunskaya</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">14</td><td>Martina Navratilova</td><td>Tony Dovolani</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">15</td><td>Melissa Rycroft</td><td>Tony Dovolani</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Shawn Johnson</td><td>Derek Hough</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Kelly Monaco</td><td>Valentin Chmerkovskiy</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Emmitt Smith</td><td>Cheryl Burke</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Apolo Anton Ohno</td><td>Karina Smirnoff</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Gilles Marini</td><td>Peta Murgatroyd</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Kirstie Alley</td><td>Maksim Chmerkovskiy</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Sabrina Bryan</td><td>Louis van Amstel</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Bristol Palin</td><td>Mark Ballas</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Hélio Castroneves</td><td>Chelsie Hightower</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Drew Lachey</td><td>Anna Trebunskaya</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Joey Fatone</td><td>Kym Johnson</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">15</td><td>Pamela Anderson</td><td>Tristan MacManus</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">16</td><td>Kellie Pickler</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Zendaya </td><td>Valentin Chmerkovskiy</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Jacoby Jones</td><td>Karina Smirnoff</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Alexandra Raisman</td><td>Mark Ballas</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Ingo Rademacher</td><td>Kym Johnson</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Sean Lowe</td><td>Peta Murgatroyd</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Andy Dick</td><td>Sharna Burgess</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Victor Ortiz</td><td>Lindsay Arnold</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>D.L. Hughley</td><td>Cheryl Burke</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Lisa Vanderpump</td><td>Gleb Savchenko</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Wynonna Judd</td><td>Tony Dovolani</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">16</td><td>Dorothy Hamill</td><td>Tristan MacManus</td><td>WD</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Amber Riley</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Corbin Bleu</td><td>Karina Smirnoff</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Jack Osbourne</td><td>Cheryl Burke</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Bill Engvall</td><td>Emma Slater</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Leah Remini</td><td>Tony Dovolani</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Elizabeth Berkley Lauren</td><td>Valentin Chmerkovskiy</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Brant Daugherty</td><td>Peta Murgatroyd</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Nicole &quot;Snooki&quot; Polizzi</td><td>Sasha Farber</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Christina Milian</td><td>Mark Ballas</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Valerie Harper</td><td>Tristan MacManus</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Bill Nye</td><td>Tyne Stecklein</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">17</td><td>Keyshawn Johnson</td><td>Sharna Burgess</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Meryl Davis</td><td>Maksim Chmerkovskiy</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Amy Purdy</td><td>Derek Hough</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Candace Cameron Bure</td><td>Mark Ballas</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>James Maslow</td><td>Peta Murgatroyd</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Charlie White</td><td>Sharna Burgess</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Danica McKellar</td><td>Valentin Chmerkovskiy</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>NeNe Leakes</td><td>Tony Dovolani</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Drew Carey</td><td>Cheryl Burke</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Cody Simpson</td><td>Witney Carson</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Sean Avery</td><td>Karina Smirnoff</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Diana Nyad</td><td>Henry Byalikov</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">18</td><td>Billy Dee Williams</td><td>Emma Slater</td><td>WD</td><td class="num">12</td></tr>
+        <tr><td class="num">19</td><td>Alfonso Ribeiro</td><td>Witney Carson</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Sadie Robertson</td><td>Mark Ballas</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Janel Parrish</td><td>Valentin Chmerkovskiy</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Bethany Mota</td><td>Derek Hough</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Tommy Chong</td><td>Peta Murgatroyd</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Lea Thompson</td><td>Artem Chigvintsev</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Michael Waltrip</td><td>Emma Slater</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Antonio Sabàto Jr.</td><td>Cheryl Burke</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Jonathan Bennett</td><td>Allison Holker</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Betsey Johnson</td><td>Tony Dovolani</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Randy Couture</td><td>Karina Smirnoff</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Tavis Smiley</td><td>Sharna Burgess</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">19</td><td>Lolo Jones</td><td>Keo Motsepe</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">20</td><td>Rumer Willis</td><td>Valentin Chmerkovskiy</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Riker Lynch</td><td>Allison Holker</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Noah Galloway</td><td>Sharna Burgess</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Nastia Liukin</td><td>Derek Hough</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Chris Soules</td><td>Witney Carson</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Robert Herjavec</td><td>Kym Johnson</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Willow Shields</td><td>Mark Ballas</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Patti LaBelle</td><td>Artem Chigvintsev</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Suzanne Somers</td><td>Tony Dovolani</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Michael Sam</td><td>Peta Murgatroyd</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Charlotte McKinney</td><td>Keo Motsepe</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">20</td><td>Redfoo </td><td>Emma Slater</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">21</td><td>Bindi Irwin</td><td>Derek Hough</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Nick Carter</td><td>Sharna Burgess</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Alek Skarlatos</td><td>Lindsay Arnold</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Carlos PenaVega</td><td>Witney Carson</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Alexa PenaVega</td><td>Mark Ballas</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Andy Grammer</td><td>Allison Holker</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Hayes Grier</td><td>Emma Slater</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Paula Deen</td><td>Louis van Amstel</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Gary Busey</td><td>Anna Trebunskaya</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Victor Espinoza</td><td>Karina Smirnoff</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Chaka Khan</td><td>Keo Motsepe</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Kim Zolciak-Biermann</td><td>Tony Dovolani</td><td>WD</td><td class="num">13</td></tr>
+        <tr><td class="num">21</td><td>Tamar Braxton</td><td>Valentin Chmerkovskiy</td><td>WD</td><td class="num">13</td></tr>
+        <tr><td class="num">22</td><td>Nyle DiMarco</td><td>Peta Murgatroyd</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Paige VanZant</td><td>Mark Ballas</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Ginger Zee</td><td>Valentin Chmerkovskiy</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Antonio Brown</td><td>Sharna Burgess</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Wanyá Morris</td><td>Lindsay Arnold</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Jodie Sweetin</td><td>Keo Motsepe</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Kim Fields</td><td>Sasha Farber</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Von Miller</td><td>Witney Carson</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Doug Flutie</td><td>Karina Smirnoff</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Marla Maples</td><td>Tony Dovolani</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Mischa Barton</td><td>Artem Chigvintsev</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">22</td><td>Geraldo Rivera</td><td>Edyta Śliwińska</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">23</td><td>Laurie Hernandez</td><td>Valentin Chmerkovskiy</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>James Hinchcliffe</td><td>Sharna Burgess</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Calvin Johnson Jr.</td><td>Lindsay Arnold</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Jana Kramer</td><td>Gleb Savchenko</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Terra Jolé</td><td>Sasha Farber</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Marilu Henner</td><td>Derek Hough</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Ryan Lochte</td><td>Cheryl Burke</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Maureen McCormick</td><td>Artem Chigvintsev</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Amber Rose</td><td>Maksim Chmerkovskiy</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Babyface </td><td>Allison Holker</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Vanilla Ice</td><td>Witney Carson</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Rick Perry</td><td>Emma Slater</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">23</td><td>Jake T. Austin</td><td>Jenna Johnson</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">24</td><td>Rashad Jennings</td><td>Emma Slater</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>David Ross</td><td>Lindsay Arnold</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td> Normani</td><td>Valentin Chmerkovskiy</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Simone Biles</td><td>Sasha Farber</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Bonner Bolton</td><td>Sharna Burgess</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Nancy Kerrigan</td><td>Artem Chigvintsev</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Nick Viall</td><td>Peta Murgatroyd</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Heather Morris</td><td>Maksim Chmerkovskiy</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Erika Jayne</td><td>Gleb Savchenko</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Mr. T</td><td>Kym Johnson</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td> Charo</td><td>Keo Motsepe</td><td>11th</td><td class="num">12</td></tr>
+        <tr><td class="num">24</td><td>Chris Kattan</td><td>Witney Carson</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">25</td><td>Jordan Fisher</td><td>Lindsay Arnold</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Lindsey Stirling</td><td>Mark Ballas</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Frankie Muniz</td><td>Witney Carson</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Drew Scott</td><td>Emma Slater</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Victoria Arlen</td><td>Valentin Chmerkovskiy</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Terrell Owens</td><td>Cheryl Burke</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Nikki Bella</td><td>Artem Chigvintsev</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Vanessa Lachey</td><td>Maksim Chmerkovskiy</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Nick Lachey</td><td>Peta Murgatroyd</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Sasha Pieterse</td><td>Gleb Savchenko</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Derek Fisher</td><td>Sharna Burgess</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Debbie Gibson</td><td>Alan Bersten</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">25</td><td>Barbara Corcoran</td><td>Keo Motsepe</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">26</td><td>Adam Rippon</td><td>Jenna Johnson</td><td><strong>1st</strong></td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Josh Norman</td><td>Sharna Burgess</td><td>2nd</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Tonya Harding</td><td>Sasha Farber</td><td>3rd</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Jennie Finch Daigle</td><td>Keo Motsepe</td><td>4th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Chris Mazdzer</td><td>Witney Carson</td><td>4th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Mirai Nagasu</td><td>Alan Bersten</td><td>4th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Kareem Abdul-Jabbar</td><td>Lindsay Arnold</td><td>7th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Arike Ogunbowale</td><td>Gleb Savchenko</td><td>7th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Jamie Anderson</td><td>Artem Chigvintsev</td><td>9th</td><td class="num">10</td></tr>
+        <tr><td class="num">26</td><td>Johnny Damon</td><td>Emma Slater</td><td>9th</td><td class="num">10</td></tr>
+        <tr><td class="num">27</td><td>Bobby Bones</td><td>Sharna Burgess</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Milo Manheim</td><td>Witney Carson</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Evanna Lynch</td><td>Keo Motsepe</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Alexis Ren</td><td>Alan Bersten</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Joe Amabile</td><td>Jenna Johnson</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Juan Pablo Di Pace</td><td>Cheryl Burke</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>John Schneider</td><td>Emma Slater</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>DeMarcus Ware</td><td>Lindsay Arnold</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Mary Lou Retton</td><td>Sasha Farber</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Tinashe </td><td>Brandon Armstrong</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Nancy McKeon</td><td>Valentin Chmerkovskiy</td><td>11th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Danelle Umstead</td><td>Artem Chigvintsev</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">27</td><td>Nikki Glaser</td><td>Gleb Savchenko</td><td>13th</td><td class="num">13</td></tr>
+        <tr><td class="num">28</td><td>Hannah Brown</td><td>Alan Bersten</td><td><strong>1st</strong></td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Kel Mitchell</td><td>Witney Carson</td><td>2nd</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Ally Brooke</td><td>Sasha Farber</td><td>3rd</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Lauren Alaina</td><td>Gleb Savchenko</td><td>4th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>James Van Der Beek</td><td>Emma Slater</td><td>5th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Sean Spicer</td><td>Lindsay Arnold</td><td>6th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Kate Flannery</td><td>Pasha Pashkov</td><td>7th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Karamo Brown</td><td>Jenna Johnson</td><td>8th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Sailor Brinkley-Cook</td><td>Valentin Chmerkovskiy</td><td>9th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Lamar Odom</td><td>Peta Murgatroyd</td><td>10th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Mary Wilson</td><td>Brandon Armstrong</td><td>12th</td><td class="num">12</td></tr>
+        <tr><td class="num">28</td><td>Ray Lewis</td><td>Cheryl Burke</td><td>WD</td><td class="num">12</td></tr>
+        <tr><td class="num">29</td><td>Kaitlyn Bristowe</td><td>Artem Chigvintsev</td><td><strong>1st</strong></td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Nev Schulman</td><td>Jenna Johnson</td><td>2nd</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Nelly </td><td>Daniella Karagach</td><td>3rd</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Justina Machado</td><td>Sasha Farber</td><td>4th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Skai Jackson</td><td>Alan Bersten</td><td>5th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Johnny Weir</td><td>Britt Stewart</td><td>6th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>AJ McLean</td><td>Cheryl Burke</td><td>7th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Chrishell Stause</td><td>Gleb Savchenko</td><td>8th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Monica Aldama</td><td>Valentin Chmerkovskiy</td><td>10th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Vernon Davis</td><td>Peta Murgatroyd</td><td>11th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Jesse Metcalfe</td><td>Sharna Burgess</td><td>12th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Anne Heche</td><td>Keo Motsepe</td><td>13th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Carole Baskin</td><td>Pasha Pashkov</td><td>14th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Charles Oakley</td><td>Emma Slater</td><td>15th</td><td class="num">15</td></tr>
+        <tr><td class="num">29</td><td>Jeannie Mai</td><td>Brandon Armstrong</td><td>WD</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Iman Shumpert</td><td>Daniella Karagach</td><td><strong>1st</strong></td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>JoJo Siwa</td><td>Jenna Johnson</td><td>2nd</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Cody Rigsby</td><td>Cheryl Burke</td><td>3rd</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Amanda Kloots</td><td>Alan Bersten</td><td>4th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Suni Lee</td><td>Sasha Farber</td><td>5th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Melora Hardin</td><td>Artem Chigvintsev</td><td>6th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Jimmie Allen</td><td>Emma Slater</td><td>7th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Olivia Jade</td><td>Valentin Chmerkovskiy</td><td>8th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Mike &quot;The Miz&quot; Mizanin</td><td>Witney Carson</td><td>9th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Kenya Moore</td><td>Brandon Armstrong</td><td>10th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Melanie C</td><td>Gleb Savchenko</td><td>11th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Matt James</td><td>Lindsay Arnold</td><td>12th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Brian Austin Green</td><td>Sharna Burgess</td><td>13th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Christine Chiu</td><td>Pasha Pashkov</td><td>14th</td><td class="num">15</td></tr>
+        <tr><td class="num">30</td><td>Martin Kove</td><td>Britt Stewart</td><td>15th</td><td class="num">15</td></tr>
+        <tr><td class="num">31</td><td>Charli D&#x27;Amelio</td><td>Mark Ballas</td><td><strong>1st</strong></td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Gabby Windey</td><td>Valentin Chmerkovskiy</td><td>2nd</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Wayne Brady</td><td>Witney Carson</td><td>3rd</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td> Shangela</td><td>Gleb Savchenko</td><td>4th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Daniel Durant</td><td>Britt Stewart</td><td>5th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Trevor Donovan</td><td>Emma Slater</td><td>6th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Vinny Guadagnino</td><td>Koko Iwasaki</td><td>7th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Heidi D&#x27;Amelio</td><td>Artem Chigvintsev</td><td>8th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Jordin Sparks</td><td>Brandon Armstrong</td><td>9th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Jessie James Decker</td><td>Alan Bersten</td><td>10th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Joseph Baena</td><td>Daniella Karagach</td><td>11th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Sam Champion</td><td>Cheryl Burke</td><td>13th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Cheryl Ladd</td><td>Louis van Amstel</td><td>14th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Teresa Giudice</td><td>Pasha Pashkov</td><td>15th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Jason Lewis</td><td>Peta Murgatroyd</td><td>16th</td><td class="num">16</td></tr>
+        <tr><td class="num">31</td><td>Selma Blair</td><td>Sasha Farber</td><td>WD</td><td class="num">16</td></tr>
+        <tr><td class="num">32</td><td>Xochitl Gomez</td><td>Valentin Chmerkovskiy</td><td><strong>1st</strong></td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Jason Mraz</td><td>Daniella Karagach</td><td>2nd</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Ariana Madix</td><td>Pasha Pashkov</td><td>3rd</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Charity Lawson</td><td>Artem Chigvintsev</td><td>4th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Alyson Hannigan</td><td>Sasha Farber</td><td>5th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Harry Jowsey</td><td>Rylee Arnold</td><td>6th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Barry Williams</td><td>Peta Murgatroyd</td><td>7th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Lele Pons</td><td>Brandon Armstrong</td><td>8th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Mauricio Umansky</td><td>Emma Slater</td><td>9th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Mira Sorvino</td><td>Gleb Savchenko</td><td>10th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Adrian Peterson</td><td>Britt Stewart</td><td>11th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Tyson Beckford</td><td>Jenna Johnson</td><td>12th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Jamie Lynn Spears</td><td>Alan Bersten</td><td>13th</td><td class="num">14</td></tr>
+        <tr><td class="num">32</td><td>Matt Walsh</td><td>Koko Iwasaki</td><td>14th</td><td class="num">14</td></tr>
+        <tr><td class="num">33</td><td>Joey Graziadei</td><td>Jenna Johnson</td><td><strong>1st</strong></td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Ilona Maher</td><td>Alan Bersten</td><td>2nd</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Chandler Kinney</td><td>Brandon Armstrong</td><td>3rd</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Stephen Nedoroscik</td><td>Rylee Arnold</td><td>4th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Danny Amendola</td><td>Witney Carson</td><td>5th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Dwight Howard</td><td>Daniella Karagach</td><td>6th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Jenn Tran</td><td>Sasha Farber</td><td>7th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Phaedra Parks</td><td>Valentin Chmerkovskiy</td><td>8th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Brooks Nader</td><td>Gleb Savchenko</td><td>9th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Eric Roberts</td><td>Britt Stewart</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Reginald VelJohnson</td><td>Emma Slater</td><td>10th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Anna Delvey</td><td>Ezra Sosa</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">33</td><td>Tori Spelling</td><td>Pasha Pashkov</td><td>12th</td><td class="num">13</td></tr>
+        <tr><td class="num">34</td><td>Robert Irwin</td><td>Witney Carson</td><td><strong>1st</strong></td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Alix Earle</td><td>Valentin Chmerkovskiy</td><td>2nd</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Jordan Chiles</td><td>Ezra Sosa</td><td>3rd</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Dylan Efron</td><td>Daniella Karagach</td><td>4th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Elaine Hendrix</td><td>Alan Bersten</td><td>5th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Whitney Leavitt</td><td>Mark Ballas</td><td>6th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Andy Richter</td><td>Emma Slater</td><td>7th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Danielle Fishel</td><td>Pasha Pashkov</td><td>8th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Jen Affleck</td><td>Jan Ravnik</td><td>9th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Scott Hoying</td><td>Rylee Arnold</td><td>10th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Hilaria Baldwin</td><td>Gleb Savchenko</td><td>11th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Lauren Jauregui</td><td>Brandon Armstrong</td><td>12th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Baron Davis</td><td>Britt Stewart</td><td>13th</td><td class="num">14</td></tr>
+        <tr><td class="num">34</td><td>Corey Feldman</td><td>Jenna Johnson</td><td>13th</td><td class="num">14</td></tr>
+        <tr><td class="num">35</td><td>Giada De Laurentiis</td><td>Alan Bersten</td><td>14th</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Sarah Jane Nader</td><td>Hailey Bills</td><td>15th</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Conner Leavitt</td><td>Adele Zaikman</td><td>16th</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Tatyana Ali</td><td>Jan Ravnik</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Tyler Cameron</td><td>Sharna Burgess</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Jenna Dewan</td><td>Valentin Chmerkovskiy</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Ezra Frech</td><td>Daniella Karagach</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Amber Glenn</td><td>Pasha Pashkov</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Taylor Hanson</td><td>Britt Stewart</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Maura Higgins</td><td>Mark Ballas</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Ciara Miller</td><td>Brandon Armstrong</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Jackson Olson</td><td>Emma Slater</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Guillermo Rodriguez</td><td>Witney Carson</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Harry Shum Jr.</td><td>Jenna Johnson</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Julia Stiles</td><td>Ezra Sosa</td><td>Participating</td><td class="num">16</td></tr>
+        <tr><td class="num">35</td><td>Connor Wood</td><td>Rylee Arnold</td><td>Participating</td><td class="num">16</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">&ldquo;Field&rdquo; is how many couples started that season, so a finish can be read against it. Ties appear where the show eliminated two couples together; &ldquo;WD&rdquo; is a withdrawal. Season 35 couples still competing are shown as &ldquo;Participating&rdquo;.</p>
+    </section>
+
+    <section>
+      <h2>How the data was sourced</h2>
+
+      <ul class="bullets">
+        <li>The base record is Wikipedia&rsquo;s <em>List of Dancing with the Stars (American TV series) competitors</em>, which lists one row per celebrity&ndash;professional partnership with the season and finishing position. Its wikitext was parsed directly, not read by eye: 437 rows across four tables, with rowspan cells expanded so tied eliminations and multi-season columns resolve correctly.</li>
+        <li>Every professional&rsquo;s name is taken from the <code>sortname</code> template rather than the rendered text, so stage names do not split a career in two. Two professionals married and changed how they are billed mid-career, and both spellings were merged into one record: Ashly DelGrosso (one season billed Ashly Costa) and Kym Johnson (one season billed Kym Herjavec).</li>
+        <li>Checks run before publishing: the parsed season lists for all 54 professionals were diffed against the separate professional cast-timeline table on the show&rsquo;s main article &mdash; 0 differences across 35 seasons, including which seasons ended in a win. The winners were then diffed against the <code>professional_winner</code> field in each of the 34 completed season articles &mdash; 0 differences. The cast size of every season was checked against that season&rsquo;s own contestant table &mdash; all 35 match. Wins sum to 34, exactly one per completed season.</li>
+        <li>An outside check on the headline numbers: press tallies of the show&rsquo;s winning professionals also count 19 winners with Derek Hough on six, which is what this page computes.</li>
+        <li>Caveats, all of which change what the numbers mean rather than the numbers themselves. First, troupe-only professionals are excluded: a dancer who performed on the show for years without a celebrity partner has no season here. Second, <em>Dancing with the Stars: Juniors</em> (2018) is a separate show with its own professionals and is not counted. Third, finishing position is not a measure of dancing: it is the result of the judges&rsquo; scores combined with the public vote, and the show has changed how those combine more than once, so early-season finishes are not strictly comparable with late ones. Fourth, a professional&rsquo;s record is heavily conditioned on the celebrity they were handed, which is why a low win rate over many seasons is a statement about casting as much as about ability.</li>
+        <li>Season 35 is incomplete, so its 13 surviving couples carry no finishing position and are excluded from every average and rate above; only the 3 couples already eliminated that season are counted.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      <ul class="sources">
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Dancing_with_the_Stars_(American_TV_series)_competitors">Wikipedia &mdash; List of Dancing with the Stars (American TV series) competitors</a>, the base record of every celebrity&ndash;professional couple</li>
+        <li><a href="https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)">Wikipedia &mdash; Dancing with the Stars (American TV series)</a>, professional cast timeline and dance troupe history</li>
+        <li><a href="https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35">Wikipedia &mdash; season 35</a>, the season in progress</li>
+        <li><a href="https://www.goldderby.com/feature/dancing-with-the-stars-most-wins-dwts-1203696273/">Gold Derby &mdash; most wins by a professional</a>, the outside check on the win counts</li>
+        <li><a href="https://abc.com/shows/dancing-with-the-stars">ABC &mdash; Dancing with the Stars</a>, the broadcaster&rsquo;s own show page</li>
+      </ul>
+      <p class="note">Text from Wikipedia is available under CC BY-SA 4.0. The parsing, the aggregates and any errors in them are this page&rsquo;s own.</p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+          integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4"
+          crossorigin="anonymous"></script>
+  <script src="chart.js"></script>
+</body>
+</html>

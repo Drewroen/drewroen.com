@@ -1,0 +1,7295 @@
+{
+ "meta": {
+  "seasons": 35,
+  "complete_seasons": 34,
+  "couples": 437,
+  "pros": 54,
+  "celebrities": 424,
+  "winning_pros": 19,
+  "withdrawals": 10,
+  "in_progress_couples": 13,
+  "first_season_year": 2005,
+  "last_season_year": 2026
+ },
+ "seasons": [
+  {
+   "season": 1,
+   "cast": 6,
+   "winner_celeb": "Kelly Monaco",
+   "winner_pro": "Alec Mazo",
+   "in_progress": false
+  },
+  {
+   "season": 2,
+   "cast": 10,
+   "winner_celeb": "Drew Lachey",
+   "winner_pro": "Cheryl Burke",
+   "in_progress": false
+  },
+  {
+   "season": 3,
+   "cast": 11,
+   "winner_celeb": "Emmitt Smith",
+   "winner_pro": "Cheryl Burke",
+   "in_progress": false
+  },
+  {
+   "season": 4,
+   "cast": 11,
+   "winner_celeb": "Apolo Anton Ohno",
+   "winner_pro": "Julianne Hough",
+   "in_progress": false
+  },
+  {
+   "season": 5,
+   "cast": 12,
+   "winner_celeb": "Hélio Castroneves",
+   "winner_pro": "Julianne Hough",
+   "in_progress": false
+  },
+  {
+   "season": 6,
+   "cast": 12,
+   "winner_celeb": "Kristi Yamaguchi",
+   "winner_pro": "Mark Ballas",
+   "in_progress": false
+  },
+  {
+   "season": 7,
+   "cast": 13,
+   "winner_celeb": "Brooke Burke",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 8,
+   "cast": 13,
+   "winner_celeb": "Shawn Johnson",
+   "winner_pro": "Mark Ballas",
+   "in_progress": false
+  },
+  {
+   "season": 9,
+   "cast": 16,
+   "winner_celeb": "Donny Osmond",
+   "winner_pro": "Kym Johnson",
+   "in_progress": false
+  },
+  {
+   "season": 10,
+   "cast": 11,
+   "winner_celeb": "Nicole Scherzinger",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 11,
+   "cast": 12,
+   "winner_celeb": "Jennifer Grey",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 12,
+   "cast": 11,
+   "winner_celeb": "Hines Ward",
+   "winner_pro": "Kym Johnson",
+   "in_progress": false
+  },
+  {
+   "season": 13,
+   "cast": 12,
+   "winner_celeb": "J.R. Martinez",
+   "winner_pro": "Karina Smirnoff",
+   "in_progress": false
+  },
+  {
+   "season": 14,
+   "cast": 12,
+   "winner_celeb": "Donald Driver",
+   "winner_pro": "Peta Murgatroyd",
+   "in_progress": false
+  },
+  {
+   "season": 15,
+   "cast": 13,
+   "winner_celeb": "Melissa Rycroft",
+   "winner_pro": "Tony Dovolani",
+   "in_progress": false
+  },
+  {
+   "season": 16,
+   "cast": 12,
+   "winner_celeb": "Kellie Pickler",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 17,
+   "cast": 12,
+   "winner_celeb": "Amber Riley",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 18,
+   "cast": 12,
+   "winner_celeb": "Meryl Davis",
+   "winner_pro": "Maksim Chmerkovskiy",
+   "in_progress": false
+  },
+  {
+   "season": 19,
+   "cast": 13,
+   "winner_celeb": "Alfonso Ribeiro",
+   "winner_pro": "Witney Carson",
+   "in_progress": false
+  },
+  {
+   "season": 20,
+   "cast": 12,
+   "winner_celeb": "Rumer Willis",
+   "winner_pro": "Valentin Chmerkovskiy",
+   "in_progress": false
+  },
+  {
+   "season": 21,
+   "cast": 13,
+   "winner_celeb": "Bindi Irwin",
+   "winner_pro": "Derek Hough",
+   "in_progress": false
+  },
+  {
+   "season": 22,
+   "cast": 12,
+   "winner_celeb": "Nyle DiMarco",
+   "winner_pro": "Peta Murgatroyd",
+   "in_progress": false
+  },
+  {
+   "season": 23,
+   "cast": 13,
+   "winner_celeb": "Laurie Hernandez",
+   "winner_pro": "Valentin Chmerkovskiy",
+   "in_progress": false
+  },
+  {
+   "season": 24,
+   "cast": 12,
+   "winner_celeb": "Rashad Jennings",
+   "winner_pro": "Emma Slater",
+   "in_progress": false
+  },
+  {
+   "season": 25,
+   "cast": 13,
+   "winner_celeb": "Jordan Fisher",
+   "winner_pro": "Lindsay Arnold",
+   "in_progress": false
+  },
+  {
+   "season": 26,
+   "cast": 10,
+   "winner_celeb": "Adam Rippon",
+   "winner_pro": "Jenna Johnson",
+   "in_progress": false
+  },
+  {
+   "season": 27,
+   "cast": 13,
+   "winner_celeb": "Bobby Bones",
+   "winner_pro": "Sharna Burgess",
+   "in_progress": false
+  },
+  {
+   "season": 28,
+   "cast": 12,
+   "winner_celeb": "Hannah Brown",
+   "winner_pro": "Alan Bersten",
+   "in_progress": false
+  },
+  {
+   "season": 29,
+   "cast": 15,
+   "winner_celeb": "Kaitlyn Bristowe",
+   "winner_pro": "Artem Chigvintsev",
+   "in_progress": false
+  },
+  {
+   "season": 30,
+   "cast": 15,
+   "winner_celeb": "Iman Shumpert",
+   "winner_pro": "Daniella Karagach",
+   "in_progress": false
+  },
+  {
+   "season": 31,
+   "cast": 16,
+   "winner_celeb": "Charli D'Amelio",
+   "winner_pro": "Mark Ballas",
+   "in_progress": false
+  },
+  {
+   "season": 32,
+   "cast": 14,
+   "winner_celeb": "Xochitl Gomez",
+   "winner_pro": "Valentin Chmerkovskiy",
+   "in_progress": false
+  },
+  {
+   "season": 33,
+   "cast": 13,
+   "winner_celeb": "Joey Graziadei",
+   "winner_pro": "Jenna Johnson",
+   "in_progress": false
+  },
+  {
+   "season": 34,
+   "cast": 14,
+   "winner_celeb": "Robert Irwin",
+   "winner_pro": "Witney Carson",
+   "in_progress": false
+  },
+  {
+   "season": 35,
+   "cast": 16,
+   "winner_celeb": null,
+   "winner_pro": null,
+   "in_progress": true
+  }
+ ],
+ "pros": [
+  {
+   "pro": "Derek Hough",
+   "seasons": 17,
+   "seasons_list": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23
+   ],
+   "first": 5,
+   "last": 23,
+   "completed": 17,
+   "wins": 6,
+   "win_rate": 0.3529,
+   "finals": 9,
+   "final_rate": 0.5294,
+   "top5": 15,
+   "avg_place": 2.94,
+   "median_place": 3,
+   "best": 1,
+   "worst": 6,
+   "avg_finish_pct": 0.8336,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Brooke Burke",
+    "Nicole Scherzinger",
+    "Jennifer Grey",
+    "Kellie Pickler",
+    "Amber Riley",
+    "Bindi Irwin"
+   ],
+   "partners": [
+    {
+     "season": 5,
+     "celeb": "Jennie Garth",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 6,
+     "celeb": "Shannon Elizabeth",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 7,
+     "celeb": "Brooke Burke",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 8,
+     "celeb": "Lil' Kim ",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 9,
+     "celeb": "Joanna Krupa",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 10,
+     "celeb": "Nicole Scherzinger",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 11,
+     "celeb": "Jennifer Grey",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 13,
+     "celeb": "Ricki Lake",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 14,
+     "celeb": "Maria Menounos",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 15,
+     "celeb": "Shawn Johnson",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 16,
+     "celeb": "Kellie Pickler",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 17,
+     "celeb": "Amber Riley",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 18,
+     "celeb": "Amy Purdy",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 19,
+     "celeb": "Bethany Mota",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 20,
+     "celeb": "Nastia Liukin",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 21,
+     "celeb": "Bindi Irwin",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 23,
+     "celeb": "Marilu Henner",
+     "place": 6,
+     "result": "6th"
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "pro": "Mark Ballas",
+   "seasons": 22,
+   "seasons_list": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    31,
+    34,
+    35
+   ],
+   "first": 5,
+   "last": 35,
+   "completed": 21,
+   "wins": 3,
+   "win_rate": 0.1429,
+   "finals": 10,
+   "final_rate": 0.4762,
+   "top5": 11,
+   "avg_place": 5.19,
+   "median_place": 4,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.6354,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Kristi Yamaguchi",
+    "Shawn Johnson",
+    "Charli D'Amelio"
+   ],
+   "partners": [
+    {
+     "season": 5,
+     "celeb": "Sabrina Bryan",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 6,
+     "celeb": "Kristi Yamaguchi",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 7,
+     "celeb": "Kim Kardashian",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 8,
+     "celeb": "Shawn Johnson",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 9,
+     "celeb": "Melissa Joan Hart",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 10,
+     "celeb": "Shannen Doherty",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 11,
+     "celeb": "Bristol Palin",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 12,
+     "celeb": "Chelsea Kane",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 13,
+     "celeb": "Kristin Cavallari",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 14,
+     "celeb": "Katherine Jenkins",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 15,
+     "celeb": "Bristol Palin",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 16,
+     "celeb": "Alexandra Raisman",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 17,
+     "celeb": "Christina Milian",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 18,
+     "celeb": "Candace Cameron Bure",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 19,
+     "celeb": "Sadie Robertson",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 20,
+     "celeb": "Willow Shields",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 21,
+     "celeb": "Alexa PenaVega",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 22,
+     "celeb": "Paige VanZant",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 25,
+     "celeb": "Lindsey Stirling",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 31,
+     "celeb": "Charli D'Amelio",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 34,
+     "celeb": "Whitney Leavitt",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 35,
+     "celeb": "Maura Higgins",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 2
+  },
+  {
+   "pro": "Valentin Chmerkovskiy",
+   "seasons": 22,
+   "seasons_list": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 13,
+   "last": 35,
+   "completed": 21,
+   "wins": 3,
+   "win_rate": 0.15,
+   "finals": 10,
+   "final_rate": 0.5,
+   "top5": 11,
+   "avg_place": 5.25,
+   "median_place": 4.0,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.6406,
+   "last_place_finishes": 0,
+   "withdrawals": 1,
+   "in_progress": 1,
+   "wins_with": [
+    "Rumer Willis",
+    "Laurie Hernandez",
+    "Xochitl Gomez"
+   ],
+   "partners": [
+    {
+     "season": 13,
+     "celeb": "Elisabetta Canalis",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 14,
+     "celeb": "Sherri Shepherd",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 15,
+     "celeb": "Kelly Monaco",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 16,
+     "celeb": "Zendaya ",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 17,
+     "celeb": "Elizabeth Berkley Lauren",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 18,
+     "celeb": "Danica McKellar",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 19,
+     "celeb": "Janel Parrish",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 20,
+     "celeb": "Rumer Willis",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 21,
+     "celeb": "Tamar Braxton",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 22,
+     "celeb": "Ginger Zee",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 23,
+     "celeb": "Laurie Hernandez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 24,
+     "celeb": " Normani",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 25,
+     "celeb": "Victoria Arlen",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 27,
+     "celeb": "Nancy McKeon",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 28,
+     "celeb": "Sailor Brinkley-Cook",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 29,
+     "celeb": "Monica Aldama",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 30,
+     "celeb": "Olivia Jade",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 31,
+     "celeb": "Gabby Windey",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 32,
+     "celeb": "Xochitl Gomez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 33,
+     "celeb": "Phaedra Parks",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 34,
+     "celeb": "Alix Earle",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 35,
+     "celeb": "Jenna Dewan",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 3
+  },
+  {
+   "pro": "Cheryl Burke",
+   "seasons": 25,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "first": 2,
+   "last": 31,
+   "completed": 25,
+   "wins": 2,
+   "win_rate": 0.087,
+   "finals": 8,
+   "final_rate": 0.3478,
+   "top5": 13,
+   "avg_place": 5.26,
+   "median_place": 5,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.6372,
+   "last_place_finishes": 0,
+   "withdrawals": 2,
+   "in_progress": 0,
+   "wins_with": [
+    "Drew Lachey",
+    "Emmitt Smith"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Drew Lachey",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 3,
+     "celeb": "Emmitt Smith",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 4,
+     "celeb": "Ian Ziering",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 5,
+     "celeb": "Wayne Newton",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 6,
+     "celeb": "Cristián de la Fuente",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 7,
+     "celeb": "Maurice Greene",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 8,
+     "celeb": "Gilles Marini",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 9,
+     "celeb": "Tom DeLay",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 10,
+     "celeb": "Chad Ochocinco",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 11,
+     "celeb": "Rick Fox",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 12,
+     "celeb": "Chris Jericho",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 13,
+     "celeb": "Rob Kardashian",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 14,
+     "celeb": "William Levy",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 15,
+     "celeb": "Emmitt Smith",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 16,
+     "celeb": "D.L. Hughley",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 17,
+     "celeb": "Jack Osbourne",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 18,
+     "celeb": "Drew Carey",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 19,
+     "celeb": "Antonio Sabàto Jr.",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 23,
+     "celeb": "Ryan Lochte",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 25,
+     "celeb": "Terrell Owens",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 27,
+     "celeb": "Juan Pablo Di Pace",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 28,
+     "celeb": "Ray Lewis",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 29,
+     "celeb": "AJ McLean",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 30,
+     "celeb": "Cody Rigsby",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 31,
+     "celeb": "Sam Champion",
+     "place": 13,
+     "result": "13th"
+    }
+   ],
+   "rank": 4
+  },
+  {
+   "pro": "Witney Carson",
+   "seasons": 16,
+   "seasons_list": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30,
+    31,
+    33,
+    34,
+    35
+   ],
+   "first": 18,
+   "last": 35,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 6,
+   "final_rate": 0.4,
+   "top5": 10,
+   "avg_place": 5.13,
+   "median_place": 4,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.6434,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Alfonso Ribeiro",
+    "Robert Irwin"
+   ],
+   "partners": [
+    {
+     "season": 18,
+     "celeb": "Cody Simpson",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 19,
+     "celeb": "Alfonso Ribeiro",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 20,
+     "celeb": "Chris Soules",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 21,
+     "celeb": "Carlos PenaVega",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 22,
+     "celeb": "Von Miller",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 23,
+     "celeb": "Vanilla Ice",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 24,
+     "celeb": "Chris Kattan",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 25,
+     "celeb": "Frankie Muniz",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 26,
+     "celeb": "Chris Mazdzer",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 27,
+     "celeb": "Milo Manheim",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 28,
+     "celeb": "Kel Mitchell",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 30,
+     "celeb": "Mike \"The Miz\" Mizanin",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 31,
+     "celeb": "Wayne Brady",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 33,
+     "celeb": "Danny Amendola",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 34,
+     "celeb": "Robert Irwin",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 35,
+     "celeb": "Guillermo Rodriguez",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 5
+  },
+  {
+   "pro": "Kym Johnson",
+   "seasons": 15,
+   "seasons_list": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    20,
+    24
+   ],
+   "first": 3,
+   "last": 24,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 4,
+   "final_rate": 0.2667,
+   "top5": 6,
+   "avg_place": 6.53,
+   "median_place": 6,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.504,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Donny Osmond",
+    "Hines Ward"
+   ],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Jerry Springer",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 4,
+     "celeb": "Joey Fatone",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 5,
+     "celeb": "Mark Cuban",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 6,
+     "celeb": "Penn Jillette",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 7,
+     "celeb": "Warren Sapp",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 8,
+     "celeb": "David Alan Grier",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 9,
+     "celeb": "Donny Osmond",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 11,
+     "celeb": "David Hasselhoff",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 12,
+     "celeb": "Hines Ward",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 13,
+     "celeb": "David Arquette",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 14,
+     "celeb": "Jaleel White",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 15,
+     "celeb": "Joey Fatone",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 16,
+     "celeb": "Ingo Rademacher",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 20,
+     "celeb": "Robert Herjavec",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 24,
+     "celeb": "Mr. T",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 6
+  },
+  {
+   "pro": "Peta Murgatroyd",
+   "seasons": 15,
+   "seasons_list": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    24,
+    25,
+    28,
+    29,
+    31,
+    32
+   ],
+   "first": 13,
+   "last": 32,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 2,
+   "final_rate": 0.1333,
+   "top5": 4,
+   "avg_place": 7.4,
+   "median_place": 7,
+   "best": 1,
+   "worst": 16,
+   "avg_finish_pct": 0.4696,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Donald Driver",
+    "Nyle DiMarco"
+   ],
+   "partners": [
+    {
+     "season": 13,
+     "celeb": "Metta World Peace",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 14,
+     "celeb": "Donald Driver",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 15,
+     "celeb": "Gilles Marini",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 16,
+     "celeb": "Sean Lowe",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 17,
+     "celeb": "Brant Daugherty",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 18,
+     "celeb": "James Maslow",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 19,
+     "celeb": "Tommy Chong",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 20,
+     "celeb": "Michael Sam",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 22,
+     "celeb": "Nyle DiMarco",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 24,
+     "celeb": "Nick Viall",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 25,
+     "celeb": "Nick Lachey",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 28,
+     "celeb": "Lamar Odom",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 29,
+     "celeb": "Vernon Davis",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 31,
+     "celeb": "Jason Lewis",
+     "place": 16,
+     "result": "16th"
+    },
+    {
+     "season": 32,
+     "celeb": "Barry Williams",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 7
+  },
+  {
+   "pro": "Jenna Johnson",
+   "seasons": 10,
+   "seasons_list": [
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 23,
+   "last": 35,
+   "completed": 9,
+   "wins": 2,
+   "win_rate": 0.2222,
+   "finals": 4,
+   "final_rate": 0.4444,
+   "top5": 5,
+   "avg_place": 6.33,
+   "median_place": 5,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.5687,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Adam Rippon",
+    "Joey Graziadei"
+   ],
+   "partners": [
+    {
+     "season": 23,
+     "celeb": "Jake T. Austin",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 26,
+     "celeb": "Adam Rippon",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 27,
+     "celeb": "Joe Amabile",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 28,
+     "celeb": "Karamo Brown",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 29,
+     "celeb": "Nev Schulman",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 30,
+     "celeb": "JoJo Siwa",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 32,
+     "celeb": "Tyson Beckford",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 33,
+     "celeb": "Joey Graziadei",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 34,
+     "celeb": "Corey Feldman",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 35,
+     "celeb": "Harry Shum Jr.",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 8
+  },
+  {
+   "pro": "Julianne Hough",
+   "seasons": 5,
+   "seasons_list": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "first": 4,
+   "last": 8,
+   "completed": 5,
+   "wins": 2,
+   "win_rate": 0.4,
+   "finals": 2,
+   "final_rate": 0.4,
+   "top5": 3,
+   "avg_place": 4.2,
+   "median_place": 4,
+   "best": 1,
+   "worst": 9,
+   "avg_finish_pct": 0.7212,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Apolo Anton Ohno",
+    "Hélio Castroneves"
+   ],
+   "partners": [
+    {
+     "season": 4,
+     "celeb": "Apolo Anton Ohno",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 5,
+     "celeb": "Hélio Castroneves",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 6,
+     "celeb": "Adam Carolla",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 7,
+     "celeb": "Cody Linley",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 8,
+     "celeb": "Chuck Wicks",
+     "place": 6,
+     "result": "6th"
+    }
+   ],
+   "rank": 9
+  },
+  {
+   "pro": "Tony Dovolani",
+   "seasons": 21,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "first": 2,
+   "last": 22,
+   "completed": 21,
+   "wins": 1,
+   "win_rate": 0.0526,
+   "finals": 3,
+   "final_rate": 0.1579,
+   "top5": 5,
+   "avg_place": 7.58,
+   "median_place": 8,
+   "best": 1,
+   "worst": 14,
+   "avg_finish_pct": 0.4113,
+   "last_place_finishes": 1,
+   "withdrawals": 2,
+   "in_progress": 0,
+   "wins_with": [
+    "Melissa Rycroft"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Stacy Keibler",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 3,
+     "celeb": "Sara Evans",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 4,
+     "celeb": "Leeza Gibbons",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 5,
+     "celeb": "Jane Seymour",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 6,
+     "celeb": "Marissa Jaret Winokur",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 7,
+     "celeb": "Susan Lucci",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 8,
+     "celeb": "Melissa Rycroft",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 9,
+     "celeb": "Kathy Ireland",
+     "place": 14,
+     "result": "14th"
+    },
+    {
+     "season": 10,
+     "celeb": "Kate Gosselin",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 11,
+     "celeb": "Audrina Patridge",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 12,
+     "celeb": "Wendy Williams",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 13,
+     "celeb": "Chynna Phillips",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 14,
+     "celeb": "Martina Navratilova",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 15,
+     "celeb": "Melissa Rycroft",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 16,
+     "celeb": "Wynonna Judd",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 17,
+     "celeb": "Leah Remini",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 18,
+     "celeb": "NeNe Leakes",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 19,
+     "celeb": "Betsey Johnson",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 20,
+     "celeb": "Suzanne Somers",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 21,
+     "celeb": "Kim Zolciak-Biermann",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 22,
+     "celeb": "Marla Maples",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 10
+  },
+  {
+   "pro": "Karina Smirnoff",
+   "seasons": 18,
+   "seasons_list": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22
+   ],
+   "first": 3,
+   "last": 22,
+   "completed": 18,
+   "wins": 1,
+   "win_rate": 0.0556,
+   "finals": 4,
+   "final_rate": 0.2222,
+   "top5": 9,
+   "avg_place": 6.72,
+   "median_place": 7.0,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.4988,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "J.R. Martinez"
+   ],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Mario Lopez",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 4,
+     "celeb": "Billy Ray Cyrus",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 5,
+     "celeb": "Floyd Mayweather Jr.",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 6,
+     "celeb": "Mario ",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 7,
+     "celeb": "Rocco DiSpirito",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 8,
+     "celeb": "Steve Wozniak",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 9,
+     "celeb": "Aaron Carter",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 11,
+     "celeb": "The Situation ",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 12,
+     "celeb": "Ralph Macchio",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 13,
+     "celeb": "J.R. Martinez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 14,
+     "celeb": "Gavin DeGraw",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 15,
+     "celeb": "Apolo Anton Ohno",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 16,
+     "celeb": "Jacoby Jones",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 17,
+     "celeb": "Corbin Bleu",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 18,
+     "celeb": "Sean Avery",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 19,
+     "celeb": "Randy Couture",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 21,
+     "celeb": "Victor Espinoza",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 22,
+     "celeb": "Doug Flutie",
+     "place": 9,
+     "result": "9th"
+    }
+   ],
+   "rank": 11
+  },
+  {
+   "pro": "Emma Slater",
+   "seasons": 18,
+   "seasons_list": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 17,
+   "last": 35,
+   "completed": 17,
+   "wins": 1,
+   "win_rate": 0.0625,
+   "finals": 1,
+   "final_rate": 0.0625,
+   "top5": 4,
+   "avg_place": 7.69,
+   "median_place": 7.0,
+   "best": 1,
+   "worst": 15,
+   "avg_finish_pct": 0.446,
+   "last_place_finishes": 2,
+   "withdrawals": 1,
+   "in_progress": 1,
+   "wins_with": [
+    "Rashad Jennings"
+   ],
+   "partners": [
+    {
+     "season": 17,
+     "celeb": "Bill Engvall",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 18,
+     "celeb": "Billy Dee Williams",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 19,
+     "celeb": "Michael Waltrip",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 20,
+     "celeb": "Redfoo ",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 21,
+     "celeb": "Hayes Grier",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 23,
+     "celeb": "Rick Perry",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 24,
+     "celeb": "Rashad Jennings",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 25,
+     "celeb": "Drew Scott",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 26,
+     "celeb": "Johnny Damon",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 27,
+     "celeb": "John Schneider",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 28,
+     "celeb": "James Van Der Beek",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 29,
+     "celeb": "Charles Oakley",
+     "place": 15,
+     "result": "15th"
+    },
+    {
+     "season": 30,
+     "celeb": "Jimmie Allen",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 31,
+     "celeb": "Trevor Donovan",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 32,
+     "celeb": "Mauricio Umansky",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 33,
+     "celeb": "Reginald VelJohnson",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 34,
+     "celeb": "Andy Richter",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 35,
+     "celeb": "Jackson Olson",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 12
+  },
+  {
+   "pro": "Maksim Chmerkovskiy",
+   "seasons": 17,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    23,
+    24,
+    25
+   ],
+   "first": 2,
+   "last": 25,
+   "completed": 17,
+   "wins": 1,
+   "win_rate": 0.0625,
+   "finals": 5,
+   "final_rate": 0.3125,
+   "top5": 8,
+   "avg_place": 5.75,
+   "median_place": 5.5,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.587,
+   "last_place_finishes": 0,
+   "withdrawals": 1,
+   "in_progress": 0,
+   "wins_with": [
+    "Meryl Davis"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Tia Carrere",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 3,
+     "celeb": "Willa Ford",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 4,
+     "celeb": "Laila Ali",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 5,
+     "celeb": "Mel B",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 7,
+     "celeb": "Misty May-Treanor",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 8,
+     "celeb": "Denise Richards",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 9,
+     "celeb": "Debi Mazar",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 10,
+     "celeb": "Erin Andrews",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 11,
+     "celeb": "Brandy ",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 12,
+     "celeb": "Kirstie Alley",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 13,
+     "celeb": "Hope Solo",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 14,
+     "celeb": "Melissa Gilbert",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 15,
+     "celeb": "Kirstie Alley",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 18,
+     "celeb": "Meryl Davis",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 23,
+     "celeb": "Amber Rose",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 24,
+     "celeb": "Heather Morris",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 25,
+     "celeb": "Vanessa Lachey",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 13
+  },
+  {
+   "pro": "Sharna Burgess",
+   "seasons": 15,
+   "seasons_list": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    35
+   ],
+   "first": 16,
+   "last": 35,
+   "completed": 14,
+   "wins": 1,
+   "win_rate": 0.0714,
+   "finals": 5,
+   "final_rate": 0.3571,
+   "top5": 8,
+   "avg_place": 6.5,
+   "median_place": 5.0,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.543,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Bobby Bones"
+   ],
+   "partners": [
+    {
+     "season": 16,
+     "celeb": "Andy Dick",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 17,
+     "celeb": "Keyshawn Johnson",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 18,
+     "celeb": "Charlie White",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 19,
+     "celeb": "Tavis Smiley",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 20,
+     "celeb": "Noah Galloway",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 21,
+     "celeb": "Nick Carter",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 22,
+     "celeb": "Antonio Brown",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 23,
+     "celeb": "James Hinchcliffe",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 24,
+     "celeb": "Bonner Bolton",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 25,
+     "celeb": "Derek Fisher",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 26,
+     "celeb": "Josh Norman",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 27,
+     "celeb": "Bobby Bones",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 29,
+     "celeb": "Jesse Metcalfe",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 30,
+     "celeb": "Brian Austin Green",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 35,
+     "celeb": "Tyler Cameron",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 14
+  },
+  {
+   "pro": "Artem Chigvintsev",
+   "seasons": 12,
+   "seasons_list": [
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32
+   ],
+   "first": 19,
+   "last": 32,
+   "completed": 12,
+   "wins": 1,
+   "win_rate": 0.0833,
+   "finals": 1,
+   "final_rate": 0.0833,
+   "top5": 2,
+   "avg_place": 7.17,
+   "median_place": 7.5,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.47,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Kaitlyn Bristowe"
+   ],
+   "partners": [
+    {
+     "season": 19,
+     "celeb": "Lea Thompson",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 20,
+     "celeb": "Patti LaBelle",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 22,
+     "celeb": "Mischa Barton",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 23,
+     "celeb": "Maureen McCormick",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 24,
+     "celeb": "Nancy Kerrigan",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 25,
+     "celeb": "Nikki Bella",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 26,
+     "celeb": "Jamie Anderson",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 27,
+     "celeb": "Danelle Umstead",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 29,
+     "celeb": "Kaitlyn Bristowe",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 30,
+     "celeb": "Melora Hardin",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 31,
+     "celeb": "Heidi D'Amelio",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 32,
+     "celeb": "Charity Lawson",
+     "place": 4,
+     "result": "4th"
+    }
+   ],
+   "rank": 15
+  },
+  {
+   "pro": "Alan Bersten",
+   "seasons": 11,
+   "seasons_list": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 25,
+   "last": 35,
+   "completed": 11,
+   "wins": 1,
+   "win_rate": 0.0909,
+   "finals": 2,
+   "final_rate": 0.1818,
+   "top5": 7,
+   "avg_place": 6.73,
+   "median_place": 5,
+   "best": 1,
+   "worst": 14,
+   "avg_finish_pct": 0.5654,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Hannah Brown"
+   ],
+   "partners": [
+    {
+     "season": 25,
+     "celeb": "Debbie Gibson",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 26,
+     "celeb": "Mirai Nagasu",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 27,
+     "celeb": "Alexis Ren",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 28,
+     "celeb": "Hannah Brown",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 29,
+     "celeb": "Skai Jackson",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 30,
+     "celeb": "Amanda Kloots",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 31,
+     "celeb": "Jessie James Decker",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 32,
+     "celeb": "Jamie Lynn Spears",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 33,
+     "celeb": "Ilona Maher",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 34,
+     "celeb": "Elaine Hendrix",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 35,
+     "celeb": "Giada De Laurentiis",
+     "place": 14,
+     "result": "14th"
+    }
+   ],
+   "rank": 16
+  },
+  {
+   "pro": "Lindsay Arnold",
+   "seasons": 10,
+   "seasons_list": [
+    16,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30
+   ],
+   "first": 16,
+   "last": 30,
+   "completed": 10,
+   "wins": 1,
+   "win_rate": 0.1,
+   "finals": 4,
+   "final_rate": 0.4,
+   "top5": 5,
+   "avg_place": 5.3,
+   "median_place": 5.0,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.626,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Jordan Fisher"
+   ],
+   "partners": [
+    {
+     "season": 16,
+     "celeb": "Victor Ortiz",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 21,
+     "celeb": "Alek Skarlatos",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 22,
+     "celeb": "Wanyá Morris",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 23,
+     "celeb": "Calvin Johnson Jr.",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 24,
+     "celeb": "David Ross",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 25,
+     "celeb": "Jordan Fisher",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 26,
+     "celeb": "Kareem Abdul-Jabbar",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 27,
+     "celeb": "DeMarcus Ware",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 28,
+     "celeb": "Sean Spicer",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 30,
+     "celeb": "Matt James",
+     "place": 12,
+     "result": "12th"
+    }
+   ],
+   "rank": 17
+  },
+  {
+   "pro": "Daniella Karagach",
+   "seasons": 7,
+   "seasons_list": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 29,
+   "last": 35,
+   "completed": 6,
+   "wins": 1,
+   "win_rate": 0.1667,
+   "finals": 3,
+   "final_rate": 0.5,
+   "top5": 4,
+   "avg_place": 4.5,
+   "median_place": 3.5,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.7444,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Iman Shumpert"
+   ],
+   "partners": [
+    {
+     "season": 29,
+     "celeb": "Nelly ",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 30,
+     "celeb": "Iman Shumpert",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 31,
+     "celeb": "Joseph Baena",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 32,
+     "celeb": "Jason Mraz",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 33,
+     "celeb": "Dwight Howard",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 34,
+     "celeb": "Dylan Efron",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 35,
+     "celeb": "Ezra Frech",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 18
+  },
+  {
+   "pro": "Alec Mazo",
+   "seasons": 5,
+   "seasons_list": [
+    1,
+    4,
+    5,
+    7,
+    9
+   ],
+   "first": 1,
+   "last": 9,
+   "completed": 5,
+   "wins": 1,
+   "win_rate": 0.2,
+   "finals": 1,
+   "final_rate": 0.2,
+   "top5": 1,
+   "avg_place": 8.4,
+   "median_place": 10,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.3633,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Kelly Monaco"
+   ],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Kelly Monaco",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 4,
+     "celeb": "Paulina Porizkova",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 5,
+     "celeb": "Josie Maran",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 7,
+     "celeb": "Toni Braxton",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 9,
+     "celeb": "Natalie Coughlin",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 19
+  },
+  {
+   "pro": "Gleb Savchenko",
+   "seasons": 13,
+   "seasons_list": [
+    16,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "first": 16,
+   "last": 34,
+   "completed": 13,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 3,
+   "avg_place": 8.46,
+   "median_place": 9,
+   "best": 4,
+   "worst": 13,
+   "avg_finish_pct": 0.3825,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 16,
+     "celeb": "Lisa Vanderpump",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 23,
+     "celeb": "Jana Kramer",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 24,
+     "celeb": "Erika Jayne",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 25,
+     "celeb": "Sasha Pieterse",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 26,
+     "celeb": "Arike Ogunbowale",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 27,
+     "celeb": "Nikki Glaser",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 28,
+     "celeb": "Lauren Alaina",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 29,
+     "celeb": "Chrishell Stause",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 30,
+     "celeb": "Melanie C",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 31,
+     "celeb": " Shangela",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 32,
+     "celeb": "Mira Sorvino",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 33,
+     "celeb": "Brooks Nader",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 34,
+     "celeb": "Hilaria Baldwin",
+     "place": 11,
+     "result": "11th"
+    }
+   ],
+   "rank": 20
+  },
+  {
+   "pro": "Sasha Farber",
+   "seasons": 12,
+   "seasons_list": [
+    17,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "first": 17,
+   "last": 33,
+   "completed": 12,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 2,
+   "final_rate": 0.1818,
+   "top5": 7,
+   "avg_place": 5.45,
+   "median_place": 5,
+   "best": 3,
+   "worst": 9,
+   "avg_finish_pct": 0.6212,
+   "last_place_finishes": 0,
+   "withdrawals": 1,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 17,
+     "celeb": "Nicole \"Snooki\" Polizzi",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 22,
+     "celeb": "Kim Fields",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 23,
+     "celeb": "Terra Jolé",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 24,
+     "celeb": "Simone Biles",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 26,
+     "celeb": "Tonya Harding",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 27,
+     "celeb": "Mary Lou Retton",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 28,
+     "celeb": "Ally Brooke",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 29,
+     "celeb": "Justina Machado",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 30,
+     "celeb": "Suni Lee",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 31,
+     "celeb": "Selma Blair",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 32,
+     "celeb": "Alyson Hannigan",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 33,
+     "celeb": "Jenn Tran",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 21
+  },
+  {
+   "pro": "Louis van Amstel",
+   "seasons": 11,
+   "seasons_list": [
+    1,
+    2,
+    3,
+    6,
+    9,
+    10,
+    11,
+    12,
+    15,
+    21,
+    31
+   ],
+   "first": 1,
+   "last": 31,
+   "completed": 11,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.0909,
+   "top5": 4,
+   "avg_place": 7,
+   "median_place": 6,
+   "best": 3,
+   "worst": 14,
+   "avg_finish_pct": 0.4329,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Trista Sutter",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 2,
+     "celeb": "Lisa Rinna",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 3,
+     "celeb": "Monique Coleman",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 6,
+     "celeb": "Priscilla Presley",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 9,
+     "celeb": "Kelly Osbourne",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 10,
+     "celeb": "Niecy Nash",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 11,
+     "celeb": "Margaret Cho",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 12,
+     "celeb": "Kendra Wilkinson",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 15,
+     "celeb": "Sabrina Bryan",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 21,
+     "celeb": "Paula Deen",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 31,
+     "celeb": "Cheryl Ladd",
+     "place": 14,
+     "result": "14th"
+    }
+   ],
+   "rank": 22
+  },
+  {
+   "pro": "Edyta Śliwińska",
+   "seasons": 11,
+   "seasons_list": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    22
+   ],
+   "first": 1,
+   "last": 22,
+   "completed": 11,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 2,
+   "final_rate": 0.1818,
+   "top5": 5,
+   "avg_place": 7.55,
+   "median_place": 6,
+   "best": 2,
+   "worst": 16,
+   "avg_finish_pct": 0.391,
+   "last_place_finishes": 3,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Evander Holyfield",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 2,
+     "celeb": "George Hamilton",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 3,
+     "celeb": "Joey Lawrence",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 4,
+     "celeb": "John Ratzenberger",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 5,
+     "celeb": "Cameron Mathison",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 6,
+     "celeb": "Jason Taylor",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 7,
+     "celeb": "Jeffrey Ross",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 8,
+     "celeb": "Lawrence Taylor",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 9,
+     "celeb": "Ashley Hamilton",
+     "place": 16,
+     "result": "16th"
+    },
+    {
+     "season": 10,
+     "celeb": "Aiden Turner",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 22,
+     "celeb": "Geraldo Rivera",
+     "place": 12,
+     "result": "12th"
+    }
+   ],
+   "rank": 23
+  },
+  {
+   "pro": "Anna Trebunskaya",
+   "seasons": 11,
+   "seasons_list": [
+    2,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    21
+   ],
+   "first": 2,
+   "last": 21,
+   "completed": 11,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 2,
+   "final_rate": 0.1818,
+   "top5": 3,
+   "avg_place": 8.18,
+   "median_place": 10,
+   "best": 2,
+   "worst": 11,
+   "avg_finish_pct": 0.373,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Jerry Rice",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 5,
+     "celeb": "Albert Reed",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 6,
+     "celeb": "Steve Guttenberg",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 9,
+     "celeb": "Chuck Liddell",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 10,
+     "celeb": "Evan Lysacek",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 11,
+     "celeb": "Kurt Warner",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 12,
+     "celeb": "Sugar Ray Leonard",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 13,
+     "celeb": "Carson Kressley",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 14,
+     "celeb": "Jack Wagner",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 15,
+     "celeb": "Drew Lachey",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 21,
+     "celeb": "Gary Busey",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 24
+  },
+  {
+   "pro": "Brandon Armstrong",
+   "seasons": 9,
+   "seasons_list": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 27,
+   "last": 35,
+   "completed": 8,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.1429,
+   "top5": 1,
+   "avg_place": 9.14,
+   "median_place": 10,
+   "best": 3,
+   "worst": 12,
+   "avg_finish_pct": 0.3604,
+   "last_place_finishes": 1,
+   "withdrawals": 1,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 27,
+     "celeb": "Tinashe ",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 28,
+     "celeb": "Mary Wilson",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 29,
+     "celeb": "Jeannie Mai",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 30,
+     "celeb": "Kenya Moore",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 31,
+     "celeb": "Jordin Sparks",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 32,
+     "celeb": "Lele Pons",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 33,
+     "celeb": "Chandler Kinney",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 34,
+     "celeb": "Lauren Jauregui",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 35,
+     "celeb": "Ciara Miller",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 25
+  },
+  {
+   "pro": "Keo Motsepe",
+   "seasons": 9,
+   "seasons_list": [
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    29
+   ],
+   "first": 19,
+   "last": 29,
+   "completed": 9,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.1111,
+   "top5": 2,
+   "avg_place": 9.67,
+   "median_place": 11,
+   "best": 3,
+   "worst": 13,
+   "avg_finish_pct": 0.2633,
+   "last_place_finishes": 3,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 19,
+     "celeb": "Lolo Jones",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 20,
+     "celeb": "Charlotte McKinney",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 21,
+     "celeb": "Chaka Khan",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 22,
+     "celeb": "Jodie Sweetin",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 24,
+     "celeb": " Charo",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 25,
+     "celeb": "Barbara Corcoran",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 26,
+     "celeb": "Jennie Finch Daigle",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 27,
+     "celeb": "Evanna Lynch",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 29,
+     "celeb": "Anne Heche",
+     "place": 13,
+     "result": "13th"
+    }
+   ],
+   "rank": 26
+  },
+  {
+   "pro": "Pasha Pashkov",
+   "seasons": 8,
+   "seasons_list": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 28,
+   "last": 35,
+   "completed": 7,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.1429,
+   "top5": 1,
+   "avg_place": 10.43,
+   "median_place": 12,
+   "best": 3,
+   "worst": 15,
+   "avg_finish_pct": 0.2936,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 28,
+     "celeb": "Kate Flannery",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 29,
+     "celeb": "Carole Baskin",
+     "place": 14,
+     "result": "14th"
+    },
+    {
+     "season": 30,
+     "celeb": "Christine Chiu",
+     "place": 14,
+     "result": "14th"
+    },
+    {
+     "season": 31,
+     "celeb": "Teresa Giudice",
+     "place": 15,
+     "result": "15th"
+    },
+    {
+     "season": 32,
+     "celeb": "Ariana Madix",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 33,
+     "celeb": "Tori Spelling",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 34,
+     "celeb": "Danielle Fishel",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 35,
+     "celeb": "Amber Glenn",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 27
+  },
+  {
+   "pro": "Chelsie Hightower",
+   "seasons": 7,
+   "seasons_list": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15
+   ],
+   "first": 8,
+   "last": 15,
+   "completed": 7,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 2,
+   "avg_place": 7.29,
+   "median_place": 7,
+   "best": 4,
+   "worst": 11,
+   "avg_finish_pct": 0.4528,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 8,
+     "celeb": "Ty Murray",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 9,
+     "celeb": "Louie Vito",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 10,
+     "celeb": "Jake Pavelka",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 11,
+     "celeb": "Michael Bolton",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 12,
+     "celeb": "Romeo ",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 14,
+     "celeb": "Roshon Fegan",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 15,
+     "celeb": "Hélio Castroneves",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 28
+  },
+  {
+   "pro": "Jonathan Roberts",
+   "seasons": 7,
+   "seasons_list": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9
+   ],
+   "first": 1,
+   "last": 9,
+   "completed": 7,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.1429,
+   "top5": 2,
+   "avg_place": 8.71,
+   "median_place": 8,
+   "best": 3,
+   "worst": 15,
+   "avg_finish_pct": 0.2854,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Rachel Hunter",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 2,
+     "celeb": "Giselle Fernandez",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 4,
+     "celeb": "Heather Mills",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 5,
+     "celeb": "Marie Osmond",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 6,
+     "celeb": "Monica Seles",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 8,
+     "celeb": "Belinda Carlisle",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 9,
+     "celeb": "Macy Gray",
+     "place": 15,
+     "result": "15th"
+    }
+   ],
+   "rank": 29
+  },
+  {
+   "pro": "Britt Stewart",
+   "seasons": 7,
+   "seasons_list": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 29,
+   "last": 35,
+   "completed": 6,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 1,
+   "avg_place": 10,
+   "median_place": 10.5,
+   "best": 5,
+   "worst": 15,
+   "avg_finish_pct": 0.3223,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 29,
+     "celeb": "Johnny Weir",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 30,
+     "celeb": "Martin Kove",
+     "place": 15,
+     "result": "15th"
+    },
+    {
+     "season": 31,
+     "celeb": "Daniel Durant",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 32,
+     "celeb": "Adrian Peterson",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 33,
+     "celeb": "Eric Roberts",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 34,
+     "celeb": "Baron Davis",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 35,
+     "celeb": "Taylor Hanson",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 30
+  },
+  {
+   "pro": "Lacey Schwimmer",
+   "seasons": 6,
+   "seasons_list": [
+    7,
+    8,
+    9,
+    11,
+    12,
+    13
+   ],
+   "first": 7,
+   "last": 13,
+   "completed": 6,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 2,
+   "final_rate": 0.3333,
+   "top5": 2,
+   "avg_place": 6.17,
+   "median_place": 6.5,
+   "best": 2,
+   "worst": 11,
+   "avg_finish_pct": 0.5467,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 7,
+     "celeb": "Lance Bass",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 8,
+     "celeb": "Steve-O ",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 9,
+     "celeb": "Mark Dacascos",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 11,
+     "celeb": "Kyle Massey",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 12,
+     "celeb": "Mike Catherwood",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 13,
+     "celeb": "Chaz Bono",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 31
+  },
+  {
+   "pro": "Tristan MacManus",
+   "seasons": 5,
+   "seasons_list": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "first": 13,
+   "last": 17,
+   "completed": 5,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 1,
+   "avg_place": 9,
+   "median_place": 9.0,
+   "best": 5,
+   "worst": 13,
+   "avg_finish_pct": 0.2955,
+   "last_place_finishes": 1,
+   "withdrawals": 1,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 13,
+     "celeb": "Nancy Grace",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 14,
+     "celeb": "Gladys Knight",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 15,
+     "celeb": "Pamela Anderson",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 16,
+     "celeb": "Dorothy Hamill",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 17,
+     "celeb": "Valerie Harper",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 32
+  },
+  {
+   "pro": "Rylee Arnold",
+   "seasons": 4,
+   "seasons_list": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 32,
+   "last": 35,
+   "completed": 3,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 1,
+   "avg_place": 6.67,
+   "median_place": 6,
+   "best": 4,
+   "worst": 10,
+   "avg_finish_pct": 0.5577,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 32,
+     "celeb": "Harry Jowsey",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 33,
+     "celeb": "Stephen Nedoroscik",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 34,
+     "celeb": "Scott Hoying",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 35,
+     "celeb": "Connor Wood",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 33
+  },
+  {
+   "pro": "Allison Holker",
+   "seasons": 4,
+   "seasons_list": [
+    19,
+    20,
+    21,
+    23
+   ],
+   "first": 19,
+   "last": 23,
+   "completed": 4,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.25,
+   "top5": 1,
+   "avg_place": 7,
+   "median_place": 8.0,
+   "best": 2,
+   "worst": 10,
+   "avg_finish_pct": 0.4981,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 19,
+     "celeb": "Jonathan Bennett",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 20,
+     "celeb": "Riker Lynch",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 21,
+     "celeb": "Andy Grammer",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 23,
+     "celeb": "Babyface ",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 34
+  },
+  {
+   "pro": "Ashly DelGrosso",
+   "seasons": 4,
+   "seasons_list": [
+    1,
+    2,
+    3,
+    10
+   ],
+   "first": 1,
+   "last": 10,
+   "completed": 4,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.25,
+   "top5": 1,
+   "avg_place": 7.25,
+   "median_place": 8.0,
+   "best": 3,
+   "worst": 10,
+   "avg_finish_pct": 0.3083,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Joey McIntyre",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 2,
+     "celeb": "Master P",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 3,
+     "celeb": "Harry Hamlin",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 10,
+     "celeb": "Buzz Aldrin",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 35
+  },
+  {
+   "pro": "Dmitry Chaplin",
+   "seasons": 3,
+   "seasons_list": [
+    8,
+    9,
+    12
+   ],
+   "first": 8,
+   "last": 12,
+   "completed": 3,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.3333,
+   "top5": 1,
+   "avg_place": 7,
+   "median_place": 8,
+   "best": 2,
+   "worst": 11,
+   "avg_finish_pct": 0.4667,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 8,
+     "celeb": "Holly Madison",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 9,
+     "celeb": "Mýa ",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 12,
+     "celeb": "Petra Němcová",
+     "place": 8,
+     "result": "8th"
+    }
+   ],
+   "rank": 36
+  },
+  {
+   "pro": "Ezra Sosa",
+   "seasons": 3,
+   "seasons_list": [
+    33,
+    34,
+    35
+   ],
+   "first": 33,
+   "last": 35,
+   "completed": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 0.5,
+   "top5": 1,
+   "avg_place": 7.5,
+   "median_place": 7.5,
+   "best": 3,
+   "worst": 12,
+   "avg_finish_pct": 0.4647,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 33,
+     "celeb": "Anna Delvey",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 34,
+     "celeb": "Jordan Chiles",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 35,
+     "celeb": "Julia Stiles",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 37
+  },
+  {
+   "pro": "Corky Ballas",
+   "seasons": 2,
+   "seasons_list": [
+    7,
+    11
+   ],
+   "first": 7,
+   "last": 11,
+   "completed": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 7.5,
+   "median_place": 7.5,
+   "best": 7,
+   "worst": 8,
+   "avg_finish_pct": 0.4318,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 7,
+     "celeb": "Cloris Leachman",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 11,
+     "celeb": "Florence Henderson",
+     "place": 8,
+     "result": "8th"
+    }
+   ],
+   "rank": 38
+  },
+  {
+   "pro": "Nick Kosovich",
+   "seasons": 2,
+   "seasons_list": [
+    2,
+    3
+   ],
+   "first": 2,
+   "last": 3,
+   "completed": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 8.5,
+   "median_place": 8.5,
+   "best": 8,
+   "worst": 9,
+   "avg_finish_pct": 0.2056,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Tatum O'Neal",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 3,
+     "celeb": "Vivica A. Fox",
+     "place": 8,
+     "result": "8th"
+    }
+   ],
+   "rank": 39
+  },
+  {
+   "pro": "Jan Ravnik",
+   "seasons": 2,
+   "seasons_list": [
+    34,
+    35
+   ],
+   "first": 34,
+   "last": 35,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 9,
+   "median_place": 9,
+   "best": 9,
+   "worst": 9,
+   "avg_finish_pct": 0.3846,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 34,
+     "celeb": "Jen Affleck",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 35,
+     "celeb": "Tatyana Ali",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 40
+  },
+  {
+   "pro": "Elena Grinenko",
+   "seasons": 2,
+   "seasons_list": [
+    3,
+    4
+   ],
+   "first": 3,
+   "last": 4,
+   "completed": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 9.5,
+   "median_place": 9.5,
+   "best": 8,
+   "worst": 11,
+   "avg_finish_pct": 0.15,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Tucker Carlson",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 4,
+     "celeb": "Clyde Drexler",
+     "place": 8,
+     "result": "8th"
+    }
+   ],
+   "rank": 41
+  },
+  {
+   "pro": "Koko Iwasaki",
+   "seasons": 2,
+   "seasons_list": [
+    31,
+    32
+   ],
+   "first": 31,
+   "last": 32,
+   "completed": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 10.5,
+   "median_place": 10.5,
+   "best": 7,
+   "worst": 14,
+   "avg_finish_pct": 0.3,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 31,
+     "celeb": "Vinny Guadagnino",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 32,
+     "celeb": "Matt Walsh",
+     "place": 14,
+     "result": "14th"
+    }
+   ],
+   "rank": 42
+  },
+  {
+   "pro": "Charlotte Jørgensen",
+   "seasons": 1,
+   "seasons_list": [
+    1
+   ],
+   "first": 1,
+   "last": 1,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 1,
+   "final_rate": 1.0,
+   "top5": 1,
+   "avg_place": 2,
+   "median_place": 2,
+   "best": 2,
+   "worst": 2,
+   "avg_finish_pct": 0.8,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "John O'Hurley",
+     "place": 2,
+     "result": "2nd"
+    }
+   ],
+   "rank": 43
+  },
+  {
+   "pro": "Damian Whitewood",
+   "seasons": 1,
+   "seasons_list": [
+    10
+   ],
+   "first": 10,
+   "last": 10,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 6,
+   "median_place": 6,
+   "best": 6,
+   "worst": 6,
+   "avg_finish_pct": 0.5,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 10,
+     "celeb": "Pamela Anderson",
+     "place": 6,
+     "result": "6th"
+    }
+   ],
+   "rank": 44
+  },
+  {
+   "pro": "Fabian Sanchez",
+   "seasons": 1,
+   "seasons_list": [
+    6
+   ],
+   "first": 6,
+   "last": 6,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 7,
+   "median_place": 7,
+   "best": 7,
+   "worst": 7,
+   "avg_finish_pct": 0.4545,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 6,
+     "celeb": "Marlee Matlin",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 45
+  },
+  {
+   "pro": "Anna Demidova",
+   "seasons": 1,
+   "seasons_list": [
+    9
+   ],
+   "first": 9,
+   "last": 9,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 7,
+   "median_place": 7,
+   "best": 7,
+   "worst": 7,
+   "avg_finish_pct": 0.6,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 9,
+     "celeb": "Michael Irvin",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 46
+  },
+  {
+   "pro": "Andrea Hale",
+   "seasons": 1,
+   "seasons_list": [
+    2
+   ],
+   "first": 2,
+   "last": 2,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 10,
+   "median_place": 10,
+   "best": 10,
+   "worst": 10,
+   "avg_finish_pct": 0.0,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Kenny Mayne",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 47
+  },
+  {
+   "pro": "Jesse DeSoto",
+   "seasons": 1,
+   "seasons_list": [
+    3
+   ],
+   "first": 3,
+   "last": 3,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 10,
+   "median_place": 10,
+   "best": 10,
+   "worst": 10,
+   "avg_finish_pct": 0.1,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Shanna Moakler",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 48
+  },
+  {
+   "pro": "Brian Fortuna",
+   "seasons": 1,
+   "seasons_list": [
+    4
+   ],
+   "first": 4,
+   "last": 4,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 10,
+   "median_place": 10,
+   "best": 10,
+   "worst": 10,
+   "avg_finish_pct": 0.1,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 4,
+     "celeb": "Shandi Finnessey",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 49
+  },
+  {
+   "pro": "Tyne Stecklein",
+   "seasons": 1,
+   "seasons_list": [
+    17
+   ],
+   "first": 17,
+   "last": 17,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 11,
+   "median_place": 11,
+   "best": 11,
+   "worst": 11,
+   "avg_finish_pct": 0.0909,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 17,
+     "celeb": "Bill Nye",
+     "place": 11,
+     "result": "11th"
+    }
+   ],
+   "rank": 50
+  },
+  {
+   "pro": "Inna Brayer",
+   "seasons": 1,
+   "seasons_list": [
+    7
+   ],
+   "first": 7,
+   "last": 7,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 12,
+   "median_place": 12,
+   "best": 12,
+   "worst": 12,
+   "avg_finish_pct": 0.0833,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 7,
+     "celeb": "Ted McGinley",
+     "place": 12,
+     "result": "12th"
+    }
+   ],
+   "rank": 51
+  },
+  {
+   "pro": "Henry Byalikov",
+   "seasons": 1,
+   "seasons_list": [
+    18
+   ],
+   "first": 18,
+   "last": 18,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 12,
+   "median_place": 12,
+   "best": 12,
+   "worst": 12,
+   "avg_finish_pct": 0.0,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 18,
+     "celeb": "Diana Nyad",
+     "place": 12,
+     "result": "12th"
+    }
+   ],
+   "rank": 52
+  },
+  {
+   "pro": "Hailey Bills",
+   "seasons": 1,
+   "seasons_list": [
+    35
+   ],
+   "first": 35,
+   "last": 35,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 15,
+   "median_place": 15,
+   "best": 15,
+   "worst": 15,
+   "avg_finish_pct": 0.0667,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 35,
+     "celeb": "Sarah Jane Nader",
+     "place": 15,
+     "result": "15th"
+    }
+   ],
+   "rank": 53
+  },
+  {
+   "pro": "Adele Zaikman",
+   "seasons": 1,
+   "seasons_list": [
+    35
+   ],
+   "first": 35,
+   "last": 35,
+   "completed": 1,
+   "wins": 0,
+   "win_rate": 0.0,
+   "finals": 0,
+   "final_rate": 0.0,
+   "top5": 0,
+   "avg_place": 16,
+   "median_place": 16,
+   "best": 16,
+   "worst": 16,
+   "avg_finish_pct": 0.0,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [],
+   "partners": [
+    {
+     "season": 35,
+     "celeb": "Conner Leavitt",
+     "place": 16,
+     "result": "16th"
+    }
+   ],
+   "rank": 54
+  }
+ ],
+ "winners": [
+  {
+   "pro": "Derek Hough",
+   "seasons": 17,
+   "seasons_list": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23
+   ],
+   "first": 5,
+   "last": 23,
+   "completed": 17,
+   "wins": 6,
+   "win_rate": 0.3529,
+   "finals": 9,
+   "final_rate": 0.5294,
+   "top5": 15,
+   "avg_place": 2.94,
+   "median_place": 3,
+   "best": 1,
+   "worst": 6,
+   "avg_finish_pct": 0.8336,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Brooke Burke",
+    "Nicole Scherzinger",
+    "Jennifer Grey",
+    "Kellie Pickler",
+    "Amber Riley",
+    "Bindi Irwin"
+   ],
+   "partners": [
+    {
+     "season": 5,
+     "celeb": "Jennie Garth",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 6,
+     "celeb": "Shannon Elizabeth",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 7,
+     "celeb": "Brooke Burke",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 8,
+     "celeb": "Lil' Kim ",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 9,
+     "celeb": "Joanna Krupa",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 10,
+     "celeb": "Nicole Scherzinger",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 11,
+     "celeb": "Jennifer Grey",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 13,
+     "celeb": "Ricki Lake",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 14,
+     "celeb": "Maria Menounos",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 15,
+     "celeb": "Shawn Johnson",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 16,
+     "celeb": "Kellie Pickler",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 17,
+     "celeb": "Amber Riley",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 18,
+     "celeb": "Amy Purdy",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 19,
+     "celeb": "Bethany Mota",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 20,
+     "celeb": "Nastia Liukin",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 21,
+     "celeb": "Bindi Irwin",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 23,
+     "celeb": "Marilu Henner",
+     "place": 6,
+     "result": "6th"
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "pro": "Mark Ballas",
+   "seasons": 22,
+   "seasons_list": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    31,
+    34,
+    35
+   ],
+   "first": 5,
+   "last": 35,
+   "completed": 21,
+   "wins": 3,
+   "win_rate": 0.1429,
+   "finals": 10,
+   "final_rate": 0.4762,
+   "top5": 11,
+   "avg_place": 5.19,
+   "median_place": 4,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.6354,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Kristi Yamaguchi",
+    "Shawn Johnson",
+    "Charli D'Amelio"
+   ],
+   "partners": [
+    {
+     "season": 5,
+     "celeb": "Sabrina Bryan",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 6,
+     "celeb": "Kristi Yamaguchi",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 7,
+     "celeb": "Kim Kardashian",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 8,
+     "celeb": "Shawn Johnson",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 9,
+     "celeb": "Melissa Joan Hart",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 10,
+     "celeb": "Shannen Doherty",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 11,
+     "celeb": "Bristol Palin",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 12,
+     "celeb": "Chelsea Kane",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 13,
+     "celeb": "Kristin Cavallari",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 14,
+     "celeb": "Katherine Jenkins",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 15,
+     "celeb": "Bristol Palin",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 16,
+     "celeb": "Alexandra Raisman",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 17,
+     "celeb": "Christina Milian",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 18,
+     "celeb": "Candace Cameron Bure",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 19,
+     "celeb": "Sadie Robertson",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 20,
+     "celeb": "Willow Shields",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 21,
+     "celeb": "Alexa PenaVega",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 22,
+     "celeb": "Paige VanZant",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 25,
+     "celeb": "Lindsey Stirling",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 31,
+     "celeb": "Charli D'Amelio",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 34,
+     "celeb": "Whitney Leavitt",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 35,
+     "celeb": "Maura Higgins",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 2
+  },
+  {
+   "pro": "Valentin Chmerkovskiy",
+   "seasons": 22,
+   "seasons_list": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 13,
+   "last": 35,
+   "completed": 21,
+   "wins": 3,
+   "win_rate": 0.15,
+   "finals": 10,
+   "final_rate": 0.5,
+   "top5": 11,
+   "avg_place": 5.25,
+   "median_place": 4.0,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.6406,
+   "last_place_finishes": 0,
+   "withdrawals": 1,
+   "in_progress": 1,
+   "wins_with": [
+    "Rumer Willis",
+    "Laurie Hernandez",
+    "Xochitl Gomez"
+   ],
+   "partners": [
+    {
+     "season": 13,
+     "celeb": "Elisabetta Canalis",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 14,
+     "celeb": "Sherri Shepherd",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 15,
+     "celeb": "Kelly Monaco",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 16,
+     "celeb": "Zendaya ",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 17,
+     "celeb": "Elizabeth Berkley Lauren",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 18,
+     "celeb": "Danica McKellar",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 19,
+     "celeb": "Janel Parrish",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 20,
+     "celeb": "Rumer Willis",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 21,
+     "celeb": "Tamar Braxton",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 22,
+     "celeb": "Ginger Zee",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 23,
+     "celeb": "Laurie Hernandez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 24,
+     "celeb": " Normani",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 25,
+     "celeb": "Victoria Arlen",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 27,
+     "celeb": "Nancy McKeon",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 28,
+     "celeb": "Sailor Brinkley-Cook",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 29,
+     "celeb": "Monica Aldama",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 30,
+     "celeb": "Olivia Jade",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 31,
+     "celeb": "Gabby Windey",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 32,
+     "celeb": "Xochitl Gomez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 33,
+     "celeb": "Phaedra Parks",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 34,
+     "celeb": "Alix Earle",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 35,
+     "celeb": "Jenna Dewan",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 3
+  },
+  {
+   "pro": "Cheryl Burke",
+   "seasons": 25,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "first": 2,
+   "last": 31,
+   "completed": 25,
+   "wins": 2,
+   "win_rate": 0.087,
+   "finals": 8,
+   "final_rate": 0.3478,
+   "top5": 13,
+   "avg_place": 5.26,
+   "median_place": 5,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.6372,
+   "last_place_finishes": 0,
+   "withdrawals": 2,
+   "in_progress": 0,
+   "wins_with": [
+    "Drew Lachey",
+    "Emmitt Smith"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Drew Lachey",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 3,
+     "celeb": "Emmitt Smith",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 4,
+     "celeb": "Ian Ziering",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 5,
+     "celeb": "Wayne Newton",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 6,
+     "celeb": "Cristián de la Fuente",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 7,
+     "celeb": "Maurice Greene",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 8,
+     "celeb": "Gilles Marini",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 9,
+     "celeb": "Tom DeLay",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 10,
+     "celeb": "Chad Ochocinco",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 11,
+     "celeb": "Rick Fox",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 12,
+     "celeb": "Chris Jericho",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 13,
+     "celeb": "Rob Kardashian",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 14,
+     "celeb": "William Levy",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 15,
+     "celeb": "Emmitt Smith",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 16,
+     "celeb": "D.L. Hughley",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 17,
+     "celeb": "Jack Osbourne",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 18,
+     "celeb": "Drew Carey",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 19,
+     "celeb": "Antonio Sabàto Jr.",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 23,
+     "celeb": "Ryan Lochte",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 25,
+     "celeb": "Terrell Owens",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 27,
+     "celeb": "Juan Pablo Di Pace",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 28,
+     "celeb": "Ray Lewis",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 29,
+     "celeb": "AJ McLean",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 30,
+     "celeb": "Cody Rigsby",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 31,
+     "celeb": "Sam Champion",
+     "place": 13,
+     "result": "13th"
+    }
+   ],
+   "rank": 4
+  },
+  {
+   "pro": "Witney Carson",
+   "seasons": 16,
+   "seasons_list": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30,
+    31,
+    33,
+    34,
+    35
+   ],
+   "first": 18,
+   "last": 35,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 6,
+   "final_rate": 0.4,
+   "top5": 10,
+   "avg_place": 5.13,
+   "median_place": 4,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.6434,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Alfonso Ribeiro",
+    "Robert Irwin"
+   ],
+   "partners": [
+    {
+     "season": 18,
+     "celeb": "Cody Simpson",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 19,
+     "celeb": "Alfonso Ribeiro",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 20,
+     "celeb": "Chris Soules",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 21,
+     "celeb": "Carlos PenaVega",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 22,
+     "celeb": "Von Miller",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 23,
+     "celeb": "Vanilla Ice",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 24,
+     "celeb": "Chris Kattan",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 25,
+     "celeb": "Frankie Muniz",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 26,
+     "celeb": "Chris Mazdzer",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 27,
+     "celeb": "Milo Manheim",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 28,
+     "celeb": "Kel Mitchell",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 30,
+     "celeb": "Mike \"The Miz\" Mizanin",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 31,
+     "celeb": "Wayne Brady",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 33,
+     "celeb": "Danny Amendola",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 34,
+     "celeb": "Robert Irwin",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 35,
+     "celeb": "Guillermo Rodriguez",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 5
+  },
+  {
+   "pro": "Kym Johnson",
+   "seasons": 15,
+   "seasons_list": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    20,
+    24
+   ],
+   "first": 3,
+   "last": 24,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 4,
+   "final_rate": 0.2667,
+   "top5": 6,
+   "avg_place": 6.53,
+   "median_place": 6,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.504,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Donny Osmond",
+    "Hines Ward"
+   ],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Jerry Springer",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 4,
+     "celeb": "Joey Fatone",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 5,
+     "celeb": "Mark Cuban",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 6,
+     "celeb": "Penn Jillette",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 7,
+     "celeb": "Warren Sapp",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 8,
+     "celeb": "David Alan Grier",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 9,
+     "celeb": "Donny Osmond",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 11,
+     "celeb": "David Hasselhoff",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 12,
+     "celeb": "Hines Ward",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 13,
+     "celeb": "David Arquette",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 14,
+     "celeb": "Jaleel White",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 15,
+     "celeb": "Joey Fatone",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 16,
+     "celeb": "Ingo Rademacher",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 20,
+     "celeb": "Robert Herjavec",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 24,
+     "celeb": "Mr. T",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 6
+  },
+  {
+   "pro": "Peta Murgatroyd",
+   "seasons": 15,
+   "seasons_list": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    24,
+    25,
+    28,
+    29,
+    31,
+    32
+   ],
+   "first": 13,
+   "last": 32,
+   "completed": 15,
+   "wins": 2,
+   "win_rate": 0.1333,
+   "finals": 2,
+   "final_rate": 0.1333,
+   "top5": 4,
+   "avg_place": 7.4,
+   "median_place": 7,
+   "best": 1,
+   "worst": 16,
+   "avg_finish_pct": 0.4696,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Donald Driver",
+    "Nyle DiMarco"
+   ],
+   "partners": [
+    {
+     "season": 13,
+     "celeb": "Metta World Peace",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 14,
+     "celeb": "Donald Driver",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 15,
+     "celeb": "Gilles Marini",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 16,
+     "celeb": "Sean Lowe",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 17,
+     "celeb": "Brant Daugherty",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 18,
+     "celeb": "James Maslow",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 19,
+     "celeb": "Tommy Chong",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 20,
+     "celeb": "Michael Sam",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 22,
+     "celeb": "Nyle DiMarco",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 24,
+     "celeb": "Nick Viall",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 25,
+     "celeb": "Nick Lachey",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 28,
+     "celeb": "Lamar Odom",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 29,
+     "celeb": "Vernon Davis",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 31,
+     "celeb": "Jason Lewis",
+     "place": 16,
+     "result": "16th"
+    },
+    {
+     "season": 32,
+     "celeb": "Barry Williams",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 7
+  },
+  {
+   "pro": "Jenna Johnson",
+   "seasons": 10,
+   "seasons_list": [
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 23,
+   "last": 35,
+   "completed": 9,
+   "wins": 2,
+   "win_rate": 0.2222,
+   "finals": 4,
+   "final_rate": 0.4444,
+   "top5": 5,
+   "avg_place": 6.33,
+   "median_place": 5,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.5687,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Adam Rippon",
+    "Joey Graziadei"
+   ],
+   "partners": [
+    {
+     "season": 23,
+     "celeb": "Jake T. Austin",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 26,
+     "celeb": "Adam Rippon",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 27,
+     "celeb": "Joe Amabile",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 28,
+     "celeb": "Karamo Brown",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 29,
+     "celeb": "Nev Schulman",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 30,
+     "celeb": "JoJo Siwa",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 32,
+     "celeb": "Tyson Beckford",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 33,
+     "celeb": "Joey Graziadei",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 34,
+     "celeb": "Corey Feldman",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 35,
+     "celeb": "Harry Shum Jr.",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 8
+  },
+  {
+   "pro": "Julianne Hough",
+   "seasons": 5,
+   "seasons_list": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "first": 4,
+   "last": 8,
+   "completed": 5,
+   "wins": 2,
+   "win_rate": 0.4,
+   "finals": 2,
+   "final_rate": 0.4,
+   "top5": 3,
+   "avg_place": 4.2,
+   "median_place": 4,
+   "best": 1,
+   "worst": 9,
+   "avg_finish_pct": 0.7212,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Apolo Anton Ohno",
+    "Hélio Castroneves"
+   ],
+   "partners": [
+    {
+     "season": 4,
+     "celeb": "Apolo Anton Ohno",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 5,
+     "celeb": "Hélio Castroneves",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 6,
+     "celeb": "Adam Carolla",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 7,
+     "celeb": "Cody Linley",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 8,
+     "celeb": "Chuck Wicks",
+     "place": 6,
+     "result": "6th"
+    }
+   ],
+   "rank": 9
+  },
+  {
+   "pro": "Tony Dovolani",
+   "seasons": 21,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "first": 2,
+   "last": 22,
+   "completed": 21,
+   "wins": 1,
+   "win_rate": 0.0526,
+   "finals": 3,
+   "final_rate": 0.1579,
+   "top5": 5,
+   "avg_place": 7.58,
+   "median_place": 8,
+   "best": 1,
+   "worst": 14,
+   "avg_finish_pct": 0.4113,
+   "last_place_finishes": 1,
+   "withdrawals": 2,
+   "in_progress": 0,
+   "wins_with": [
+    "Melissa Rycroft"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Stacy Keibler",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 3,
+     "celeb": "Sara Evans",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 4,
+     "celeb": "Leeza Gibbons",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 5,
+     "celeb": "Jane Seymour",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 6,
+     "celeb": "Marissa Jaret Winokur",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 7,
+     "celeb": "Susan Lucci",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 8,
+     "celeb": "Melissa Rycroft",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 9,
+     "celeb": "Kathy Ireland",
+     "place": 14,
+     "result": "14th"
+    },
+    {
+     "season": 10,
+     "celeb": "Kate Gosselin",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 11,
+     "celeb": "Audrina Patridge",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 12,
+     "celeb": "Wendy Williams",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 13,
+     "celeb": "Chynna Phillips",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 14,
+     "celeb": "Martina Navratilova",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 15,
+     "celeb": "Melissa Rycroft",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 16,
+     "celeb": "Wynonna Judd",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 17,
+     "celeb": "Leah Remini",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 18,
+     "celeb": "NeNe Leakes",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 19,
+     "celeb": "Betsey Johnson",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 20,
+     "celeb": "Suzanne Somers",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 21,
+     "celeb": "Kim Zolciak-Biermann",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 22,
+     "celeb": "Marla Maples",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 10
+  },
+  {
+   "pro": "Karina Smirnoff",
+   "seasons": 18,
+   "seasons_list": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22
+   ],
+   "first": 3,
+   "last": 22,
+   "completed": 18,
+   "wins": 1,
+   "win_rate": 0.0556,
+   "finals": 4,
+   "final_rate": 0.2222,
+   "top5": 9,
+   "avg_place": 6.72,
+   "median_place": 7.0,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.4988,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "J.R. Martinez"
+   ],
+   "partners": [
+    {
+     "season": 3,
+     "celeb": "Mario Lopez",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 4,
+     "celeb": "Billy Ray Cyrus",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 5,
+     "celeb": "Floyd Mayweather Jr.",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 6,
+     "celeb": "Mario ",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 7,
+     "celeb": "Rocco DiSpirito",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 8,
+     "celeb": "Steve Wozniak",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 9,
+     "celeb": "Aaron Carter",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 11,
+     "celeb": "The Situation ",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 12,
+     "celeb": "Ralph Macchio",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 13,
+     "celeb": "J.R. Martinez",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 14,
+     "celeb": "Gavin DeGraw",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 15,
+     "celeb": "Apolo Anton Ohno",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 16,
+     "celeb": "Jacoby Jones",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 17,
+     "celeb": "Corbin Bleu",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 18,
+     "celeb": "Sean Avery",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 19,
+     "celeb": "Randy Couture",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 21,
+     "celeb": "Victor Espinoza",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 22,
+     "celeb": "Doug Flutie",
+     "place": 9,
+     "result": "9th"
+    }
+   ],
+   "rank": 11
+  },
+  {
+   "pro": "Emma Slater",
+   "seasons": 18,
+   "seasons_list": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 17,
+   "last": 35,
+   "completed": 17,
+   "wins": 1,
+   "win_rate": 0.0625,
+   "finals": 1,
+   "final_rate": 0.0625,
+   "top5": 4,
+   "avg_place": 7.69,
+   "median_place": 7.0,
+   "best": 1,
+   "worst": 15,
+   "avg_finish_pct": 0.446,
+   "last_place_finishes": 2,
+   "withdrawals": 1,
+   "in_progress": 1,
+   "wins_with": [
+    "Rashad Jennings"
+   ],
+   "partners": [
+    {
+     "season": 17,
+     "celeb": "Bill Engvall",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 18,
+     "celeb": "Billy Dee Williams",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 19,
+     "celeb": "Michael Waltrip",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 20,
+     "celeb": "Redfoo ",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 21,
+     "celeb": "Hayes Grier",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 23,
+     "celeb": "Rick Perry",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 24,
+     "celeb": "Rashad Jennings",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 25,
+     "celeb": "Drew Scott",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 26,
+     "celeb": "Johnny Damon",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 27,
+     "celeb": "John Schneider",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 28,
+     "celeb": "James Van Der Beek",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 29,
+     "celeb": "Charles Oakley",
+     "place": 15,
+     "result": "15th"
+    },
+    {
+     "season": 30,
+     "celeb": "Jimmie Allen",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 31,
+     "celeb": "Trevor Donovan",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 32,
+     "celeb": "Mauricio Umansky",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 33,
+     "celeb": "Reginald VelJohnson",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 34,
+     "celeb": "Andy Richter",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 35,
+     "celeb": "Jackson Olson",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 12
+  },
+  {
+   "pro": "Maksim Chmerkovskiy",
+   "seasons": 17,
+   "seasons_list": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    23,
+    24,
+    25
+   ],
+   "first": 2,
+   "last": 25,
+   "completed": 17,
+   "wins": 1,
+   "win_rate": 0.0625,
+   "finals": 5,
+   "final_rate": 0.3125,
+   "top5": 8,
+   "avg_place": 5.75,
+   "median_place": 5.5,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.587,
+   "last_place_finishes": 0,
+   "withdrawals": 1,
+   "in_progress": 0,
+   "wins_with": [
+    "Meryl Davis"
+   ],
+   "partners": [
+    {
+     "season": 2,
+     "celeb": "Tia Carrere",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 3,
+     "celeb": "Willa Ford",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 4,
+     "celeb": "Laila Ali",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 5,
+     "celeb": "Mel B",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 7,
+     "celeb": "Misty May-Treanor",
+     "place": null,
+     "result": "WD"
+    },
+    {
+     "season": 8,
+     "celeb": "Denise Richards",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 9,
+     "celeb": "Debi Mazar",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 10,
+     "celeb": "Erin Andrews",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 11,
+     "celeb": "Brandy ",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 12,
+     "celeb": "Kirstie Alley",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 13,
+     "celeb": "Hope Solo",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 14,
+     "celeb": "Melissa Gilbert",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 15,
+     "celeb": "Kirstie Alley",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 18,
+     "celeb": "Meryl Davis",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 23,
+     "celeb": "Amber Rose",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 24,
+     "celeb": "Heather Morris",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 25,
+     "celeb": "Vanessa Lachey",
+     "place": 7,
+     "result": "7th"
+    }
+   ],
+   "rank": 13
+  },
+  {
+   "pro": "Sharna Burgess",
+   "seasons": 15,
+   "seasons_list": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    35
+   ],
+   "first": 16,
+   "last": 35,
+   "completed": 14,
+   "wins": 1,
+   "win_rate": 0.0714,
+   "finals": 5,
+   "final_rate": 0.3571,
+   "top5": 8,
+   "avg_place": 6.5,
+   "median_place": 5.0,
+   "best": 1,
+   "worst": 13,
+   "avg_finish_pct": 0.543,
+   "last_place_finishes": 1,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Bobby Bones"
+   ],
+   "partners": [
+    {
+     "season": 16,
+     "celeb": "Andy Dick",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 17,
+     "celeb": "Keyshawn Johnson",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 18,
+     "celeb": "Charlie White",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 19,
+     "celeb": "Tavis Smiley",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 20,
+     "celeb": "Noah Galloway",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 21,
+     "celeb": "Nick Carter",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 22,
+     "celeb": "Antonio Brown",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 23,
+     "celeb": "James Hinchcliffe",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 24,
+     "celeb": "Bonner Bolton",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 25,
+     "celeb": "Derek Fisher",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 26,
+     "celeb": "Josh Norman",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 27,
+     "celeb": "Bobby Bones",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 29,
+     "celeb": "Jesse Metcalfe",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 30,
+     "celeb": "Brian Austin Green",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 35,
+     "celeb": "Tyler Cameron",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 14
+  },
+  {
+   "pro": "Artem Chigvintsev",
+   "seasons": 12,
+   "seasons_list": [
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32
+   ],
+   "first": 19,
+   "last": 32,
+   "completed": 12,
+   "wins": 1,
+   "win_rate": 0.0833,
+   "finals": 1,
+   "final_rate": 0.0833,
+   "top5": 2,
+   "avg_place": 7.17,
+   "median_place": 7.5,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.47,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Kaitlyn Bristowe"
+   ],
+   "partners": [
+    {
+     "season": 19,
+     "celeb": "Lea Thompson",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 20,
+     "celeb": "Patti LaBelle",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 22,
+     "celeb": "Mischa Barton",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 23,
+     "celeb": "Maureen McCormick",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 24,
+     "celeb": "Nancy Kerrigan",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 25,
+     "celeb": "Nikki Bella",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 26,
+     "celeb": "Jamie Anderson",
+     "place": 9,
+     "result": "9th"
+    },
+    {
+     "season": 27,
+     "celeb": "Danelle Umstead",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 29,
+     "celeb": "Kaitlyn Bristowe",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 30,
+     "celeb": "Melora Hardin",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 31,
+     "celeb": "Heidi D'Amelio",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 32,
+     "celeb": "Charity Lawson",
+     "place": 4,
+     "result": "4th"
+    }
+   ],
+   "rank": 15
+  },
+  {
+   "pro": "Alan Bersten",
+   "seasons": 11,
+   "seasons_list": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 25,
+   "last": 35,
+   "completed": 11,
+   "wins": 1,
+   "win_rate": 0.0909,
+   "finals": 2,
+   "final_rate": 0.1818,
+   "top5": 7,
+   "avg_place": 6.73,
+   "median_place": 5,
+   "best": 1,
+   "worst": 14,
+   "avg_finish_pct": 0.5654,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Hannah Brown"
+   ],
+   "partners": [
+    {
+     "season": 25,
+     "celeb": "Debbie Gibson",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 26,
+     "celeb": "Mirai Nagasu",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 27,
+     "celeb": "Alexis Ren",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 28,
+     "celeb": "Hannah Brown",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 29,
+     "celeb": "Skai Jackson",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 30,
+     "celeb": "Amanda Kloots",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 31,
+     "celeb": "Jessie James Decker",
+     "place": 10,
+     "result": "10th"
+    },
+    {
+     "season": 32,
+     "celeb": "Jamie Lynn Spears",
+     "place": 13,
+     "result": "13th"
+    },
+    {
+     "season": 33,
+     "celeb": "Ilona Maher",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 34,
+     "celeb": "Elaine Hendrix",
+     "place": 5,
+     "result": "5th"
+    },
+    {
+     "season": 35,
+     "celeb": "Giada De Laurentiis",
+     "place": 14,
+     "result": "14th"
+    }
+   ],
+   "rank": 16
+  },
+  {
+   "pro": "Lindsay Arnold",
+   "seasons": 10,
+   "seasons_list": [
+    16,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30
+   ],
+   "first": 16,
+   "last": 30,
+   "completed": 10,
+   "wins": 1,
+   "win_rate": 0.1,
+   "finals": 4,
+   "final_rate": 0.4,
+   "top5": 5,
+   "avg_place": 5.3,
+   "median_place": 5.0,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.626,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Jordan Fisher"
+   ],
+   "partners": [
+    {
+     "season": 16,
+     "celeb": "Victor Ortiz",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 21,
+     "celeb": "Alek Skarlatos",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 22,
+     "celeb": "Wanyá Morris",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 23,
+     "celeb": "Calvin Johnson Jr.",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 24,
+     "celeb": "David Ross",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 25,
+     "celeb": "Jordan Fisher",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 26,
+     "celeb": "Kareem Abdul-Jabbar",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 27,
+     "celeb": "DeMarcus Ware",
+     "place": 7,
+     "result": "7th"
+    },
+    {
+     "season": 28,
+     "celeb": "Sean Spicer",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 30,
+     "celeb": "Matt James",
+     "place": 12,
+     "result": "12th"
+    }
+   ],
+   "rank": 17
+  },
+  {
+   "pro": "Daniella Karagach",
+   "seasons": 7,
+   "seasons_list": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "first": 29,
+   "last": 35,
+   "completed": 6,
+   "wins": 1,
+   "win_rate": 0.1667,
+   "finals": 3,
+   "final_rate": 0.5,
+   "top5": 4,
+   "avg_place": 4.5,
+   "median_place": 3.5,
+   "best": 1,
+   "worst": 11,
+   "avg_finish_pct": 0.7444,
+   "last_place_finishes": 0,
+   "withdrawals": 0,
+   "in_progress": 1,
+   "wins_with": [
+    "Iman Shumpert"
+   ],
+   "partners": [
+    {
+     "season": 29,
+     "celeb": "Nelly ",
+     "place": 3,
+     "result": "3rd"
+    },
+    {
+     "season": 30,
+     "celeb": "Iman Shumpert",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 31,
+     "celeb": "Joseph Baena",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 32,
+     "celeb": "Jason Mraz",
+     "place": 2,
+     "result": "2nd"
+    },
+    {
+     "season": 33,
+     "celeb": "Dwight Howard",
+     "place": 6,
+     "result": "6th"
+    },
+    {
+     "season": 34,
+     "celeb": "Dylan Efron",
+     "place": 4,
+     "result": "4th"
+    },
+    {
+     "season": 35,
+     "celeb": "Ezra Frech",
+     "place": null,
+     "result": "Participating"
+    }
+   ],
+   "rank": 18
+  },
+  {
+   "pro": "Alec Mazo",
+   "seasons": 5,
+   "seasons_list": [
+    1,
+    4,
+    5,
+    7,
+    9
+   ],
+   "first": 1,
+   "last": 9,
+   "completed": 5,
+   "wins": 1,
+   "win_rate": 0.2,
+   "finals": 1,
+   "final_rate": 0.2,
+   "top5": 1,
+   "avg_place": 8.4,
+   "median_place": 10,
+   "best": 1,
+   "worst": 12,
+   "avg_finish_pct": 0.3633,
+   "last_place_finishes": 2,
+   "withdrawals": 0,
+   "in_progress": 0,
+   "wins_with": [
+    "Kelly Monaco"
+   ],
+   "partners": [
+    {
+     "season": 1,
+     "celeb": "Kelly Monaco",
+     "place": 1,
+     "result": "1st"
+    },
+    {
+     "season": 4,
+     "celeb": "Paulina Porizkova",
+     "place": 11,
+     "result": "11th"
+    },
+    {
+     "season": 5,
+     "celeb": "Josie Maran",
+     "place": 12,
+     "result": "12th"
+    },
+    {
+     "season": 7,
+     "celeb": "Toni Braxton",
+     "place": 8,
+     "result": "8th"
+    },
+    {
+     "season": 9,
+     "celeb": "Natalie Coughlin",
+     "place": 10,
+     "result": "10th"
+    }
+   ],
+   "rank": 19
+  }
+ ]
+}
