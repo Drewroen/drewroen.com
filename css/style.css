@@ -1,70 +1,213 @@
+/* drewroen.com — visual language borrowed from Anthropic's design system.
+   Raw values below are the live tokens served by claude.com (warm neutral ramp,
+   clay accent, spacing/radius scales, type scale). Fonts are their declared
+   fallbacks — the Anthropic webfonts themselves are proprietary and not shipped. */
+
 :root {
-  --fg: #1b1b1b;
-  --muted: #6b6b6b;
-  --accent: #1f5fa9;
-  --rule: #e2e2e2;
+  /* warm neutral ramp */
+  --gray-000: #ffffff;
+  --gray-050: #faf9f5;
+  --gray-100: #f5f4ed;
+  --gray-150: #f0eee6;
+  --gray-200: #e8e6dc;
+  --gray-300: #d1cfc5;
+  --gray-400: #b0aea5;
+  --gray-450: #9c9a92;
+  --gray-500: #87867f;
+  --gray-550: #73726c;
+  --gray-600: #5e5d59;
+  --gray-650: #4d4c48;
+  --gray-700: #3d3d3a;
+  --gray-750: #30302e;
+  --gray-800: #262624;
+  --gray-850: #1f1e1d;
+  --gray-900: #1a1918;
+  --gray-950: #141413;
+
+  /* accents */
+  --clay: #d97757;
+  --clay-hover: #c6613f;
+  --clay-dark: #c46849;
+  /* text-level clay: darkens Anthropic's clay to clear 4.5:1 on parchment
+     (#c6613f only reaches 3.85:1) */
+  --link: #b0512c;
+  --error: #bf4d43;
+  --focus: var(--clay-dark);
+
+  /* spacing */
+  --sp-4: 4px;
+  --sp-8: 8px;
+  --sp-12: 12px;
+  --sp-16: 16px;
+  --sp-24: 24px;
+  --sp-32: 32px;
+  --sp-48: 48px;
+  --sp-64: 64px;
+
+  /* radii */
+  --br-6: 6px;
+  --br-8: 8px;
+  --br-12: 12px;
+  --br-16: 16px;
+
+  /* type */
+  --font-serif: anthropicSerif, Georgia, "Times New Roman", serif;
+  --font-sans: anthropicSans, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: anthropicMono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+
+  --headline-3: clamp(28px, 25.714px + 0.714vw, 36px);
+  --headline-5: clamp(20px, 18.571px + 0.446vw, 25px);
+  --body-2: 17px;
+  --body-3: 15px;
+  --caption: 12px;
+
+  --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
+  --shadow-sm: 0 2px 8px #0000000a;
+  --shadow-md: 0 4px 20px #0000000a;
+
+  /* surfaces */
+  --bg: var(--gray-050);
+  --bg-raised: var(--gray-000);
+  --bg-subtle: var(--gray-100);
+  --text: var(--gray-950);
+  --text-secondary: var(--gray-600);
+  --text-tertiary: var(--gray-550);
+  --border: var(--gray-200);
+  --border-subtle: var(--gray-150);
+  --ring: var(--gray-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--gray-800);
+    --bg-raised: var(--gray-750);
+    --bg-subtle: var(--gray-850);
+    --text: var(--gray-050);
+    --text-secondary: var(--gray-400);
+    --text-tertiary: var(--gray-450);
+    --border: var(--gray-650);
+    --border-subtle: var(--gray-700);
+    --ring: var(--gray-700);
+    --link: var(--clay);
+    --shadow-sm: 0 2px 8px #00000040;
+    --shadow-md: 0 4px 20px #00000040;
+  }
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  padding: 3rem 1.25rem;
-  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: var(--fg);
-  background: #fff;
+  padding: var(--sp-64) var(--sp-24);
+  font-family: var(--font-sans);
+  font-size: var(--body-2);
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
-  max-width: 40rem;
+  max-width: 660px;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 1.5rem;
-  margin: 0 0 .25rem;
+  font-family: var(--font-serif);
+  font-weight: var(--weight-medium);
+  font-size: var(--headline-3);
+  line-height: 1.2;
+  color: var(--text);
+  margin: 0 0 var(--sp-8);
 }
 
 a {
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
 }
 
-a:hover { text-decoration: underline; }
-
-.back {
-  margin: 0 0 2rem;
-  font-size: .875rem;
+a:hover {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--br-6);
+}
+
+/* homepage entry point */
+nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--sp-8) var(--sp-16);
+  font-size: var(--body-3);
+  color: var(--text);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--br-12);
+  box-shadow: var(--shadow-sm);
+  transition: background-color 0.15s var(--ease-out), border-color 0.15s var(--ease-out);
+}
+
+nav a:hover {
+  color: var(--text);
+  background: var(--bg-subtle);
+  border-color: var(--border);
+}
+
+/* sandbox page */
+.back {
+  margin: 0 0 var(--sp-48);
+  font-size: var(--body-3);
+}
+
+.back a { color: var(--text-secondary); }
+
+.back a:hover { color: var(--link); }
+
 .lede {
-  color: var(--muted);
-  margin: 0 0 1.5rem;
+  max-width: 60ch;
+  margin: 0 0 var(--sp-32);
+  color: var(--text-secondary);
 }
 
 .stat-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid var(--border-subtle);
 }
 
 .stat-list li {
-  padding: .6rem 0;
-  border-bottom: 1px solid var(--rule);
+  padding: var(--sp-16) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.stat-list a {
+  font-family: var(--font-serif);
+  font-weight: var(--weight-medium);
+  font-size: var(--headline-5);
+  line-height: 1.2;
+}
+
+.stat-list a:hover {
+  color: var(--link);
+  text-decoration: none;
 }
 
 .empty {
-  color: var(--muted);
+  margin: var(--sp-24) 0 0;
+  font-size: var(--body-3);
+  color: var(--text-tertiary);
   font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --fg: #eaeaea;
-    --muted: #9a9a9a;
-    --accent: #7fb3ea;
-    --rule: #333;
-  }
-  body { background: #141414; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
 }
