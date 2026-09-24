@@ -1,11 +1,16 @@
-/* Draws the OEWS employment line from data.json.
-   Chart.js itself is the pinned CDN build in index.html; every value is also
-   in the page's table, so the page still works if this script does not run. */
+/* Charts for the software developer employment stat page.
+   Chart.js is the pinned CDN build in index.html; every value behind every chart is
+   also in one of the page's tables, so the page still works if this file does not run. */
 (async () => {
-  const canvas = document.getElementById('chart');
-  const fallback = document.querySelector('.chart-fallback');
+  const devCanvas = document.getElementById('chart');
+  if (!devCanvas || typeof Chart === 'undefined') return;
+
   const wrap = document.querySelector('.chart');
-  if (!canvas || typeof Chart === 'undefined') return;
+  const fallback = document.querySelector('.chart-fallback');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const number = (n) => n.toLocaleString('en-US');
+  const pct = (v) => (v > 0 ? '+' : '') + v.toFixed(1) + '%';
+  const millions = (v) => (v / 1e6).toFixed(1) + 'M';
 
   const tokens = () => {
     const s = getComputedStyle(document.documentElement);
@@ -20,15 +25,36 @@
     };
   };
 
-  let data;
+  let data, jolts;
   try {
     data = await (await fetch('data.json')).json();
+    const jc = document.getElementById('chart-hires');
+    jolts = jc ? await (await fetch('jolts.json')).json() : null;
   } catch (err) {
-    wrap.hidden = true;
-    fallback.hidden = false;
+    if (wrap) wrap.hidden = true;
+    if (fallback) fallback.hidden = false;
     return;
   }
 
+  const anim = reduce ? false : { duration: 400 };
+  const tooltipStyle = (c) => ({
+    displayColors: false,
+    backgroundColor: c.surface,
+    titleColor: c.ink,
+    bodyColor: c.inkSoft,
+    borderColor: c.border,
+    borderWidth: 1,
+    cornerRadius: 8,
+    padding: 10
+  });
+  const legendStyle = (c) => ({
+    display: true,
+    position: 'top',
+    align: 'end',
+    labels: { color: c.inkSoft, boxWidth: 18, boxHeight: 2, padding: 12, font: { size: 11 } }
+  });
+
+  /* ---------- 1. developer employment line (OEWS) ---------- */
   const eraOf = (year) => data.eras.find((e) => {
     const [from, to] = e.label.split('\u2013').map(Number);
     return year >= from && year <= to;
@@ -36,9 +62,7 @@
   const labels = data.series.map((p) => String(p.year));
   const hollow = data.series.map((p) => !eraOf(p.year).comparable);
   const boundaries = data.eras.slice(1).map((e) => Number(e.label.split('\u2013')[0]));
-  const number = (n) => n.toLocaleString('en-US');
 
-  /* dashed rule at each definition change, between the two year centres */
   const eraRules = {
     id: 'eraRules',
     afterDatasetsDraw(chart) {
@@ -58,11 +82,9 @@
     }
   };
 
-  let chart = null;
-  const build = () => {
+  const buildLine = () => {
     const c = tokens();
-    if (chart) chart.destroy();
-    chart = new Chart(canvas, {
+    const chart = new Chart(devCanvas, {
       type: 'line',
       data: {
         labels,
@@ -98,25 +120,12 @@
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        animation: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? false : { duration: 400 },
+        animation: anim,
         layout: { padding: { top: 8, right: 8 } },
         interaction: { mode: 'index', intersect: false },
         plugins: {
-          legend: {
-            display: true,
-            position: 'top',
-            align: 'end',
-            labels: { color: c.inkSoft, boxWidth: 18, boxHeight: 2, padding: 12, font: { size: 11 }, usePointStyle: false }
-          },
-          tooltip: {
-            displayColors: false,
-            backgroundColor: c.surface,
-            titleColor: c.ink,
-            bodyColor: c.inkSoft,
-            borderColor: c.border,
-            borderWidth: 1,
-            cornerRadius: 8,
-            padding: 10,
+          legend: legendStyle(c),
+          tooltip: Object.assign(tooltipStyle(c), {
             callbacks: {
               label: (item) => {
                 const p = data.series[item.dataIndex];
@@ -124,31 +133,136 @@
                 return number(p.value) + ' employed \u00b7 SOC ' + p.codes.join(' + ') + (p.qa ? ' (QA counted separately: ' + number(p.qa) + ')' : '');
               }
             }
-          }
+          })
         },
         scales: {
-          x: {
-            grid: { display: false },
-            border: { color: c.border },
-            ticks: { color: c.inkSoft, maxRotation: 0, autoSkip: true, maxTicksLimit: 11, font: { size: 11 } }
-          },
-          y: {
-            beginAtZero: true,
-            grid: { color: c.border, drawTicks: false },
-            border: { display: false },
-            ticks: {
-              color: c.inkSoft,
-              maxTicksLimit: 5,
-              font: { size: 11 },
-              callback: (v) => (v / 1e6).toFixed(1) + 'M'
-            }
-          }
+          x: { grid: { display: false }, border: { color: c.border }, ticks: { color: c.inkSoft, maxRotation: 0, autoSkip: true, maxTicksLimit: 11, font: { size: 11 } } },
+          y: { beginAtZero: true, grid: { color: c.border, drawTicks: false }, border: { display: false }, ticks: { color: c.inkSoft, maxTicksLimit: 5, font: { size: 11 }, callback: millions } }
         }
       },
       plugins: [eraRules]
     });
+    return chart;
   };
 
+  /* ---------- 2. hires vs layoffs bars (JOLTS) ---------- */
+  const buildBars = () => {
+    const canvas = document.getElementById('chart-hires');
+    if (!canvas || !jolts) return null;
+    const c = tokens();
+    return new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels: jolts.series.map((p) => String(p.year)),
+        datasets: [
+          { label: 'Hires', data: jolts.series.map((p) => p.hires), backgroundColor: c.accent, borderRadius: 2, maxBarThickness: 14 },
+          { label: 'Layoffs and discharges', data: jolts.series.map((p) => p.layoffs), backgroundColor: c.compare, borderRadius: 2, maxBarThickness: 14 }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: anim,
+        layout: { padding: { top: 8, right: 8 } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: legendStyle(c),
+          tooltip: Object.assign(tooltipStyle(c), {
+            callbacks: {
+              label: (item) => number(item.parsed.y) + (item.datasetIndex === 0 ? ' hired' : ' laid off') + ' in ' + item.label
+            }
+          })
+        },
+        scales: {
+          x: { grid: { display: false }, border: { color: c.border }, ticks: { color: c.inkSoft, maxRotation: 0, autoSkip: true, maxTicksLimit: 11, font: { size: 11 } } },
+          y: { beginAtZero: true, grid: { color: c.border, drawTicks: false }, border: { display: false }, ticks: { color: c.inkSoft, maxTicksLimit: 5, font: { size: 11 }, callback: millions } }
+        }
+      }
+    });
+  };
+
+  /* ---------- 3. year-over-year change lines (JOLTS) ---------- */
+  const zeroLine = {
+    id: 'zeroLine',
+    afterDatasetsDraw(chart) {
+      const y = chart.scales.y.getPixelForValue(0);
+      if (y < chart.chartArea.top || y > chart.chartArea.bottom) return;
+      const ctx = chart.ctx;
+      ctx.save();
+      ctx.strokeStyle = tokens().inkSoft;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(chart.chartArea.left, y);
+      ctx.lineTo(chart.chartArea.right, y);
+      ctx.stroke();
+      ctx.restore();
+    }
+  };
+
+  const buildYoy = () => {
+    const canvas = document.getElementById('chart-yoy');
+    if (!canvas || !jolts) return null;
+    const c = tokens();
+    const rows = jolts.series.filter((p) => p.hires_yoy !== null);
+    return new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: rows.map((p) => String(p.year)),
+        datasets: [
+          {
+            label: 'Hires, % change vs year before',
+            data: rows.map((p) => p.hires_yoy),
+            borderColor: c.accent,
+            borderWidth: 2,
+            tension: 0,
+            pointRadius: 2.5,
+            pointHoverRadius: 5,
+            pointBackgroundColor: c.accent,
+            pointBorderColor: c.accent
+          },
+          {
+            label: 'Layoffs, % change vs year before',
+            data: rows.map((p) => p.layoffs_yoy),
+            borderColor: c.compare,
+            borderWidth: 2,
+            borderDash: [5, 4],
+            tension: 0,
+            pointRadius: 2.5,
+            pointHoverRadius: 5,
+            pointBackgroundColor: c.compare,
+            pointBorderColor: c.compare
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: anim,
+        layout: { padding: { top: 8, right: 8 } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: legendStyle(c),
+          tooltip: Object.assign(tooltipStyle(c), {
+            callbacks: {
+              label: (item) => (item.datasetIndex === 0 ? 'Hires ' : 'Layoffs ') + pct(item.parsed.y) + ' in ' + item.label
+            }
+          })
+        },
+        scales: {
+          x: { grid: { display: false }, border: { color: c.border }, ticks: { color: c.inkSoft, maxRotation: 0, autoSkip: true, maxTicksLimit: 11, font: { size: 11 } } },
+          y: { grid: { color: c.border, drawTicks: false }, border: { display: false }, ticks: { color: c.inkSoft, maxTicksLimit: 6, font: { size: 11 }, callback: pct } }
+        }
+      },
+      plugins: [zeroLine]
+    });
+  };
+
+  /* ---------- build + rebuild on theme change ---------- */
+  let charts = [];
+  const build = () => {
+    charts.forEach((ch) => ch && ch.destroy());
+    charts = [buildLine(), buildBars(), buildYoy()];
+  };
   build();
   const mq = window.matchMedia('(prefers-color-scheme: dark)');
   if (mq.addEventListener) mq.addEventListener('change', build);
