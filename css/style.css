@@ -142,6 +142,10 @@ a:hover {
 }
 
 /* homepage entry point */
+nav {
+  margin-top: var(--sp-32);
+}
+
 nav a {
   display: inline-flex;
   align-items: center;
