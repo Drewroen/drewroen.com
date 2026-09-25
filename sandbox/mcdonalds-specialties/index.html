@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McDonald&rsquo;s, country by country &mdash; Drew&rsquo;s Sandbox</title>
+  <meta name="description" content="The McDonald&rsquo;s menu items documented for 63 countries and territories, and the 38 of them that show up in more than one country.">
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    /* page-local: 24 horizontal bars need more room than the site default 320px */
+    .chart-tall { height: 700px; }
+    .chart-shared { height: 528px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="back"><a href="../">&larr; Drew&rsquo;s Sandbox</a></p>
+
+    <h1>McDonald&rsquo;s, country by country</h1>
+    <p class="meta">63 countries and territories &middot; 429 menu items &middot; 38 sold in more than one country &middot; sourced 2026-09-21</p>
+
+    <p>Every McDonald&rsquo;s market sells the same core menu &mdash; Big Mac, Quarter Pounder, McNuggets, fries &mdash; and then fills the rest of the board with things invented for the country it is in. This page is the second half of that: the 429 items that a country&rsquo;s own menu is documented as having, gathered from Wikipedia&rsquo;s country-by-country article on McDonald&rsquo;s availability, and the 38 that turn up in more than one country.</p>
+
+    <p>The count is per country, so it rewards being written about. Malaysia has 43 documented items and Venezuela has 3; that is a statement about the source article, not about the menus. The overlap column is the more reliable one: an item counted in five countries is in five countries.</p>
+
+    <section>
+      <h2>Items per country</h2>
+
+      <figure>
+        <div class="chart chart-tall">
+          <canvas id="chart-countries" role="img"
+                  aria-label="Bar chart of how many documented menu items each country has, led by Malaysia with 43."></canvas>
+        </div>
+        <figcaption>Number of documented menu items per country, for the 24 countries with the most. The lighter bar is <em>United Kingdom and Ireland</em>, which the source covers as one section &mdash; the count is the United Kingdom and Ireland together.</figcaption>
+      </figure>
+
+      <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>Every one of the 63 countries and territories in the source, with the items documented for it and how many of those are sold in more than one country. Click a column heading to sort.</caption>
+        <thead>
+          <tr><th scope="col">Country</th><th scope="col">Region</th><th scope="col" class="num">Items</th><th scope="col" class="num">Shared</th><th scope="col">Documented items</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Malaysia</td><td>Asia</td><td class="num">43</td><td class="num">3</td><td>Ayam Goreng McD, Banana Caramel Pie, Bandung drink, Big N' Tasty, Bubur Ayam McD, Bubur Ikan McD, Burger Syok, Cendol Sundae, Chicken McCrispy, Coconut Pie, D24 Durian McFlurry Party, Double Filet-O-Fish, Double GCB, Double Spicy Chicken McDeluxe, Extra Spicy Ayam Goreng, Fish Prosperity Burger, Foldover, GCB, Golden Prosperity Burger, Hawaiian Deluxe Burger, Hershey's Sundae, Hot & Spicy McShaker Fries, iced Milo drink, Lazeez Foldover, Lychee Pie, Mashwi Foldover, Mega Mac, Mexicana Chicken Burger, Nasi Lemak Burger, Nasi Lemak McD, Pie à la Mode, Prosperity Burger, Pulut Hitam, Red Velvet McFlurry, Rio, Salted Caramel Pie, Samurai, Spicy Beef Deluxe, Spicy Chicken McDeluxe, Spicy Korean Burger, Spicy Nuggets, Thai Fish Burger with Green Curry Sauce, Triple Cheeseburger</td></tr>
+        <tr><td>Indonesia</td><td>Asia</td><td class="num">25</td><td class="num">1</td><td>Ayam Gulai, Ayam Kremes, Ayam Serundeng Sambal Terasi, Ayam Spesial Sambal Bawang, BBQ Beef Flatbread, Beef Prosperity Burger, Bubur Ayam Spesial, Burger Nasi Goreng, Burger Sate, Buryam, Chicken Teriyaki, Chicken with Spicy Tomato, Cone Top Es Teler, Curry Beef Delight, Es Kopi Durian Jelly Float, Kentang Goreng Gulai Gurih, Markisa soda tea, McFlurry Rujak Pedas, McFlurry with Teh botol, McRice, McSoup, Moroccan Burger, Nasi Uduk, PaNas, Soda Asam Jawa</td></tr>
+        <tr><td>United Kingdom and Ireland</td><td>Europe</td><td class="num">21</td><td class="num">1</td><td>1955 burger, Apple and Blackberry Pie, Apple Pie Sundae, BBQ Chicken Premiere with Bacon, BBQ Smokehouse Range, Cheese Melt Dippers, Cornetto, Creme Egg, Dairy Milk, Deli Choices, Festive Pie, Grand Big Mac Bacon, Halloumi Fries, Irn-bru, Katsu Curry Chicken McNuggets, McMór, Mozzarella Dippers, Quorn Premiere, Signature Collection, Summer Chorizo Supreme, Sweet Curry Sauce</td></tr>
+        <tr><td>India</td><td>Asia</td><td class="num">19</td><td class="num">3</td><td>African Peri Peri Shake Shake, Asian Hot Garlic Dip, biriyani, chicken kebab burger, Chicken Maharaja Mac, Grilled Chicken Royale, Indi-McSpicy, Mc Egg, McAloo Tikki, McCurry Pan, McGrill, McPaneer, McSpicy, McVeggie burger, Mexican Spice Chicken and Veg, naan wraps, Pizza McPuff, rice bowls, Veg Maharaja Mac</td></tr>
+        <tr><td>Australia</td><td>Oceania</td><td class="num">17</td><td class="num">2</td><td>Aussie BBQ Angus, Big Kahuna Burger, Broncos Burger, Chicken McBites, Chive Omelette Roll, Classic Angus, El Maco burger, El Maco Salsa, El Maco variant Shaker Fries, Mc Beefsteak, McOz Burger, Mozzarella Sticks, Romano Burger, Shaker Fries, Southern Fried Chicken, Tandoori Burger, Vegemite shaker fries</td></tr>
+        <tr><td>Japan</td><td>Asia</td><td class="num">17</td><td class="num">&mdash;</td><td>Black Diamond, Chicken Katsu Burger, Chilli McHotdog, Fillet-O-Ebi, Gold Ring, Gratin Korokke Burger, Green tea-flavoured milkshakes, Mega Teriyaki, Ruby Spark, Salsa Burger, Shaka Shaka Chicken, Tamago Double Mac, Teri Tama Burger, Teriyaki McBurger, Tsukimi Burger, Ume Nuggets, Yasai Seikatsu mixed vegetable juice</td></tr>
+        <tr><td>United Arab Emirates</td><td>Asia</td><td class="num">16</td><td class="num">7</td><td>Asian, Big N' Tasty, Chicken Fillet, Chicken Mac, Chicken Mega Mac, French, Grand Chicken, McAloo Tikki, McArabia, McRoyale, McWings, Mega Mac, Mexican, Spicy Chicken Fillet, Spicy McChicken, Turkish</td></tr>
+        <tr><td>Chile</td><td>South America</td><td class="num">15</td><td class="num">1</td><td>Barros Jarpa, cheese empanadas, Combo Bicentenario, Cuarto Palta, empanadas de pino, Hamburguesa Italiana, Hamburguesa Palta, Lomo Palta, McFlurry Sahne Nuss, McPalta, McWrap Palta, Medialuna, papas duquesas, Tostado Queso Bacon, Tostado Queso Palta</td></tr>
+        <tr><td>Portugal</td><td>Europe</td><td class="num">14</td><td class="num">1</td><td>apple cinnamon sundae, apple pie, Big Mac Bacon, caldo verde, Chicken Country, cream of carrot, cream of peas, fresh pineapple chunks, kale soup, McBifana, McPrego, McVeggie burger, mixed salad, white bean and spinach soup</td></tr>
+        <tr><td>South Africa</td><td>Africa</td><td class="num">14</td><td class="num">3</td><td>BBQ Double Burger, Boerie Burger, Chicken Foldover, Chocolate Caramel McFlurry, Corn Cup, Grand Chicken, Jalapeño Chicken, Jalapeño Chicken Double, Jalapeño Dipping Sauce, McFeast, McFizz, Mega Muffin, SA Breakfast, Spicy Cajun Chicken Deluxe</td></tr>
+        <tr><td>Netherlands</td><td>Europe</td><td class="num">13</td><td class="num">1</td><td>American Sauce, Boerenfriet, Chicken Maestro Burger, ChickenSaté, Chocomel, Fristi, Fritessaus, Joppie Burger, Joppie sauce, Maestro Burger, Maestro Burger Egg, McKroket, stroopwafel McFlurries</td></tr>
+        <tr><td>Canada</td><td>North America</td><td class="num">12</td><td class="num">1</td><td>1967 Burger, blueberry-shortbread McFlurry, Deli Choices, McHomard, McLobster, McMini, McPizza, Pesto Chicken, poutine, poutine with crispy chicken and buffalo sauce, Spicy Thai, Zesty Mango</td></tr>
+        <tr><td>Philippines</td><td>Asia</td><td class="num">12</td><td class="num">1</td><td>Banana McFloat, Banana-Oreo McFlurry, Burger McDo, Cheesy Eggdesal, Chicken McDo, Hamdesal, longaniza, McCrispy Chicken Sandwich, McRice, McShaker Fries, McSpaghetti, Twister Fries</td></tr>
+        <tr><td>Greece</td><td>Europe</td><td class="num">11</td><td class="num">4</td><td>Big Tasty beef, Deluxe fries, double beef big tasty, fried shrimp with dipping sauce, fried veggie snackers, McToast, McVeggie burger, McWrap Shrimp, onion rings, shrimp burger, spring rolls</td></tr>
+        <tr><td>Hong Kong</td><td>Asia</td><td class="num">9</td><td class="num">1</td><td>mushroom burgers, onion rings, Rice Fantastic, Shake Shake fries, Shogun Burger, shrimp burgers, spicy French fries, taco flatbreads, Wasabi Filet O' Fish</td></tr>
+        <tr><td>Spain</td><td>Europe</td><td class="num">9</td><td class="num">2</td><td>carrot cake, cheesecakes, croissants, eggs Benedict sandwich, Macarons, McFish, McPops, potato tortilla sandwiches, toast with jamon Iberico</td></tr>
+        <tr><td>Fiji</td><td>Oceania</td><td class="num">8</td><td class="num">1</td><td>Big Breakfast, Brekkie Burger, ELT McMuffin, Hot & Spicy Chicken, McFeast, potato pancakes, Scrambled Egg McMuffin, sweet potato fries</td></tr>
+        <tr><td>South Korea</td><td>Asia</td><td class="num">8</td><td class="num">1</td><td>affogato, Boseong Green Tea Burger, Bulgogi Burger, Changnyeong Garlic Burger, green tea McFlurry, Jindo Onion Croquet, McBingsu, shrimp burger</td></tr>
+        <tr><td>Finland</td><td>Europe</td><td class="num">7</td><td class="num">4</td><td>Big Mac with bacon, El Maco, Macarons, McFeast, McRuis, McVegan, Valio Oltermanni Juustonapit</td></tr>
+        <tr><td>Hungary</td><td>Europe</td><td class="num">7</td><td class="num">&mdash;</td><td>Brutal Brutus, lángos, Maestro family, McFarm, mustard pork burger, Som Lolly, Spicy pork burger</td></tr>
+        <tr><td>Poland</td><td>Europe</td><td class="num">7</td><td class="num">1</td><td>Bekon DeLuxe, Burger Drwala, Chikker, McMuffin Twarożek i Rzodkiewka, McWrap, Red Chikker, WieśMac</td></tr>
+        <tr><td>Russia</td><td>Europe</td><td class="num">7</td><td class="num">1</td><td>blini, cheesecake rolls, chicken wings, McZavtrak, oatmeal, shrimps, Биф А-ля Рус (Beef à la Russe)</td></tr>
+        <tr><td>United States</td><td>North America</td><td class="num">7</td><td class="num">2</td><td>Double Filet-O-Fish, haupia pies, McCriollo, Pineapple and taro pies, Portuguese sausage, saimin, Spam</td></tr>
+        <tr><td>Brazil</td><td>South America</td><td class="num">6</td><td class="num">1</td><td>Banana-flavored pies, Cheddar McMelt, McFish, potato wedges, vegan burger, vegetarian burger</td></tr>
+        <tr><td>China</td><td>Asia</td><td class="num">6</td><td class="num">1</td><td>curly fries, Grilled Chicken Burger, Hot and Spicy Grilled Thigh Fillet Burger, Matcha Green Tea ice cream, McWings, Premium Grilled Thigh Fillet Burger</td></tr>
+        <tr><td>Costa Rica</td><td>North America</td><td class="num">6</td><td class="num">&mdash;</td><td>fried chicken, la hamburguesa tica, Mcnifica, McPinto, McShakes, Passion Fruit</td></tr>
+        <tr><td>Italy</td><td>Europe</td><td class="num">6</td><td class="num">1</td><td>Crispy McBacon, McItaly, McVeggie burger, My selection, pasta salad, Sweety</td></tr>
+        <tr><td>Morocco</td><td>Africa</td><td class="num">6</td><td class="num">1</td><td>Chicken Mythic, harira, McArabia, McSahara, Petit Plaisirs, Recette Moutarde</td></tr>
+        <tr><td>New Zealand</td><td>Oceania</td><td class="num">6</td><td class="num">1</td><td>Bacon 'n' Egg, BBQ Bandit Burger, El Maco, Georgie Pie, Kiwiburger, Steak Mince 'n' Cheese</td></tr>
+        <tr><td>Turkey</td><td>Europe</td><td class="num">6</td><td class="num">2</td><td>ayran, Kofteburger, McTurco, Mega Mac, Milli Burger, onion rings</td></tr>
+        <tr><td>Egypt</td><td>Africa</td><td class="num">5</td><td class="num">1</td><td>Chicken Big Mac, Egyptian cookies, fish fingers, Fish Mac, McFalafel</td></tr>
+        <tr><td>Germany</td><td>Europe</td><td class="num">5</td><td class="num">&mdash;</td><td>Big Vegan TS, Caesar salads, Hamburger Royal TS, Mc Currywurst, McCurrywurst Chicken</td></tr>
+        <tr><td>Norway</td><td>Europe</td><td class="num">5</td><td class="num">2</td><td>blueberry milkshake, Chicken Salsa, El Maco, Laksewrap, McAfrika</td></tr>
+        <tr><td>Peru</td><td>South America</td><td class="num">5</td><td class="num">1</td><td>ají, blackberry sundae, Inca Kola, Peruvian Foods, Pollo Crujiente</td></tr>
+        <tr><td>Singapore</td><td>Asia</td><td class="num">5</td><td class="num">1</td><td>curry sauce dip, Gula Melaka McFlurry, McSpicy, salt & pepper shaker fries, Salted Egg Yolk Chicken Burger</td></tr>
+        <tr><td>Slovenia</td><td>Europe</td><td class="num">5</td><td class="num">2</td><td>Bacon Cheese Burger, chicken wings, fried shrimp, McCountry, party buckets</td></tr>
+        <tr><td>Sweden</td><td>Europe</td><td class="num">5</td><td class="num">2</td><td>El Maco, Korean BBQ, McFeast sauce, McVegan, Truffle mayo</td></tr>
+        <tr><td>Thailand</td><td>Asia</td><td class="num">5</td><td class="num">1</td><td>Caribbean Shrimp Burger, McVeggie burger, Mega animals Mac, salad shaker, Samurai Pork Burger</td></tr>
+        <tr><td>Vietnam</td><td>Asia</td><td class="num">5</td><td class="num">&mdash;</td><td>Grilled Pork Baguette, Ham Cheese Baguette with Round Egg, Ham Cheese Baguette with Veggie, Pho -flavoured burger, Vietnamese coffee</td></tr>
+        <tr><td>Croatia</td><td>Europe</td><td class="num">4</td><td class="num">4</td><td>Chikker, Maestro Burger, McCountry, McToast</td></tr>
+        <tr><td>Cyprus</td><td>Europe</td><td class="num">4</td><td class="num">1</td><td>Greek Chicken, Greek Mac, Grilled Chicken, shrimp burger</td></tr>
+        <tr><td>Denmark</td><td>Europe</td><td class="num">4</td><td class="num">&mdash;</td><td>Chicken Salsa Cheese, chilli cheese tops, Daim McFlurry, Pommes Frites and Pepper Sauce</td></tr>
+        <tr><td>Ecuador</td><td>South America</td><td class="num">4</td><td class="num">2</td><td>blackberry sundae, burgers with cheese sausage or guacamole, cheese empanadas, nuggets with spicy sausage</td></tr>
+        <tr><td>France</td><td>Europe</td><td class="num">4</td><td class="num">1</td><td>Croque McDo, Kronenbourg Brewery beer, McBaguette, Petit Plaisir</td></tr>
+        <tr><td>Israel</td><td>Asia</td><td class="num">4</td><td class="num">&mdash;</td><td>corn sticks, McFalafel sandwich, McKebab, McShawarma</td></tr>
+        <tr><td>Mexico</td><td>North America</td><td class="num">4</td><td class="num">1</td><td>BBQ Double Burger, Flaming Hot Doritos Quarter Pounder, McBurrito, McMollete</td></tr>
+        <tr><td>Baltic countries</td><td>Europe</td><td class="num">3</td><td class="num">&mdash;</td><td>Lauku Mac, Maestro Beef, Maestro Chicken</td></tr>
+        <tr><td>Colombia</td><td>South America</td><td class="num">3</td><td class="num">2</td><td>arepas, McCriollo, McNífica</td></tr>
+        <tr><td>Czech Republic</td><td>Europe</td><td class="num">3</td><td class="num">2</td><td>McCountry, McSmažák, McSyr</td></tr>
+        <tr><td>Malta</td><td>Europe</td><td class="num">3</td><td class="num">2</td><td>chicken wings, McFtira, Mozzarella Sticks</td></tr>
+        <tr><td>Taiwan</td><td>Asia</td><td class="num">3</td><td class="num">&mdash;</td><td>corn soup, fried chicken legs, kao fan</td></tr>
+        <tr><td>Venezuela</td><td>South America</td><td class="num">3</td><td class="num">1</td><td>arepas, empanadas, fried yuca sticks</td></tr>
+        <tr><td>Bahrain</td><td>Asia</td><td class="num">2</td><td class="num">2</td><td>McArabia, McCrispy</td></tr>
+        <tr><td>Belgium</td><td>Europe</td><td class="num">2</td><td class="num">1</td><td>Belgo, Croque McDo</td></tr>
+        <tr><td>Saudi Arabia</td><td>Asia</td><td class="num">2</td><td class="num">2</td><td>McArabia, Spicy McChicken</td></tr>
+        <tr><td>Slovakia</td><td>Europe</td><td class="num">2</td><td class="num">1</td><td>McDonuts, McSyr</td></tr>
+        <tr><td>Argentina</td><td>South America</td><td class="num">1</td><td class="num">&mdash;</td><td>Big Tasty Angus Burger</td></tr>
+        <tr><td>Dominican Republic</td><td>North America</td><td class="num">1</td><td class="num">&mdash;</td><td>McDo</td></tr>
+        <tr><td>Pakistan</td><td>Asia</td><td class="num">1</td><td class="num">&mdash;</td><td>Bun Kabab</td></tr>
+        <tr><td>Serbia</td><td>Europe</td><td class="num">1</td><td class="num">&mdash;</td><td>Plazma</td></tr>
+        <tr><td>Switzerland</td><td>Europe</td><td class="num">1</td><td class="num">&mdash;</td><td>Prime</td></tr>
+        <tr><td>Ukraine</td><td>Europe</td><td class="num">1</td><td class="num">&mdash;</td><td>McLavash</td></tr>
+        <tr><td>Sri Lanka</td><td>Asia</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td>&mdash;</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">&ldquo;Shared&rdquo; counts the items in that country&rsquo;s list that the source also documents somewhere else. The core menu is left out of both columns on purpose &mdash; a page that lists Big Mac 63 times says nothing.</p>
+    </section>
+
+    <section>
+      <h2>Where they overlap</h2>
+
+      <p>38 items are documented in more than one country, 391 in exactly one. The widest single item is the <strong>McVeggie burger</strong>, in 9 countries &mdash; Hong Kong, India, Malaysia, Thailand, Greece, Italy, Portugal, Slovenia, Australia. Behind it sit the items that migrate with the brand rather than with a market: regional staples sold under one name across neighbouring countries, and single products that were rolled out across several markets at once.</p>
+
+      <figure>
+        <div class="chart chart-shared">
+          <canvas id="chart-shared" role="img"
+                  aria-label="Bar chart of the menu items sold in the most countries, led by McVeggie burger."></canvas>
+        </div>
+        <figcaption>The 24 items sold in the most countries, by number of countries. Values come from both source articles: the availability statements that name a set of countries for a single product, and the country sections that name the product in more than one country.</figcaption>
+      </figure>
+
+      <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>Every item documented in more than one country, with the countries the sources name. Click a column heading to sort.</caption>
+        <thead>
+          <tr><th scope="col">Item</th><th scope="col" class="num">Countries</th><th scope="col">Where</th><th scope="col">Named in</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>McVeggie burger</td><td class="num">9</td><td>Hong Kong, India, Malaysia, Thailand, Greece, Italy, Portugal, Slovenia, Australia</td><td>country sections + availability list</td></tr>
+        <tr><td>Chicken Selects</td><td class="num">5</td><td>Israel, United Kingdom and Ireland, Canada, United States, Australia</td><td>availability list</td></tr>
+        <tr><td>El Maco</td><td class="num">4</td><td>Finland, Norway, Sweden, New Zealand</td><td>country sections</td></tr>
+        <tr><td>McArabia</td><td class="num">4</td><td>Morocco, Bahrain, Saudi Arabia, United Arab Emirates</td><td>country sections</td></tr>
+        <tr><td>Chicken Big Mac</td><td class="num">3</td><td>Egypt, United Kingdom and Ireland, Canada</td><td>country sections + availability list</td></tr>
+        <tr><td>chicken wings</td><td class="num">3</td><td>Malta, Russia, Slovenia</td><td>country sections</td></tr>
+        <tr><td>McAloo Tikki</td><td class="num">3</td><td>India, United Arab Emirates, Greece</td><td>country sections + availability list</td></tr>
+        <tr><td>McCountry</td><td class="num">3</td><td>Croatia, Czech Republic, Slovenia</td><td>country sections</td></tr>
+        <tr><td>McFeast</td><td class="num">3</td><td>South Africa, Finland, Fiji</td><td>country sections</td></tr>
+        <tr><td>Mega Mac</td><td class="num">3</td><td>Malaysia, United Arab Emirates, Turkey</td><td>country sections</td></tr>
+        <tr><td>onion rings</td><td class="num">3</td><td>Hong Kong, Greece, Turkey</td><td>country sections</td></tr>
+        <tr><td>shrimp burger</td><td class="num">3</td><td>South Korea, Cyprus, Greece</td><td>country sections</td></tr>
+        <tr><td>&#x27;M&#x27; burger</td><td class="num">2</td><td>France, United Kingdom and Ireland</td><td>availability list</td></tr>
+        <tr><td>arepas</td><td class="num">2</td><td>Colombia, Venezuela</td><td>country sections</td></tr>
+        <tr><td>BBQ Double Burger</td><td class="num">2</td><td>South Africa, Mexico</td><td>country sections</td></tr>
+        <tr><td>Big N&#x27; Tasty</td><td class="num">2</td><td>Malaysia, United Arab Emirates</td><td>country sections</td></tr>
+        <tr><td>blackberry sundae</td><td class="num">2</td><td>Ecuador, Peru</td><td>country sections</td></tr>
+        <tr><td>cheese empanadas</td><td class="num">2</td><td>Chile, Ecuador</td><td>country sections</td></tr>
+        <tr><td>Chicken McBites</td><td class="num">2</td><td>United States, Australia</td><td>country sections + availability list</td></tr>
+        <tr><td>Chikker</td><td class="num">2</td><td>Croatia, Poland</td><td>country sections</td></tr>
+        <tr><td>Croque McDo</td><td class="num">2</td><td>Belgium, France</td><td>country sections</td></tr>
+        <tr><td>Deli Choices</td><td class="num">2</td><td>United Kingdom and Ireland, Canada</td><td>country sections</td></tr>
+        <tr><td>Double Filet-O-Fish</td><td class="num">2</td><td>Malaysia, United States</td><td>country sections</td></tr>
+        <tr><td>Grand Chicken</td><td class="num">2</td><td>South Africa, United Arab Emirates</td><td>country sections</td></tr>
+        <tr><td>Macarons</td><td class="num">2</td><td>Finland, Spain</td><td>country sections</td></tr>
+        <tr><td>Maestro Burger</td><td class="num">2</td><td>Croatia, Netherlands</td><td>country sections</td></tr>
+        <tr><td>McAfrika</td><td class="num">2</td><td>Denmark, Norway</td><td>country sections + availability list</td></tr>
+        <tr><td>McCriollo</td><td class="num">2</td><td>United States, Colombia</td><td>country sections</td></tr>
+        <tr><td>McCrispy</td><td class="num">2</td><td>Bahrain, United Kingdom and Ireland</td><td>country sections + availability list</td></tr>
+        <tr><td>McFish</td><td class="num">2</td><td>Spain, Brazil</td><td>country sections</td></tr>
+        <tr><td>McRice</td><td class="num">2</td><td>Indonesia, Philippines</td><td>country sections</td></tr>
+        <tr><td>McSpicy</td><td class="num">2</td><td>India, Singapore</td><td>country sections</td></tr>
+        <tr><td>McSyr</td><td class="num">2</td><td>Czech Republic, Slovakia</td><td>country sections</td></tr>
+        <tr><td>McToast</td><td class="num">2</td><td>Croatia, Greece</td><td>country sections</td></tr>
+        <tr><td>McVegan</td><td class="num">2</td><td>Finland, Sweden</td><td>country sections</td></tr>
+        <tr><td>McWings</td><td class="num">2</td><td>China, United Arab Emirates</td><td>country sections</td></tr>
+        <tr><td>Mozzarella Sticks</td><td class="num">2</td><td>Malta, Australia</td><td>country sections</td></tr>
+        <tr><td>Spicy McChicken</td><td class="num">2</td><td>Saudi Arabia, United Arab Emirates</td><td>country sections</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">&ldquo;Where&rdquo; says which of the two source articles names the item for at least one of those countries &mdash; a country-by-country breakdown would be truer but unreadable in a table cell. Where both articles name it, the two agree; a single source means the other one is silent about that item rather than contradicting it. Several of these items are limited-time or discontinued &mdash; the sources describe them as such in place, and this page does not try to separate the current menu from the historical one.</p>
+    </section>
+
+    <section>
+      <h2>Only in one country</h2>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>The 391 items the sources put in a single country, grouped by country.</caption>
+        <thead>
+          <tr><th scope="col">Country</th><th scope="col" class="num">Items</th><th scope="col">Sole-country items</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Malaysia</td><td class="num">40</td><td>Ayam Goreng McD, Banana Caramel Pie, Bandung drink, Bubur Ayam McD, Bubur Ikan McD, Burger Syok, Cendol Sundae, Chicken McCrispy, Coconut Pie, D24 Durian McFlurry Party, Double GCB, Double Spicy Chicken McDeluxe, Extra Spicy Ayam Goreng, Fish Prosperity Burger, Foldover, GCB, Golden Prosperity Burger, Hawaiian Deluxe Burger, Hershey&#x27;s Sundae, Hot &amp; Spicy McShaker Fries, Lazeez Foldover, Lychee Pie, Mashwi Foldover, Mexicana Chicken Burger, Nasi Lemak Burger, Nasi Lemak McD, Pie à la Mode, Prosperity Burger, Pulut Hitam, Red Velvet McFlurry, Rio, Salted Caramel Pie, Samurai, Spicy Beef Deluxe, Spicy Chicken McDeluxe, Spicy Korean Burger, Spicy Nuggets, Thai Fish Burger with Green Curry Sauce, Triple Cheeseburger, iced Milo drink</td></tr>
+        <tr><td>Indonesia</td><td class="num">24</td><td>Ayam Gulai, Ayam Kremes, Ayam Serundeng Sambal Terasi, Ayam Spesial Sambal Bawang, BBQ Beef Flatbread, Beef Prosperity Burger, Bubur Ayam Spesial, Burger Nasi Goreng, Burger Sate, Buryam, Chicken Teriyaki, Chicken with Spicy Tomato, Cone Top Es Teler, Curry Beef Delight, Es Kopi Durian Jelly Float, Kentang Goreng Gulai Gurih, Markisa soda tea, McFlurry Rujak Pedas, McFlurry with Teh botol, McSoup, Moroccan Burger, Nasi Uduk, PaNas, Soda Asam Jawa</td></tr>
+        <tr><td>United Kingdom and Ireland</td><td class="num">20</td><td>1955 burger, Apple Pie Sundae, Apple and Blackberry Pie, BBQ Chicken Premiere with Bacon, BBQ Smokehouse Range, Cheese Melt Dippers, Cornetto, Creme Egg, Dairy Milk, Festive Pie, Grand Big Mac Bacon, Halloumi Fries, Irn-bru, Katsu Curry Chicken McNuggets, McMór, Mozzarella Dippers, Quorn Premiere, Signature Collection, Summer Chorizo Supreme, Sweet Curry Sauce</td></tr>
+        <tr><td>India</td><td class="num">16</td><td>African Peri Peri Shake Shake, Asian Hot Garlic Dip, Chicken Maharaja Mac, Grilled Chicken Royale, Indi-McSpicy, Mc Egg, McCurry Pan, McGrill, McPaneer, Mexican Spice Chicken and Veg, Pizza McPuff, Veg Maharaja Mac, biriyani, chicken kebab burger, naan wraps, rice bowls</td></tr>
+        <tr><td>Australia</td><td class="num">15</td><td>Aussie BBQ Angus, Big Kahuna Burger, Broncos Burger, Chive Omelette Roll, Classic Angus, El Maco Salsa, El Maco burger, El Maco variant Shaker Fries, Mc Beefsteak, McOz Burger, Romano Burger, Shaker Fries, Southern Fried Chicken, Tandoori Burger, Vegemite shaker fries</td></tr>
+        <tr><td>Japan</td><td class="num">17</td><td>Black Diamond, Chicken Katsu Burger, Chilli McHotdog, Fillet-O-Ebi, Gold Ring, Gratin Korokke Burger, Green tea-flavoured milkshakes, Mega Teriyaki, Ruby Spark, Salsa Burger, Shaka Shaka Chicken, Tamago Double Mac, Teri Tama Burger, Teriyaki McBurger, Tsukimi Burger, Ume Nuggets, Yasai Seikatsu mixed vegetable juice</td></tr>
+        <tr><td>United Arab Emirates</td><td class="num">9</td><td>Asian, Chicken Fillet, Chicken Mac, Chicken Mega Mac, French, McRoyale, Mexican, Spicy Chicken Fillet, Turkish</td></tr>
+        <tr><td>Chile</td><td class="num">14</td><td>Barros Jarpa, Combo Bicentenario, Cuarto Palta, Hamburguesa Italiana, Hamburguesa Palta, Lomo Palta, McFlurry Sahne Nuss, McPalta, McWrap Palta, Medialuna, Tostado Queso Bacon, Tostado Queso Palta, empanadas de pino, papas duquesas</td></tr>
+        <tr><td>Portugal</td><td class="num">13</td><td>Big Mac Bacon, Chicken Country, McBifana, McPrego, apple cinnamon sundae, apple pie, caldo verde, cream of carrot, cream of peas, fresh pineapple chunks, kale soup, mixed salad, white bean and spinach soup</td></tr>
+        <tr><td>South Africa</td><td class="num">11</td><td>Boerie Burger, Chicken Foldover, Chocolate Caramel McFlurry, Corn Cup, Jalapeño Chicken, Jalapeño Chicken Double, Jalapeño Dipping Sauce, McFizz, Mega Muffin, SA Breakfast, Spicy Cajun Chicken Deluxe</td></tr>
+        <tr><td>Netherlands</td><td class="num">12</td><td>American Sauce, Boerenfriet, Chicken Maestro Burger, ChickenSaté, Chocomel, Fristi, Fritessaus, Joppie Burger, Joppie sauce, Maestro Burger Egg, McKroket, stroopwafel McFlurries</td></tr>
+        <tr><td>Canada</td><td class="num">11</td><td>1967 Burger, McHomard, McLobster, McMini, McPizza, Pesto Chicken, Spicy Thai, Zesty Mango, blueberry-shortbread McFlurry, poutine, poutine with crispy chicken and buffalo sauce</td></tr>
+        <tr><td>Philippines</td><td class="num">11</td><td>Banana McFloat, Banana-Oreo McFlurry, Burger McDo, Cheesy Eggdesal, Chicken McDo, Hamdesal, McCrispy Chicken Sandwich, McShaker Fries, McSpaghetti, Twister Fries, longaniza</td></tr>
+        <tr><td>Greece</td><td class="num">7</td><td>Big Tasty beef, Deluxe fries, McWrap Shrimp, double beef big tasty, fried shrimp with dipping sauce, fried veggie snackers, spring rolls</td></tr>
+        <tr><td>Hong Kong</td><td class="num">8</td><td>Rice Fantastic, Shake Shake fries, Shogun Burger, Wasabi Filet O&#x27; Fish, mushroom burgers, shrimp burgers, spicy French fries, taco flatbreads</td></tr>
+        <tr><td>Spain</td><td class="num">7</td><td>McPops, carrot cake, cheesecakes, croissants, eggs Benedict sandwich, potato tortilla sandwiches, toast with jamon Iberico</td></tr>
+        <tr><td>Fiji</td><td class="num">7</td><td>Big Breakfast, Brekkie Burger, ELT McMuffin, Hot &amp; Spicy Chicken, Scrambled Egg McMuffin, potato pancakes, sweet potato fries</td></tr>
+        <tr><td>South Korea</td><td class="num">7</td><td>Boseong Green Tea Burger, Bulgogi Burger, Changnyeong Garlic Burger, Jindo Onion Croquet, McBingsu, affogato, green tea McFlurry</td></tr>
+        <tr><td>Finland</td><td class="num">3</td><td>Big Mac with bacon, McRuis, Valio Oltermanni Juustonapit</td></tr>
+        <tr><td>Hungary</td><td class="num">7</td><td>Brutal Brutus, Maestro family, McFarm, Som Lolly, Spicy pork burger, lángos, mustard pork burger</td></tr>
+        <tr><td>Poland</td><td class="num">6</td><td>Bekon DeLuxe, Burger Drwala, McMuffin Twarożek i Rzodkiewka, McWrap, Red Chikker, WieśMac</td></tr>
+        <tr><td>Russia</td><td class="num">6</td><td>McZavtrak, blini, cheesecake rolls, oatmeal, shrimps, Биф А-ля Рус (Beef à la Russe)</td></tr>
+        <tr><td>United States</td><td class="num">5</td><td>Pineapple and taro pies, Portuguese sausage, Spam, haupia pies, saimin</td></tr>
+        <tr><td>Brazil</td><td class="num">5</td><td>Banana-flavored pies, Cheddar McMelt, potato wedges, vegan burger, vegetarian burger</td></tr>
+        <tr><td>China</td><td class="num">5</td><td>Grilled Chicken Burger, Hot and Spicy Grilled Thigh Fillet Burger, Matcha Green Tea ice cream, Premium Grilled Thigh Fillet Burger, curly fries</td></tr>
+        <tr><td>Costa Rica</td><td class="num">6</td><td>McPinto, McShakes, Mcnifica, Passion Fruit, fried chicken, la hamburguesa tica</td></tr>
+        <tr><td>Italy</td><td class="num">5</td><td>Crispy McBacon, McItaly, My selection, Sweety, pasta salad</td></tr>
+        <tr><td>Morocco</td><td class="num">5</td><td>Chicken Mythic, McSahara, Petit Plaisirs, Recette Moutarde, harira</td></tr>
+        <tr><td>New Zealand</td><td class="num">5</td><td>BBQ Bandit Burger, Bacon &#x27;n&#x27; Egg, Georgie Pie, Kiwiburger, Steak Mince &#x27;n&#x27; Cheese</td></tr>
+        <tr><td>Turkey</td><td class="num">4</td><td>Kofteburger, McTurco, Milli Burger, ayran</td></tr>
+        <tr><td>Egypt</td><td class="num">4</td><td>Egyptian cookies, Fish Mac, McFalafel, fish fingers</td></tr>
+        <tr><td>Germany</td><td class="num">5</td><td>Big Vegan TS, Caesar salads, Hamburger Royal TS, Mc Currywurst, McCurrywurst Chicken</td></tr>
+        <tr><td>Norway</td><td class="num">3</td><td>Chicken Salsa, Laksewrap, blueberry milkshake</td></tr>
+        <tr><td>Peru</td><td class="num">4</td><td>Inca Kola, Peruvian Foods, Pollo Crujiente, ají</td></tr>
+        <tr><td>Singapore</td><td class="num">4</td><td>Gula Melaka McFlurry, Salted Egg Yolk Chicken Burger, curry sauce dip, salt &amp; pepper shaker fries</td></tr>
+        <tr><td>Slovenia</td><td class="num">3</td><td>Bacon Cheese Burger, fried shrimp, party buckets</td></tr>
+        <tr><td>Sweden</td><td class="num">3</td><td>Korean BBQ, McFeast sauce, Truffle mayo</td></tr>
+        <tr><td>Thailand</td><td class="num">4</td><td>Caribbean Shrimp Burger, Mega animals Mac, Samurai Pork Burger, salad shaker</td></tr>
+        <tr><td>Vietnam</td><td class="num">5</td><td>Grilled Pork Baguette, Ham Cheese Baguette with Round Egg, Ham Cheese Baguette with Veggie, Pho -flavoured burger, Vietnamese coffee</td></tr>
+        <tr><td>Cyprus</td><td class="num">3</td><td>Greek Chicken, Greek Mac, Grilled Chicken</td></tr>
+        <tr><td>Denmark</td><td class="num">4</td><td>Chicken Salsa Cheese, Daim McFlurry, Pommes Frites and Pepper Sauce, chilli cheese tops</td></tr>
+        <tr><td>Ecuador</td><td class="num">2</td><td>burgers with cheese sausage or guacamole, nuggets with spicy sausage</td></tr>
+        <tr><td>France</td><td class="num">3</td><td>Kronenbourg Brewery beer, McBaguette, Petit Plaisir</td></tr>
+        <tr><td>Israel</td><td class="num">4</td><td>McFalafel sandwich, McKebab, McShawarma, corn sticks</td></tr>
+        <tr><td>Mexico</td><td class="num">3</td><td>Flaming Hot Doritos Quarter Pounder, McBurrito, McMollete</td></tr>
+        <tr><td>Baltic countries</td><td class="num">3</td><td>Lauku Mac, Maestro Beef, Maestro Chicken</td></tr>
+        <tr><td>Colombia</td><td class="num">1</td><td>McNífica</td></tr>
+        <tr><td>Czech Republic</td><td class="num">1</td><td>McSmažák</td></tr>
+        <tr><td>Malta</td><td class="num">1</td><td>McFtira</td></tr>
+        <tr><td>Taiwan</td><td class="num">3</td><td>corn soup, fried chicken legs, kao fan</td></tr>
+        <tr><td>Venezuela</td><td class="num">2</td><td>empanadas, fried yuca sticks</td></tr>
+        <tr><td>Belgium</td><td class="num">1</td><td>Belgo</td></tr>
+        <tr><td>Slovakia</td><td class="num">1</td><td>McDonuts</td></tr>
+        <tr><td>Argentina</td><td class="num">1</td><td>Big Tasty Angus Burger</td></tr>
+        <tr><td>Dominican Republic</td><td class="num">1</td><td>McDo</td></tr>
+        <tr><td>Pakistan</td><td class="num">1</td><td>Bun Kabab</td></tr>
+        <tr><td>Serbia</td><td class="num">1</td><td>Plazma</td></tr>
+        <tr><td>Switzerland</td><td class="num">1</td><td>Prime</td></tr>
+        <tr><td>Ukraine</td><td class="num">1</td><td>McLavash</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">This is the closest thing here to &ldquo;the local menu&rdquo;. It is also the column to distrust most, because an item is only listed as one-country if the sources never mention it anywhere else &mdash; a hole in the source reads the same as a hole in the menu.</p>
+    </section>
+
+    <section>
+      <h2>How the data was sourced</h2>
+
+      <ul class="bullets">
+        <li>The base record is Wikipedia&rsquo;s <em>International availability of McDonald&rsquo;s products</em> (revision 1375996888, 2026-09-21), which has one prose section per country &mdash; 63 sections across six continents. Each section&rsquo;s text was pulled from the article&rsquo;s own HTML, with image captions, references and edit links stripped, and the menu items named in that text extracted country by country.</li>
+        <li>Each extracted item was then checked mechanically against the section text it came from: every item attributed to a country&rsquo;s own section is a literal substring of that section. Items that failed that check were dropped rather than shown. Items taken from the second article&rsquo;s availability statements carry that provenance in the table instead.</li>
+        <li>The core menu is excluded by a fixed list (Big Mac, Quarter Pounder, McChicken, McNuggets, Filet-O-Fish, fries, McDouble, McFlurry, McMuffin, Happy Meal, Big Tasty and the drinks) &mdash; 4 mentions were dropped for naming one of those rather than something local. A locally named variant of one of them (Chicken Maharaja Mac, Chicken Big Mac, Fish Mac) is kept.</li>
+        <li>The overlap column leans on a second article, <em>List of McDonald&rsquo;s products</em> (revision 1373545114, 2026-09-06), which is written product-first and repeatedly says which countries sell a given item (&ldquo;Available in India, Slovenia, Greece, Malaysia, Portugal, and Australia&rdquo;). Those sentences were parsed for country names, giving 34 extra country-item pairings that the country sections never make explicit. Both articles are parsed by scripts kept with this dataset.</li>
+        <li>Country names from the second article were folded into the first article&rsquo;s sections, so &ldquo;the UK&rdquo; and &ldquo;Ireland&rdquo; both count as the source&rsquo;s combined <em>United Kingdom and Ireland</em> section, and Hawaii, Guam and Puerto Rico count as the United States. Turkey is the source&rsquo;s <em>Turkey</em>, whose section also covers T&uuml;rkiye branding.</li>
+        <li>Where the two articles spell the same product differently, the spellings are merged rather than double-counted: &ldquo;mc aloo tikki&rdquo; with &ldquo;McAloo Tikki&rdquo;, &ldquo;mc veggie&rdquo; with &ldquo;McVeggie burger&rdquo;, &ldquo;mcveggie&rdquo; with &ldquo;McVeggie burger&rdquo;, &ldquo;mcveggie burger&rdquo; with &ldquo;McVeggie burger&rdquo;. Names that are generic on both sides &mdash; &ldquo;onion rings&rdquo;, &ldquo;chicken wings&rdquo;, &ldquo;arepas&rdquo; &mdash; are matched as written, so those overlaps mean the same dish, not necessarily the same product.</li>
+        <li>Caveats. The source article is uneven: Malaysia&rsquo;s section is 43 items long, Serbia&rsquo;s is 1, and its house style is to describe what is interesting locally rather than to enumerate a menu &mdash; so these are lower bounds, not menu sizes. Items are a mix of current, limited-time and discontinued products, and none of it is dated per item. 63 of the world&rsquo;s roughly 100 McDonald&rsquo;s markets have a section here; the rest are absent, not empty.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      <ul class="sources">
+        <li><a href="https://en.wikipedia.org/w/index.php?oldid=1375996888">Wikipedia &mdash; International availability of McDonald&rsquo;s products</a>, revision 1375996888, the country-by-country record of this page</li>
+        <li><a href="https://en.wikipedia.org/w/index.php?oldid=1373545114">Wikipedia &mdash; List of McDonald&rsquo;s products</a>, revision 1373545114, the product-by-product availability statements used for the overlap column</li>
+        <li><a href="https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html">McDonald&rsquo;s &mdash; who we are</a>, the company&rsquo;s own list of markets</li>
+      </ul>
+      <p class="note">Text from Wikipedia is available under CC BY-SA 4.0. The extraction, the matching between the two articles and any errors in them are this page&rsquo;s own.</p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+          integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4"
+          crossorigin="anonymous"></script>
+  <script src="chart.js"></script>
+  <script src="../../js/tables.js"></script>
+</body>
+</html>
