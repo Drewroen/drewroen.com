@@ -10,6 +10,8 @@
     /* page-local: the title-count key under the map (does not touch shared classes) */
     .map-key .sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; margin: 0 4px 0 10px; vertical-align: -2px; }
     .map-key .sw:first-child { margin-left: 0; }
+    /* 25 horizontal bars need more room than the site default 320px */
+    .chart-tall { height: 640px; }
   </style>
 </head>
 <body>
@@ -79,11 +81,11 @@
       <h2>Per capita</h2>
 
       <figure>
-        <div class="chart">
+        <div class="chart chart-tall">
           <canvas id="chart-percap" role="img"
                   aria-label="Bar chart of Sole Survivor titles per ten million residents for each state that has won, led by the District of Columbia, Idaho and Rhode Island."></canvas>
         </div>
-        <figcaption>Titles per 10 million residents, using 2025 Census population estimates. This is the view that punishes California and rewards the small states: the District of Columbia has one title from 13 appearances and fewer than a million residents, Idaho has two from 5, Rhode Island one from 10. Small populations make these numbers jumpy &mdash; treat the top of this chart as interesting rather than settled.</figcaption>
+        <figcaption>Titles per 10 million residents, using 2025 Census population estimates, with each state&rsquo;s own figure printed at the end of its bar and its raw title count under the state code. This is the view that punishes California and rewards the small states: the District of Columbia has one title from 13 appearances and fewer than a million residents, Idaho has two from 5, Rhode Island one from 10. The lighter bars are states with fewer than ten appearances &mdash; a state can top this chart on a single title, so read those first and trust them last.</figcaption>
       </figure>
 
       <p class="note chart-fallback" hidden>The chart needs JavaScript. Every value is in the table below.</p>
@@ -207,5 +209,6 @@
           integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4"
           crossorigin="anonymous"></script>
   <script src="chart.js"></script>
+  <script src="../../js/tables.js"></script>
 </body>
 </html>
