@@ -283,6 +283,24 @@ figcaption {
   text-align: right;
 }
 
+/* sortable data tables (behaviour in js/tables.js) */
+.data-table th[aria-sort] {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.data-table th[aria-sort]:hover { color: var(--text); }
+
+.data-table th[aria-sort] .sort-ind {
+  margin-left: var(--sp-4);
+  font-size: 0.85em;
+  color: var(--text-tertiary);
+}
+
+.data-table th[aria-sort="ascending"] .sort-ind,
+.data-table th[aria-sort="descending"] .sort-ind { color: var(--link); }
+
 /* wide tables scroll inside their own box rather than the page */
 .table-scroll {
   margin-bottom: var(--sp-16);
