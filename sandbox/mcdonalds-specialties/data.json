@@ -1,0 +1,6969 @@
+{
+ "meta": {
+  "countries": 63,
+  "items": 429,
+  "shared_items": 38,
+  "sole_items": 391,
+  "edges": 489,
+  "source_b_edges": 34,
+  "dropped": [
+   [
+    "Czech Republic",
+    "Big Tasty",
+    "global core item"
+   ],
+   [
+    "Japan",
+    "Quarter Pounder Jewelry",
+    "global core item"
+   ],
+   [
+    "Malta",
+    "Big Tasty",
+    "global core item"
+   ],
+   [
+    "Saudi Arabia",
+    "Big Tasty",
+    "global core item"
+   ]
+  ],
+  "missing_countries": [],
+  "sources": {
+   "A": {
+    "pageid": 14923316,
+    "revid": 1375996888,
+    "timestamp": "2026-09-21T10:28:46Z",
+    "title": "International availability of McDonald's products"
+   },
+   "B": {
+    "pageid": 3834689,
+    "revid": 1373545114,
+    "timestamp": "2026-09-06T15:45:36Z",
+    "title": "List of McDonald's products"
+   }
+  },
+  "continents": [
+   "Asia",
+   "Europe",
+   "Africa",
+   "North America",
+   "South America",
+   "Oceania"
+  ],
+  "merged": {
+   "mc aloo tikki": "McAloo Tikki",
+   "mc veggie": "McVeggie burger",
+   "mcveggie": "McVeggie burger",
+   "mcveggie burger": "McVeggie burger"
+  },
+  "combined_sections": {
+   "Baltic countries": "Estonia, Latvia and Lithuania",
+   "United Kingdom and Ireland": "the United Kingdom and Ireland"
+  }
+ },
+ "countries": [
+  {
+   "name": "Malaysia",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Ayam Goreng McD",
+    "Banana Caramel Pie",
+    "Bandung drink",
+    "Big N' Tasty",
+    "Bubur Ayam McD",
+    "Bubur Ikan McD",
+    "Burger Syok",
+    "Cendol Sundae",
+    "Chicken McCrispy",
+    "Coconut Pie",
+    "D24 Durian McFlurry Party",
+    "Double Filet-O-Fish",
+    "Double GCB",
+    "Double Spicy Chicken McDeluxe",
+    "Extra Spicy Ayam Goreng",
+    "Fish Prosperity Burger",
+    "Foldover",
+    "GCB",
+    "Golden Prosperity Burger",
+    "Hawaiian Deluxe Burger",
+    "Hershey's Sundae",
+    "Hot & Spicy McShaker Fries",
+    "iced Milo drink",
+    "Lazeez Foldover",
+    "Lychee Pie",
+    "Mashwi Foldover",
+    "Mega Mac",
+    "Mexicana Chicken Burger",
+    "Nasi Lemak Burger",
+    "Nasi Lemak McD",
+    "Pie à la Mode",
+    "Prosperity Burger",
+    "Pulut Hitam",
+    "Red Velvet McFlurry",
+    "Rio",
+    "Salted Caramel Pie",
+    "Samurai",
+    "Spicy Beef Deluxe",
+    "Spicy Chicken McDeluxe",
+    "Spicy Korean Burger",
+    "Spicy Nuggets",
+    "Thai Fish Burger with Green Curry Sauce",
+    "Triple Cheeseburger"
+   ],
+   "item_sources": {
+    "Ayam Goreng McD": "A",
+    "Chicken McCrispy": "A",
+    "Extra Spicy Ayam Goreng": "A",
+    "Bubur Ayam McD": "A",
+    "Bubur Ikan McD": "A",
+    "Spicy Chicken McDeluxe": "A",
+    "GCB": "A",
+    "Nasi Lemak McD": "A",
+    "iced Milo drink": "A",
+    "Nasi Lemak Burger": "A",
+    "Thai Fish Burger with Green Curry Sauce": "A",
+    "Hawaiian Deluxe Burger": "A",
+    "Mexicana Chicken Burger": "A",
+    "Burger Syok": "A",
+    "Hershey's Sundae": "A",
+    "D24 Durian McFlurry Party": "A",
+    "Cendol Sundae": "A",
+    "Salted Caramel Pie": "A",
+    "Banana Caramel Pie": "A",
+    "Red Velvet McFlurry": "A",
+    "Lychee Pie": "A",
+    "Coconut Pie": "A",
+    "Pulut Hitam": "A",
+    "Bandung drink": "A",
+    "Pie à la Mode": "A",
+    "Hot & Spicy McShaker Fries": "A",
+    "Spicy Nuggets": "A",
+    "Samurai": "A",
+    "Spicy Korean Burger": "A",
+    "Rio": "A",
+    "Prosperity Burger": "A",
+    "Golden Prosperity Burger": "A",
+    "Fish Prosperity Burger": "A",
+    "Foldover": "A",
+    "Lazeez Foldover": "A",
+    "Mashwi Foldover": "A",
+    "Double GCB": "A",
+    "Double Spicy Chicken McDeluxe": "A",
+    "Double Filet-O-Fish": "A",
+    "Triple Cheeseburger": "A",
+    "Spicy Beef Deluxe": "A",
+    "Big N' Tasty": "A",
+    "Mega Mac": "A"
+   },
+   "n": 43,
+   "shared_n": 3,
+   "display": "Malaysia"
+  },
+  {
+   "name": "Indonesia",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Ayam Gulai",
+    "Ayam Kremes",
+    "Ayam Serundeng Sambal Terasi",
+    "Ayam Spesial Sambal Bawang",
+    "BBQ Beef Flatbread",
+    "Beef Prosperity Burger",
+    "Bubur Ayam Spesial",
+    "Burger Nasi Goreng",
+    "Burger Sate",
+    "Buryam",
+    "Chicken Teriyaki",
+    "Chicken with Spicy Tomato",
+    "Cone Top Es Teler",
+    "Curry Beef Delight",
+    "Es Kopi Durian Jelly Float",
+    "Kentang Goreng Gulai Gurih",
+    "Markisa soda tea",
+    "McFlurry Rujak Pedas",
+    "McFlurry with Teh botol",
+    "McRice",
+    "McSoup",
+    "Moroccan Burger",
+    "Nasi Uduk",
+    "PaNas",
+    "Soda Asam Jawa"
+   ],
+   "item_sources": {
+    "McRice": "A",
+    "McSoup": "A",
+    "Buryam": "A",
+    "Bubur Ayam Spesial": "A",
+    "PaNas": "A",
+    "Chicken with Spicy Tomato": "A",
+    "Chicken Teriyaki": "A",
+    "Beef Prosperity Burger": "A",
+    "BBQ Beef Flatbread": "A",
+    "Curry Beef Delight": "A",
+    "Moroccan Burger": "A",
+    "Ayam Kremes": "A",
+    "Nasi Uduk": "A",
+    "Ayam Serundeng Sambal Terasi": "A",
+    "Ayam Spesial Sambal Bawang": "A",
+    "Ayam Gulai": "A",
+    "Burger Sate": "A",
+    "McFlurry Rujak Pedas": "A",
+    "Markisa soda tea": "A",
+    "Burger Nasi Goreng": "A",
+    "Kentang Goreng Gulai Gurih": "A",
+    "Soda Asam Jawa": "A",
+    "Es Kopi Durian Jelly Float": "A",
+    "McFlurry with Teh botol": "A",
+    "Cone Top Es Teler": "A"
+   },
+   "n": 25,
+   "shared_n": 1,
+   "display": "Indonesia"
+  },
+  {
+   "name": "United Kingdom and Ireland",
+   "continent": "Europe",
+   "combined": "the United Kingdom and Ireland",
+   "items": [
+    "1955 burger",
+    "Apple and Blackberry Pie",
+    "Apple Pie Sundae",
+    "BBQ Chicken Premiere with Bacon",
+    "BBQ Smokehouse Range",
+    "Cheese Melt Dippers",
+    "Cornetto",
+    "Creme Egg",
+    "Dairy Milk",
+    "Deli Choices",
+    "Festive Pie",
+    "Grand Big Mac Bacon",
+    "Halloumi Fries",
+    "Irn-bru",
+    "Katsu Curry Chicken McNuggets",
+    "McMór",
+    "Mozzarella Dippers",
+    "Quorn Premiere",
+    "Signature Collection",
+    "Summer Chorizo Supreme",
+    "Sweet Curry Sauce"
+   ],
+   "item_sources": {
+    "Deli Choices": "A",
+    "Quorn Premiere": "A",
+    "McMór": "A",
+    "BBQ Smokehouse Range": "A",
+    "Irn-bru": "A",
+    "Apple Pie Sundae": "A",
+    "Mozzarella Dippers": "A",
+    "Cheese Melt Dippers": "A",
+    "Summer Chorizo Supreme": "A",
+    "BBQ Chicken Premiere with Bacon": "A",
+    "1955 burger": "A",
+    "Apple and Blackberry Pie": "A",
+    "Festive Pie": "A",
+    "Grand Big Mac Bacon": "A",
+    "Signature Collection": "A",
+    "Katsu Curry Chicken McNuggets": "A",
+    "Sweet Curry Sauce": "A",
+    "Halloumi Fries": "A",
+    "Cornetto": "A",
+    "Dairy Milk": "A",
+    "Creme Egg": "A"
+   },
+   "n": 21,
+   "shared_n": 1,
+   "display": "United Kingdom and Ireland"
+  },
+  {
+   "name": "India",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "African Peri Peri Shake Shake",
+    "Asian Hot Garlic Dip",
+    "biriyani",
+    "chicken kebab burger",
+    "Chicken Maharaja Mac",
+    "Grilled Chicken Royale",
+    "Indi-McSpicy",
+    "Mc Egg",
+    "McAloo Tikki",
+    "McCurry Pan",
+    "McGrill",
+    "McPaneer",
+    "McSpicy",
+    "McVeggie burger",
+    "Mexican Spice Chicken and Veg",
+    "naan wraps",
+    "Pizza McPuff",
+    "rice bowls",
+    "Veg Maharaja Mac"
+   ],
+   "item_sources": {
+    "Chicken Maharaja Mac": "A",
+    "Veg Maharaja Mac": "A",
+    "McSpicy": "A",
+    "McGrill": "A",
+    "Pizza McPuff": "A",
+    "McAloo Tikki": "AB",
+    "McVeggie burger": "AB",
+    "Mc Egg": "A",
+    "chicken kebab burger": "A",
+    "rice bowls": "A",
+    "biriyani": "A",
+    "naan wraps": "A",
+    "McPaneer": "A",
+    "Grilled Chicken Royale": "A",
+    "Mexican Spice Chicken and Veg": "A",
+    "Asian Hot Garlic Dip": "A",
+    "African Peri Peri Shake Shake": "A",
+    "Indi-McSpicy": "A",
+    "McCurry Pan": "A"
+   },
+   "n": 19,
+   "shared_n": 3,
+   "display": "India"
+  },
+  {
+   "name": "Australia",
+   "continent": "Oceania",
+   "combined": null,
+   "items": [
+    "Aussie BBQ Angus",
+    "Big Kahuna Burger",
+    "Broncos Burger",
+    "Chicken McBites",
+    "Chive Omelette Roll",
+    "Classic Angus",
+    "El Maco burger",
+    "El Maco Salsa",
+    "El Maco variant Shaker Fries",
+    "Mc Beefsteak",
+    "McOz Burger",
+    "Mozzarella Sticks",
+    "Romano Burger",
+    "Shaker Fries",
+    "Southern Fried Chicken",
+    "Tandoori Burger",
+    "Vegemite shaker fries"
+   ],
+   "item_sources": {
+    "McOz Burger": "A",
+    "Shaker Fries": "A",
+    "Mc Beefsteak": "A",
+    "Big Kahuna Burger": "A",
+    "Romano Burger": "A",
+    "Tandoori Burger": "A",
+    "Chive Omelette Roll": "A",
+    "Chicken McBites": "A",
+    "Classic Angus": "A",
+    "Aussie BBQ Angus": "A",
+    "Vegemite shaker fries": "A",
+    "El Maco burger": "A",
+    "Mozzarella Sticks": "A",
+    "El Maco Salsa": "A",
+    "El Maco variant Shaker Fries": "A",
+    "Broncos Burger": "A",
+    "Southern Fried Chicken": "A"
+   },
+   "n": 17,
+   "shared_n": 2,
+   "display": "Australia"
+  },
+  {
+   "name": "Japan",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Black Diamond",
+    "Chicken Katsu Burger",
+    "Chilli McHotdog",
+    "Fillet-O-Ebi",
+    "Gold Ring",
+    "Gratin Korokke Burger",
+    "Green tea-flavoured milkshakes",
+    "Mega Teriyaki",
+    "Ruby Spark",
+    "Salsa Burger",
+    "Shaka Shaka Chicken",
+    "Tamago Double Mac",
+    "Teri Tama Burger",
+    "Teriyaki McBurger",
+    "Tsukimi Burger",
+    "Ume Nuggets",
+    "Yasai Seikatsu mixed vegetable juice"
+   ],
+   "item_sources": {
+    "Teriyaki McBurger": "A",
+    "Shaka Shaka Chicken": "A",
+    "Fillet-O-Ebi": "A",
+    "Chilli McHotdog": "A",
+    "Yasai Seikatsu mixed vegetable juice": "A",
+    "Chicken Katsu Burger": "A",
+    "Gratin Korokke Burger": "A",
+    "Green tea-flavoured milkshakes": "A",
+    "Salsa Burger": "A",
+    "Tamago Double Mac": "A",
+    "Teri Tama Burger": "A",
+    "Tsukimi Burger": "A",
+    "Ume Nuggets": "A",
+    "Mega Teriyaki": "A",
+    "Gold Ring": "A",
+    "Black Diamond": "A",
+    "Ruby Spark": "A"
+   },
+   "n": 17,
+   "shared_n": 0,
+   "display": "Japan"
+  },
+  {
+   "name": "United Arab Emirates",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Asian",
+    "Big N' Tasty",
+    "Chicken Fillet",
+    "Chicken Mac",
+    "Chicken Mega Mac",
+    "French",
+    "Grand Chicken",
+    "McAloo Tikki",
+    "McArabia",
+    "McRoyale",
+    "McWings",
+    "Mega Mac",
+    "Mexican",
+    "Spicy Chicken Fillet",
+    "Spicy McChicken",
+    "Turkish"
+   ],
+   "item_sources": {
+    "Mega Mac": "A",
+    "Big N' Tasty": "A",
+    "McRoyale": "A",
+    "Spicy McChicken": "A",
+    "Chicken Mac": "A",
+    "Chicken Mega Mac": "A",
+    "Grand Chicken": "A",
+    "McArabia": "A",
+    "McAloo Tikki": "A",
+    "Asian": "A",
+    "Mexican": "A",
+    "French": "A",
+    "Turkish": "A",
+    "Chicken Fillet": "A",
+    "Spicy Chicken Fillet": "A",
+    "McWings": "A"
+   },
+   "n": 16,
+   "shared_n": 7,
+   "display": "United Arab Emirates"
+  },
+  {
+   "name": "Chile",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "Barros Jarpa",
+    "cheese empanadas",
+    "Combo Bicentenario",
+    "Cuarto Palta",
+    "empanadas de pino",
+    "Hamburguesa Italiana",
+    "Hamburguesa Palta",
+    "Lomo Palta",
+    "McFlurry Sahne Nuss",
+    "McPalta",
+    "McWrap Palta",
+    "Medialuna",
+    "papas duquesas",
+    "Tostado Queso Bacon",
+    "Tostado Queso Palta"
+   ],
+   "item_sources": {
+    "cheese empanadas": "A",
+    "Combo Bicentenario": "A",
+    "empanadas de pino": "A",
+    "McPalta": "A",
+    "Cuarto Palta": "A",
+    "McWrap Palta": "A",
+    "Hamburguesa Italiana": "A",
+    "Hamburguesa Palta": "A",
+    "papas duquesas": "A",
+    "McFlurry Sahne Nuss": "A",
+    "Medialuna": "A",
+    "Tostado Queso Palta": "A",
+    "Tostado Queso Bacon": "A",
+    "Barros Jarpa": "A",
+    "Lomo Palta": "A"
+   },
+   "n": 15,
+   "shared_n": 1,
+   "display": "Chile"
+  },
+  {
+   "name": "Portugal",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "apple cinnamon sundae",
+    "apple pie",
+    "Big Mac Bacon",
+    "caldo verde",
+    "Chicken Country",
+    "cream of carrot",
+    "cream of peas",
+    "fresh pineapple chunks",
+    "kale soup",
+    "McBifana",
+    "McPrego",
+    "McVeggie burger",
+    "mixed salad",
+    "white bean and spinach soup"
+   ],
+   "item_sources": {
+    "kale soup": "A",
+    "caldo verde": "A",
+    "cream of carrot": "A",
+    "cream of peas": "A",
+    "white bean and spinach soup": "A",
+    "McBifana": "A",
+    "McPrego": "A",
+    "mixed salad": "A",
+    "McVeggie burger": "AB",
+    "fresh pineapple chunks": "A",
+    "apple cinnamon sundae": "A",
+    "apple pie": "A",
+    "Big Mac Bacon": "A",
+    "Chicken Country": "A"
+   },
+   "n": 14,
+   "shared_n": 1,
+   "display": "Portugal"
+  },
+  {
+   "name": "South Africa",
+   "continent": "Africa",
+   "combined": null,
+   "items": [
+    "BBQ Double Burger",
+    "Boerie Burger",
+    "Chicken Foldover",
+    "Chocolate Caramel McFlurry",
+    "Corn Cup",
+    "Grand Chicken",
+    "Jalapeño Chicken",
+    "Jalapeño Chicken Double",
+    "Jalapeño Dipping Sauce",
+    "McFeast",
+    "McFizz",
+    "Mega Muffin",
+    "SA Breakfast",
+    "Spicy Cajun Chicken Deluxe"
+   ],
+   "item_sources": {
+    "McFizz": "A",
+    "Chocolate Caramel McFlurry": "A",
+    "McFeast": "A",
+    "Boerie Burger": "A",
+    "BBQ Double Burger": "A",
+    "Chicken Foldover": "A",
+    "Grand Chicken": "A",
+    "Jalapeño Chicken": "A",
+    "Jalapeño Chicken Double": "A",
+    "Spicy Cajun Chicken Deluxe": "A",
+    "SA Breakfast": "A",
+    "Jalapeño Dipping Sauce": "A",
+    "Mega Muffin": "A",
+    "Corn Cup": "A"
+   },
+   "n": 14,
+   "shared_n": 3,
+   "display": "South Africa"
+  },
+  {
+   "name": "Netherlands",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "American Sauce",
+    "Boerenfriet",
+    "Chicken Maestro Burger",
+    "ChickenSaté",
+    "Chocomel",
+    "Fristi",
+    "Fritessaus",
+    "Joppie Burger",
+    "Joppie sauce",
+    "Maestro Burger",
+    "Maestro Burger Egg",
+    "McKroket",
+    "stroopwafel McFlurries"
+   ],
+   "item_sources": {
+    "McKroket": "A",
+    "Fritessaus": "A",
+    "American Sauce": "A",
+    "ChickenSaté": "A",
+    "Joppie Burger": "A",
+    "Joppie sauce": "A",
+    "Maestro Burger": "A",
+    "Chicken Maestro Burger": "A",
+    "Maestro Burger Egg": "A",
+    "Boerenfriet": "A",
+    "Fristi": "A",
+    "Chocomel": "A",
+    "stroopwafel McFlurries": "A"
+   },
+   "n": 13,
+   "shared_n": 1,
+   "display": "Netherlands"
+  },
+  {
+   "name": "Canada",
+   "continent": "North America",
+   "combined": null,
+   "items": [
+    "1967 Burger",
+    "blueberry-shortbread McFlurry",
+    "Deli Choices",
+    "McHomard",
+    "McLobster",
+    "McMini",
+    "McPizza",
+    "Pesto Chicken",
+    "poutine",
+    "poutine with crispy chicken and buffalo sauce",
+    "Spicy Thai",
+    "Zesty Mango"
+   ],
+   "item_sources": {
+    "poutine": "A",
+    "poutine with crispy chicken and buffalo sauce": "A",
+    "1967 Burger": "A",
+    "Deli Choices": "A",
+    "McLobster": "A",
+    "McHomard": "A",
+    "blueberry-shortbread McFlurry": "A",
+    "McPizza": "A",
+    "McMini": "A",
+    "Pesto Chicken": "A",
+    "Zesty Mango": "A",
+    "Spicy Thai": "A"
+   },
+   "n": 12,
+   "shared_n": 1,
+   "display": "Canada"
+  },
+  {
+   "name": "Philippines",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Banana McFloat",
+    "Banana-Oreo McFlurry",
+    "Burger McDo",
+    "Cheesy Eggdesal",
+    "Chicken McDo",
+    "Hamdesal",
+    "longaniza",
+    "McCrispy Chicken Sandwich",
+    "McRice",
+    "McShaker Fries",
+    "McSpaghetti",
+    "Twister Fries"
+   ],
+   "item_sources": {
+    "McSpaghetti": "AB",
+    "Chicken McDo": "A",
+    "Burger McDo": "A",
+    "McCrispy Chicken Sandwich": "A",
+    "McRice": "A",
+    "longaniza": "A",
+    "Hamdesal": "A",
+    "Cheesy Eggdesal": "A",
+    "Twister Fries": "A",
+    "McShaker Fries": "A",
+    "Banana-Oreo McFlurry": "A",
+    "Banana McFloat": "A"
+   },
+   "n": 12,
+   "shared_n": 1,
+   "display": "Philippines"
+  },
+  {
+   "name": "Greece",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Big Tasty beef",
+    "Deluxe fries",
+    "double beef big tasty",
+    "fried shrimp with dipping sauce",
+    "fried veggie snackers",
+    "McToast",
+    "McVeggie burger",
+    "McWrap Shrimp",
+    "onion rings",
+    "shrimp burger",
+    "spring rolls"
+   ],
+   "item_sources": {
+    "McToast": "A",
+    "Deluxe fries": "A",
+    "Big Tasty beef": "A",
+    "double beef big tasty": "A",
+    "onion rings": "A",
+    "McVeggie burger": "AB",
+    "shrimp burger": "A",
+    "McWrap Shrimp": "A",
+    "fried veggie snackers": "A",
+    "spring rolls": "A",
+    "fried shrimp with dipping sauce": "A"
+   },
+   "n": 11,
+   "shared_n": 4,
+   "display": "Greece"
+  },
+  {
+   "name": "Hong Kong",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "mushroom burgers",
+    "onion rings",
+    "Rice Fantastic",
+    "Shake Shake fries",
+    "Shogun Burger",
+    "shrimp burgers",
+    "spicy French fries",
+    "taco flatbreads",
+    "Wasabi Filet O' Fish"
+   ],
+   "item_sources": {
+    "spicy French fries": "A",
+    "Shogun Burger": "A",
+    "taco flatbreads": "A",
+    "Rice Fantastic": "A",
+    "shrimp burgers": "A",
+    "Wasabi Filet O' Fish": "A",
+    "onion rings": "A",
+    "Shake Shake fries": "A",
+    "mushroom burgers": "A"
+   },
+   "n": 9,
+   "shared_n": 1,
+   "display": "Hong Kong"
+  },
+  {
+   "name": "Spain",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "carrot cake",
+    "cheesecakes",
+    "croissants",
+    "eggs Benedict sandwich",
+    "Macarons",
+    "McFish",
+    "McPops",
+    "potato tortilla sandwiches",
+    "toast with jamon Iberico"
+   ],
+   "item_sources": {
+    "eggs Benedict sandwich": "A",
+    "McFish": "A",
+    "croissants": "A",
+    "potato tortilla sandwiches": "A",
+    "toast with jamon Iberico": "A",
+    "McPops": "A",
+    "cheesecakes": "A",
+    "carrot cake": "A",
+    "Macarons": "A"
+   },
+   "n": 9,
+   "shared_n": 2,
+   "display": "Spain"
+  },
+  {
+   "name": "Fiji",
+   "continent": "Oceania",
+   "combined": null,
+   "items": [
+    "Big Breakfast",
+    "Brekkie Burger",
+    "ELT McMuffin",
+    "Hot & Spicy Chicken",
+    "McFeast",
+    "potato pancakes",
+    "Scrambled Egg McMuffin",
+    "sweet potato fries"
+   ],
+   "item_sources": {
+    "Brekkie Burger": "A",
+    "McFeast": "A",
+    "ELT McMuffin": "A",
+    "Hot & Spicy Chicken": "A",
+    "potato pancakes": "A",
+    "Scrambled Egg McMuffin": "A",
+    "sweet potato fries": "A",
+    "Big Breakfast": "A"
+   },
+   "n": 8,
+   "shared_n": 1,
+   "display": "Fiji"
+  },
+  {
+   "name": "South Korea",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "affogato",
+    "Boseong Green Tea Burger",
+    "Bulgogi Burger",
+    "Changnyeong Garlic Burger",
+    "green tea McFlurry",
+    "Jindo Onion Croquet",
+    "McBingsu",
+    "shrimp burger"
+   ],
+   "item_sources": {
+    "shrimp burger": "A",
+    "Bulgogi Burger": "A",
+    "affogato": "A",
+    "green tea McFlurry": "A",
+    "McBingsu": "A",
+    "Changnyeong Garlic Burger": "A",
+    "Boseong Green Tea Burger": "A",
+    "Jindo Onion Croquet": "A"
+   },
+   "n": 8,
+   "shared_n": 1,
+   "display": "South Korea"
+  },
+  {
+   "name": "Finland",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Big Mac with bacon",
+    "El Maco",
+    "Macarons",
+    "McFeast",
+    "McRuis",
+    "McVegan",
+    "Valio Oltermanni Juustonapit"
+   ],
+   "item_sources": {
+    "McRuis": "A",
+    "McFeast": "A",
+    "El Maco": "A",
+    "Big Mac with bacon": "A",
+    "McVegan": "A",
+    "Macarons": "A",
+    "Valio Oltermanni Juustonapit": "A"
+   },
+   "n": 7,
+   "shared_n": 4,
+   "display": "Finland"
+  },
+  {
+   "name": "Hungary",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Brutal Brutus",
+    "lángos",
+    "Maestro family",
+    "McFarm",
+    "mustard pork burger",
+    "Som Lolly",
+    "Spicy pork burger"
+   ],
+   "item_sources": {
+    "McFarm": "A",
+    "lángos": "A",
+    "Spicy pork burger": "A",
+    "mustard pork burger": "A",
+    "Maestro family": "A",
+    "Brutal Brutus": "A",
+    "Som Lolly": "A"
+   },
+   "n": 7,
+   "shared_n": 0,
+   "display": "Hungary"
+  },
+  {
+   "name": "Poland",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Bekon DeLuxe",
+    "Burger Drwala",
+    "Chikker",
+    "McMuffin Twarożek i Rzodkiewka",
+    "McWrap",
+    "Red Chikker",
+    "WieśMac"
+   ],
+   "item_sources": {
+    "WieśMac": "A",
+    "Red Chikker": "A",
+    "Chikker": "A",
+    "McWrap": "A",
+    "Bekon DeLuxe": "A",
+    "McMuffin Twarożek i Rzodkiewka": "A",
+    "Burger Drwala": "A"
+   },
+   "n": 7,
+   "shared_n": 1,
+   "display": "Poland"
+  },
+  {
+   "name": "Russia",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "blini",
+    "cheesecake rolls",
+    "chicken wings",
+    "McZavtrak",
+    "oatmeal",
+    "shrimps",
+    "Биф А-ля Рус (Beef à la Russe)"
+   ],
+   "item_sources": {
+    "Биф А-ля Рус (Beef à la Russe)": "A",
+    "chicken wings": "A",
+    "shrimps": "A",
+    "McZavtrak": "A",
+    "cheesecake rolls": "A",
+    "blini": "A",
+    "oatmeal": "A"
+   },
+   "n": 7,
+   "shared_n": 1,
+   "display": "Russia"
+  },
+  {
+   "name": "United States",
+   "continent": "North America",
+   "combined": null,
+   "items": [
+    "Double Filet-O-Fish",
+    "haupia pies",
+    "McCriollo",
+    "Pineapple and taro pies",
+    "Portuguese sausage",
+    "saimin",
+    "Spam"
+   ],
+   "item_sources": {
+    "saimin": "A",
+    "Spam": "A",
+    "Portuguese sausage": "A",
+    "Pineapple and taro pies": "A",
+    "haupia pies": "A",
+    "Double Filet-O-Fish": "A",
+    "McCriollo": "A"
+   },
+   "n": 7,
+   "shared_n": 2,
+   "display": "United States"
+  },
+  {
+   "name": "Brazil",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "Banana-flavored pies",
+    "Cheddar McMelt",
+    "McFish",
+    "potato wedges",
+    "vegan burger",
+    "vegetarian burger"
+   ],
+   "item_sources": {
+    "Cheddar McMelt": "A",
+    "Banana-flavored pies": "A",
+    "vegetarian burger": "A",
+    "vegan burger": "A",
+    "McFish": "A",
+    "potato wedges": "A"
+   },
+   "n": 6,
+   "shared_n": 1,
+   "display": "Brazil"
+  },
+  {
+   "name": "China",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "curly fries",
+    "Grilled Chicken Burger",
+    "Hot and Spicy Grilled Thigh Fillet Burger",
+    "Matcha Green Tea ice cream",
+    "McWings",
+    "Premium Grilled Thigh Fillet Burger"
+   ],
+   "item_sources": {
+    "McWings": "A",
+    "Premium Grilled Thigh Fillet Burger": "A",
+    "Hot and Spicy Grilled Thigh Fillet Burger": "A",
+    "Matcha Green Tea ice cream": "A",
+    "Grilled Chicken Burger": "A",
+    "curly fries": "A"
+   },
+   "n": 6,
+   "shared_n": 1,
+   "display": "China"
+  },
+  {
+   "name": "Costa Rica",
+   "continent": "North America",
+   "combined": null,
+   "items": [
+    "fried chicken",
+    "la hamburguesa tica",
+    "Mcnifica",
+    "McPinto",
+    "McShakes",
+    "Passion Fruit"
+   ],
+   "item_sources": {
+    "fried chicken": "A",
+    "McPinto": "A",
+    "Mcnifica": "A",
+    "la hamburguesa tica": "A",
+    "McShakes": "A",
+    "Passion Fruit": "A"
+   },
+   "n": 6,
+   "shared_n": 0,
+   "display": "Costa Rica"
+  },
+  {
+   "name": "Italy",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Crispy McBacon",
+    "McItaly",
+    "McVeggie burger",
+    "My selection",
+    "pasta salad",
+    "Sweety"
+   ],
+   "item_sources": {
+    "Crispy McBacon": "A",
+    "McItaly": "A",
+    "pasta salad": "A",
+    "McVeggie burger": "A",
+    "Sweety": "A",
+    "My selection": "A"
+   },
+   "n": 6,
+   "shared_n": 1,
+   "display": "Italy"
+  },
+  {
+   "name": "Morocco",
+   "continent": "Africa",
+   "combined": null,
+   "items": [
+    "Chicken Mythic",
+    "harira",
+    "McArabia",
+    "McSahara",
+    "Petit Plaisirs",
+    "Recette Moutarde"
+   ],
+   "item_sources": {
+    "McArabia": "A",
+    "McSahara": "A",
+    "Chicken Mythic": "A",
+    "Petit Plaisirs": "A",
+    "Recette Moutarde": "A",
+    "harira": "A"
+   },
+   "n": 6,
+   "shared_n": 1,
+   "display": "Morocco"
+  },
+  {
+   "name": "New Zealand",
+   "continent": "Oceania",
+   "combined": null,
+   "items": [
+    "Bacon 'n' Egg",
+    "BBQ Bandit Burger",
+    "El Maco",
+    "Georgie Pie",
+    "Kiwiburger",
+    "Steak Mince 'n' Cheese"
+   ],
+   "item_sources": {
+    "Kiwiburger": "A",
+    "El Maco": "A",
+    "Georgie Pie": "A",
+    "Steak Mince 'n' Cheese": "A",
+    "Bacon 'n' Egg": "A",
+    "BBQ Bandit Burger": "AB"
+   },
+   "n": 6,
+   "shared_n": 1,
+   "display": "New Zealand"
+  },
+  {
+   "name": "Turkey",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "ayran",
+    "Kofteburger",
+    "McTurco",
+    "Mega Mac",
+    "Milli Burger",
+    "onion rings"
+   ],
+   "item_sources": {
+    "ayran": "A",
+    "McTurco": "A",
+    "onion rings": "A",
+    "Mega Mac": "A",
+    "Kofteburger": "A",
+    "Milli Burger": "A"
+   },
+   "n": 6,
+   "shared_n": 2,
+   "display": "Turkey"
+  },
+  {
+   "name": "Egypt",
+   "continent": "Africa",
+   "combined": null,
+   "items": [
+    "Chicken Big Mac",
+    "Egyptian cookies",
+    "fish fingers",
+    "Fish Mac",
+    "McFalafel"
+   ],
+   "item_sources": {
+    "McFalafel": "A",
+    "Chicken Big Mac": "A",
+    "Fish Mac": "A",
+    "fish fingers": "A",
+    "Egyptian cookies": "A"
+   },
+   "n": 5,
+   "shared_n": 1,
+   "display": "Egypt"
+  },
+  {
+   "name": "Germany",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Big Vegan TS",
+    "Caesar salads",
+    "Hamburger Royal TS",
+    "Mc Currywurst",
+    "McCurrywurst Chicken"
+   ],
+   "item_sources": {
+    "Hamburger Royal TS": "A",
+    "Caesar salads": "A",
+    "Big Vegan TS": "A",
+    "Mc Currywurst": "A",
+    "McCurrywurst Chicken": "A"
+   },
+   "n": 5,
+   "shared_n": 0,
+   "display": "Germany"
+  },
+  {
+   "name": "Norway",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "blueberry milkshake",
+    "Chicken Salsa",
+    "El Maco",
+    "Laksewrap",
+    "McAfrika"
+   ],
+   "item_sources": {
+    "El Maco": "A",
+    "Laksewrap": "A",
+    "Chicken Salsa": "A",
+    "McAfrika": "AB",
+    "blueberry milkshake": "A"
+   },
+   "n": 5,
+   "shared_n": 2,
+   "display": "Norway"
+  },
+  {
+   "name": "Peru",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "ají",
+    "blackberry sundae",
+    "Inca Kola",
+    "Peruvian Foods",
+    "Pollo Crujiente"
+   ],
+   "item_sources": {
+    "ají": "A",
+    "Pollo Crujiente": "A",
+    "Inca Kola": "A",
+    "Peruvian Foods": "A",
+    "blackberry sundae": "A"
+   },
+   "n": 5,
+   "shared_n": 1,
+   "display": "Peru"
+  },
+  {
+   "name": "Singapore",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "curry sauce dip",
+    "Gula Melaka McFlurry",
+    "McSpicy",
+    "salt & pepper shaker fries",
+    "Salted Egg Yolk Chicken Burger"
+   ],
+   "item_sources": {
+    "McSpicy": "A",
+    "curry sauce dip": "A",
+    "Salted Egg Yolk Chicken Burger": "A",
+    "salt & pepper shaker fries": "A",
+    "Gula Melaka McFlurry": "A"
+   },
+   "n": 5,
+   "shared_n": 1,
+   "display": "Singapore"
+  },
+  {
+   "name": "Slovenia",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Bacon Cheese Burger",
+    "chicken wings",
+    "fried shrimp",
+    "McCountry",
+    "party buckets"
+   ],
+   "item_sources": {
+    "McCountry": "A",
+    "Bacon Cheese Burger": "A",
+    "party buckets": "A",
+    "fried shrimp": "A",
+    "chicken wings": "A"
+   },
+   "n": 5,
+   "shared_n": 2,
+   "display": "Slovenia"
+  },
+  {
+   "name": "Sweden",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "El Maco",
+    "Korean BBQ",
+    "McFeast sauce",
+    "McVegan",
+    "Truffle mayo"
+   ],
+   "item_sources": {
+    "El Maco": "A",
+    "McVegan": "A",
+    "McFeast sauce": "A",
+    "Truffle mayo": "A",
+    "Korean BBQ": "A"
+   },
+   "n": 5,
+   "shared_n": 2,
+   "display": "Sweden"
+  },
+  {
+   "name": "Thailand",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Caribbean Shrimp Burger",
+    "McVeggie burger",
+    "Mega animals Mac",
+    "salad shaker",
+    "Samurai Pork Burger"
+   ],
+   "item_sources": {
+    "Samurai Pork Burger": "A",
+    "Caribbean Shrimp Burger": "A",
+    "salad shaker": "A",
+    "Mega animals Mac": "A",
+    "McVeggie burger": "A"
+   },
+   "n": 5,
+   "shared_n": 1,
+   "display": "Thailand"
+  },
+  {
+   "name": "Vietnam",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Grilled Pork Baguette",
+    "Ham Cheese Baguette with Round Egg",
+    "Ham Cheese Baguette with Veggie",
+    "Pho -flavoured burger",
+    "Vietnamese coffee"
+   ],
+   "item_sources": {
+    "Vietnamese coffee": "A",
+    "Grilled Pork Baguette": "A",
+    "Ham Cheese Baguette with Round Egg": "A",
+    "Ham Cheese Baguette with Veggie": "A",
+    "Pho -flavoured burger": "A"
+   },
+   "n": 5,
+   "shared_n": 0,
+   "display": "Vietnam"
+  },
+  {
+   "name": "Croatia",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Chikker",
+    "Maestro Burger",
+    "McCountry",
+    "McToast"
+   ],
+   "item_sources": {
+    "McCountry": "A",
+    "McToast": "A",
+    "Maestro Burger": "A",
+    "Chikker": "A"
+   },
+   "n": 4,
+   "shared_n": 4,
+   "display": "Croatia"
+  },
+  {
+   "name": "Cyprus",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Greek Chicken",
+    "Greek Mac",
+    "Grilled Chicken",
+    "shrimp burger"
+   ],
+   "item_sources": {
+    "Greek Mac": "A",
+    "Greek Chicken": "A",
+    "Grilled Chicken": "A",
+    "shrimp burger": "A"
+   },
+   "n": 4,
+   "shared_n": 1,
+   "display": "Cyprus"
+  },
+  {
+   "name": "Denmark",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Chicken Salsa Cheese",
+    "chilli cheese tops",
+    "Daim McFlurry",
+    "Pommes Frites and Pepper Sauce"
+   ],
+   "item_sources": {
+    "Pommes Frites and Pepper Sauce": "A",
+    "Chicken Salsa Cheese": "A",
+    "Daim McFlurry": "A",
+    "chilli cheese tops": "A"
+   },
+   "n": 4,
+   "shared_n": 0,
+   "display": "Denmark"
+  },
+  {
+   "name": "Ecuador",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "blackberry sundae",
+    "burgers with cheese sausage or guacamole",
+    "cheese empanadas",
+    "nuggets with spicy sausage"
+   ],
+   "item_sources": {
+    "cheese empanadas": "A",
+    "burgers with cheese sausage or guacamole": "A",
+    "blackberry sundae": "A",
+    "nuggets with spicy sausage": "A"
+   },
+   "n": 4,
+   "shared_n": 2,
+   "display": "Ecuador"
+  },
+  {
+   "name": "France",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Croque McDo",
+    "Kronenbourg Brewery beer",
+    "McBaguette",
+    "Petit Plaisir"
+   ],
+   "item_sources": {
+    "Croque McDo": "A",
+    "Petit Plaisir": "A",
+    "McBaguette": "A",
+    "Kronenbourg Brewery beer": "A"
+   },
+   "n": 4,
+   "shared_n": 1,
+   "display": "France"
+  },
+  {
+   "name": "Israel",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "corn sticks",
+    "McFalafel sandwich",
+    "McKebab",
+    "McShawarma"
+   ],
+   "item_sources": {
+    "McShawarma": "A",
+    "McKebab": "A",
+    "McFalafel sandwich": "A",
+    "corn sticks": "A"
+   },
+   "n": 4,
+   "shared_n": 0,
+   "display": "Israel"
+  },
+  {
+   "name": "Mexico",
+   "continent": "North America",
+   "combined": null,
+   "items": [
+    "BBQ Double Burger",
+    "Flaming Hot Doritos Quarter Pounder",
+    "McBurrito",
+    "McMollete"
+   ],
+   "item_sources": {
+    "Flaming Hot Doritos Quarter Pounder": "A",
+    "BBQ Double Burger": "A",
+    "McMollete": "A",
+    "McBurrito": "A"
+   },
+   "n": 4,
+   "shared_n": 1,
+   "display": "Mexico"
+  },
+  {
+   "name": "Baltic countries",
+   "continent": "Europe",
+   "combined": "Estonia, Latvia and Lithuania",
+   "items": [
+    "Lauku Mac",
+    "Maestro Beef",
+    "Maestro Chicken"
+   ],
+   "item_sources": {
+    "Lauku Mac": "A",
+    "Maestro Beef": "A",
+    "Maestro Chicken": "A"
+   },
+   "n": 3,
+   "shared_n": 0,
+   "display": "Baltic countries"
+  },
+  {
+   "name": "Colombia",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "arepas",
+    "McCriollo",
+    "McNífica"
+   ],
+   "item_sources": {
+    "McCriollo": "A",
+    "arepas": "A",
+    "McNífica": "A"
+   },
+   "n": 3,
+   "shared_n": 2,
+   "display": "Colombia"
+  },
+  {
+   "name": "Czech Republic",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "McCountry",
+    "McSmažák",
+    "McSyr"
+   ],
+   "item_sources": {
+    "McCountry": "A",
+    "McSmažák": "A",
+    "McSyr": "A"
+   },
+   "n": 3,
+   "shared_n": 2,
+   "display": "Czech Republic"
+  },
+  {
+   "name": "Malta",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "chicken wings",
+    "McFtira",
+    "Mozzarella Sticks"
+   ],
+   "item_sources": {
+    "Mozzarella Sticks": "A",
+    "chicken wings": "A",
+    "McFtira": "A"
+   },
+   "n": 3,
+   "shared_n": 2,
+   "display": "Malta"
+  },
+  {
+   "name": "Taiwan",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "corn soup",
+    "fried chicken legs",
+    "kao fan"
+   ],
+   "item_sources": {
+    "kao fan": "A",
+    "fried chicken legs": "A",
+    "corn soup": "A"
+   },
+   "n": 3,
+   "shared_n": 0,
+   "display": "Taiwan"
+  },
+  {
+   "name": "Venezuela",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "arepas",
+    "empanadas",
+    "fried yuca sticks"
+   ],
+   "item_sources": {
+    "arepas": "A",
+    "empanadas": "A",
+    "fried yuca sticks": "A"
+   },
+   "n": 3,
+   "shared_n": 1,
+   "display": "Venezuela"
+  },
+  {
+   "name": "Bahrain",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "McArabia",
+    "McCrispy"
+   ],
+   "item_sources": {
+    "McArabia": "A",
+    "McCrispy": "A"
+   },
+   "n": 2,
+   "shared_n": 2,
+   "display": "Bahrain"
+  },
+  {
+   "name": "Belgium",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Belgo",
+    "Croque McDo"
+   ],
+   "item_sources": {
+    "Croque McDo": "A",
+    "Belgo": "A"
+   },
+   "n": 2,
+   "shared_n": 1,
+   "display": "Belgium"
+  },
+  {
+   "name": "Saudi Arabia",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "McArabia",
+    "Spicy McChicken"
+   ],
+   "item_sources": {
+    "Spicy McChicken": "A",
+    "McArabia": "A"
+   },
+   "n": 2,
+   "shared_n": 2,
+   "display": "Saudi Arabia"
+  },
+  {
+   "name": "Slovakia",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "McDonuts",
+    "McSyr"
+   ],
+   "item_sources": {
+    "McSyr": "A",
+    "McDonuts": "A"
+   },
+   "n": 2,
+   "shared_n": 1,
+   "display": "Slovakia"
+  },
+  {
+   "name": "Argentina",
+   "continent": "South America",
+   "combined": null,
+   "items": [
+    "Big Tasty Angus Burger"
+   ],
+   "item_sources": {
+    "Big Tasty Angus Burger": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Argentina"
+  },
+  {
+   "name": "Dominican Republic",
+   "continent": "North America",
+   "combined": null,
+   "items": [
+    "McDo"
+   ],
+   "item_sources": {
+    "McDo": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Dominican Republic"
+  },
+  {
+   "name": "Pakistan",
+   "continent": "Asia",
+   "combined": null,
+   "items": [
+    "Bun Kabab"
+   ],
+   "item_sources": {
+    "Bun Kabab": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Pakistan"
+  },
+  {
+   "name": "Serbia",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Plazma"
+   ],
+   "item_sources": {
+    "Plazma": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Serbia"
+  },
+  {
+   "name": "Switzerland",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "Prime"
+   ],
+   "item_sources": {
+    "Prime": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Switzerland"
+  },
+  {
+   "name": "Ukraine",
+   "continent": "Europe",
+   "combined": null,
+   "items": [
+    "McLavash"
+   ],
+   "item_sources": {
+    "McLavash": "A"
+   },
+   "n": 1,
+   "shared_n": 0,
+   "display": "Ukraine"
+  },
+  {
+   "name": "Sri Lanka",
+   "continent": "Asia",
+   "combined": null,
+   "items": [],
+   "item_sources": {},
+   "n": 0,
+   "shared_n": 0,
+   "display": "Sri Lanka"
+  }
+ ],
+ "items": [
+  {
+   "name": "McVeggie burger",
+   "key": "mcveggie burger",
+   "countries": [
+    "Hong Kong",
+    "India",
+    "Malaysia",
+    "Thailand",
+    "Greece",
+    "Italy",
+    "Portugal",
+    "Slovenia",
+    "Australia"
+   ],
+   "n": 9,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Chicken Selects",
+   "key": "chicken selects",
+   "countries": [
+    "Israel",
+    "United Kingdom and Ireland",
+    "Canada",
+    "United States",
+    "Australia"
+   ],
+   "n": 5,
+   "sources": [
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "El Maco",
+   "key": "el maco",
+   "countries": [
+    "Finland",
+    "Norway",
+    "Sweden",
+    "New Zealand"
+   ],
+   "n": 4,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McArabia",
+   "key": "mcarabia",
+   "countries": [
+    "Morocco",
+    "Bahrain",
+    "Saudi Arabia",
+    "United Arab Emirates"
+   ],
+   "n": 4,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Chicken Big Mac",
+   "key": "chicken big mac",
+   "countries": [
+    "Egypt",
+    "United Kingdom and Ireland",
+    "Canada"
+   ],
+   "n": 3,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "chicken wings",
+   "key": "chicken wings",
+   "countries": [
+    "Malta",
+    "Russia",
+    "Slovenia"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McAloo Tikki",
+   "key": "mcaloo tikki",
+   "countries": [
+    "India",
+    "United Arab Emirates",
+    "Greece"
+   ],
+   "n": 3,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McCountry",
+   "key": "mccountry",
+   "countries": [
+    "Croatia",
+    "Czech Republic",
+    "Slovenia"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McFeast",
+   "key": "mcfeast",
+   "countries": [
+    "South Africa",
+    "Finland",
+    "Fiji"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Mega Mac",
+   "key": "mega mac",
+   "countries": [
+    "Malaysia",
+    "United Arab Emirates",
+    "Turkey"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "onion rings",
+   "key": "onion rings",
+   "countries": [
+    "Hong Kong",
+    "Greece",
+    "Turkey"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "shrimp burger",
+   "key": "shrimp burger",
+   "countries": [
+    "South Korea",
+    "Cyprus",
+    "Greece"
+   ],
+   "n": 3,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "'M' burger",
+   "key": "'m' burger",
+   "countries": [
+    "France",
+    "United Kingdom and Ireland"
+   ],
+   "n": 2,
+   "sources": [
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "arepas",
+   "key": "arepas",
+   "countries": [
+    "Colombia",
+    "Venezuela"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "BBQ Double Burger",
+   "key": "bbq double burger",
+   "countries": [
+    "South Africa",
+    "Mexico"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Big N' Tasty",
+   "key": "big n' tasty",
+   "countries": [
+    "Malaysia",
+    "United Arab Emirates"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "blackberry sundae",
+   "key": "blackberry sundae",
+   "countries": [
+    "Ecuador",
+    "Peru"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "cheese empanadas",
+   "key": "cheese empanadas",
+   "countries": [
+    "Chile",
+    "Ecuador"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Chicken McBites",
+   "key": "chicken mcbites",
+   "countries": [
+    "United States",
+    "Australia"
+   ],
+   "n": 2,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Chikker",
+   "key": "chikker",
+   "countries": [
+    "Croatia",
+    "Poland"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Croque McDo",
+   "key": "croque mcdo",
+   "countries": [
+    "Belgium",
+    "France"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Deli Choices",
+   "key": "deli choices",
+   "countries": [
+    "United Kingdom and Ireland",
+    "Canada"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Double Filet-O-Fish",
+   "key": "double filet-o-fish",
+   "countries": [
+    "Malaysia",
+    "United States"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Grand Chicken",
+   "key": "grand chicken",
+   "countries": [
+    "South Africa",
+    "United Arab Emirates"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Macarons",
+   "key": "macarons",
+   "countries": [
+    "Finland",
+    "Spain"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Maestro Burger",
+   "key": "maestro burger",
+   "countries": [
+    "Croatia",
+    "Netherlands"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McAfrika",
+   "key": "mcafrika",
+   "countries": [
+    "Denmark",
+    "Norway"
+   ],
+   "n": 2,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McCriollo",
+   "key": "mccriollo",
+   "countries": [
+    "United States",
+    "Colombia"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McCrispy",
+   "key": "mccrispy",
+   "countries": [
+    "Bahrain",
+    "United Kingdom and Ireland"
+   ],
+   "n": 2,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McFish",
+   "key": "mcfish",
+   "countries": [
+    "Spain",
+    "Brazil"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McRice",
+   "key": "mcrice",
+   "countries": [
+    "Indonesia",
+    "Philippines"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McSpicy",
+   "key": "mcspicy",
+   "countries": [
+    "India",
+    "Singapore"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McSyr",
+   "key": "mcsyr",
+   "countries": [
+    "Czech Republic",
+    "Slovakia"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McToast",
+   "key": "mctoast",
+   "countries": [
+    "Croatia",
+    "Greece"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McVegan",
+   "key": "mcvegan",
+   "countries": [
+    "Finland",
+    "Sweden"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "McWings",
+   "key": "mcwings",
+   "countries": [
+    "China",
+    "United Arab Emirates"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Mozzarella Sticks",
+   "key": "mozzarella sticks",
+   "countries": [
+    "Malta",
+    "Australia"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "Spicy McChicken",
+   "key": "spicy mcchicken",
+   "countries": [
+    "Saudi Arabia",
+    "United Arab Emirates"
+   ],
+   "n": 2,
+   "sources": [
+    "A"
+   ],
+   "sole": false
+  },
+  {
+   "name": "1955 burger",
+   "key": "1955 burger",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "1967 Burger",
+   "key": "1967 burger",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "affogato",
+   "key": "affogato",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "African Peri Peri Shake Shake",
+   "key": "african peri peri shake shake",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "ají",
+   "key": "ají",
+   "countries": [
+    "Peru"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "American Sauce",
+   "key": "american sauce",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Apple and Blackberry Pie",
+   "key": "apple and blackberry pie",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "apple cinnamon sundae",
+   "key": "apple cinnamon sundae",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "apple pie",
+   "key": "apple pie",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Apple Pie Sundae",
+   "key": "apple pie sundae",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Asian",
+   "key": "asian",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Asian Hot Garlic Dip",
+   "key": "asian hot garlic dip",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Aussie Angus Deluxe",
+   "key": "aussie angus deluxe",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Aussie BBQ Angus",
+   "key": "aussie bbq angus",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ayam Goreng McD",
+   "key": "ayam goreng mcd",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ayam Gulai",
+   "key": "ayam gulai",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ayam Kremes",
+   "key": "ayam kremes",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ayam Serundeng Sambal Terasi",
+   "key": "ayam serundeng sambal terasi",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ayam Spesial Sambal Bawang",
+   "key": "ayam spesial sambal bawang",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "ayran",
+   "key": "ayran",
+   "countries": [
+    "Turkey"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bacon 'n' Egg",
+   "key": "bacon 'n' egg",
+   "countries": [
+    "New Zealand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bacon Cheese Burger",
+   "key": "bacon cheese burger",
+   "countries": [
+    "Slovenia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Banana Caramel Pie",
+   "key": "banana caramel pie",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Banana McFloat",
+   "key": "banana mcfloat",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Banana-flavored pies",
+   "key": "banana-flavored pies",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Banana-Oreo McFlurry",
+   "key": "banana-oreo mcflurry",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bandung drink",
+   "key": "bandung drink",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Barros Jarpa",
+   "key": "barros jarpa",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "BBQ Bandit Burger",
+   "key": "bbq bandit burger",
+   "countries": [
+    "New Zealand"
+   ],
+   "n": 1,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "BBQ Beef Flatbread",
+   "key": "bbq beef flatbread",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "BBQ Chicken Premiere with Bacon",
+   "key": "bbq chicken premiere with bacon",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "BBQ Smokehouse Range",
+   "key": "bbq smokehouse range",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Beef Prosperity Burger",
+   "key": "beef prosperity burger",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bekon DeLuxe",
+   "key": "bekon deluxe",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Belgo",
+   "key": "belgo",
+   "countries": [
+    "Belgium"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Breakfast",
+   "key": "big breakfast",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Kahuna Burger",
+   "key": "big kahuna burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Mac Bacon",
+   "key": "big mac bacon",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Mac with bacon",
+   "key": "big mac with bacon",
+   "countries": [
+    "Finland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Tasty Angus Burger",
+   "key": "big tasty angus burger",
+   "countries": [
+    "Argentina"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Tasty beef",
+   "key": "big tasty beef",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Big Vegan TS",
+   "key": "big vegan ts",
+   "countries": [
+    "Germany"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "biriyani",
+   "key": "biriyani",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Black Diamond",
+   "key": "black diamond",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "blini",
+   "key": "blini",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "blueberry milkshake",
+   "key": "blueberry milkshake",
+   "countries": [
+    "Norway"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "blueberry-shortbread McFlurry",
+   "key": "blueberry-shortbread mcflurry",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Boerenfriet",
+   "key": "boerenfriet",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Boerie Burger",
+   "key": "boerie burger",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Boseong Green Tea Burger",
+   "key": "boseong green tea burger",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Brekkie Burger",
+   "key": "brekkie burger",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Broncos Burger",
+   "key": "broncos burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Brutal Brutus",
+   "key": "brutal brutus",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bubur Ayam McD",
+   "key": "bubur ayam mcd",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bubur Ayam Spesial",
+   "key": "bubur ayam spesial",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bubur Ikan McD",
+   "key": "bubur ikan mcd",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bulgogi Burger",
+   "key": "bulgogi burger",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Bun Kabab",
+   "key": "bun kabab",
+   "countries": [
+    "Pakistan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Burger Drwala",
+   "key": "burger drwala",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Burger McDo",
+   "key": "burger mcdo",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Burger Nasi Goreng",
+   "key": "burger nasi goreng",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Burger Sate",
+   "key": "burger sate",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Burger Syok",
+   "key": "burger syok",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "burgers with cheese sausage or guacamole",
+   "key": "burgers with cheese sausage or guacamole",
+   "countries": [
+    "Ecuador"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Buryam",
+   "key": "buryam",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Caesar salads",
+   "key": "caesar salads",
+   "countries": [
+    "Germany"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "caldo verde",
+   "key": "caldo verde",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Caribbean Shrimp Burger",
+   "key": "caribbean shrimp burger",
+   "countries": [
+    "Thailand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "carrot cake",
+   "key": "carrot cake",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cendol Sundae",
+   "key": "cendol sundae",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Changnyeong Garlic Burger",
+   "key": "changnyeong garlic burger",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cheddar McMelt",
+   "key": "cheddar mcmelt",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cheddar Melt",
+   "key": "cheddar melt",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cheese Melt Dippers",
+   "key": "cheese melt dippers",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "cheesecake rolls",
+   "key": "cheesecake rolls",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "cheesecakes",
+   "key": "cheesecakes",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cheesy Eggdesal",
+   "key": "cheesy eggdesal",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Country",
+   "key": "chicken country",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Fillet",
+   "key": "chicken fillet",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Foldover",
+   "key": "chicken foldover",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Katsu Burger",
+   "key": "chicken katsu burger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "chicken kebab burger",
+   "key": "chicken kebab burger",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Mac",
+   "key": "chicken mac",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Maestro Burger",
+   "key": "chicken maestro burger",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Maharaja Mac",
+   "key": "chicken maharaja mac",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken McCrispy",
+   "key": "chicken mccrispy",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken McDo",
+   "key": "chicken mcdo",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Mega Mac",
+   "key": "chicken mega mac",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Mythic",
+   "key": "chicken mythic",
+   "countries": [
+    "Morocco"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Salsa",
+   "key": "chicken salsa",
+   "countries": [
+    "Norway"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Salsa Cheese",
+   "key": "chicken salsa cheese",
+   "countries": [
+    "Denmark"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken Teriyaki",
+   "key": "chicken teriyaki",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chicken with Spicy Tomato",
+   "key": "chicken with spicy tomato",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "ChickenSaté",
+   "key": "chickensaté",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "chilli cheese tops",
+   "key": "chilli cheese tops",
+   "countries": [
+    "Denmark"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chilli McHotdog",
+   "key": "chilli mchotdog",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chive Omelette Roll",
+   "key": "chive omelette roll",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chocolate Caramel McFlurry",
+   "key": "chocolate caramel mcflurry",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Chocomel",
+   "key": "chocomel",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Classic Angus",
+   "key": "classic angus",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Coconut Pie",
+   "key": "coconut pie",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Combo Bicentenario",
+   "key": "combo bicentenario",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cone Top Es Teler",
+   "key": "cone top es teler",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Corn Cup",
+   "key": "corn cup",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "corn soup",
+   "key": "corn soup",
+   "countries": [
+    "Taiwan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "corn sticks",
+   "key": "corn sticks",
+   "countries": [
+    "Israel"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cornetto",
+   "key": "cornetto",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "cream of carrot",
+   "key": "cream of carrot",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "cream of peas",
+   "key": "cream of peas",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Creme Egg",
+   "key": "creme egg",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Crispy McBacon",
+   "key": "crispy mcbacon",
+   "countries": [
+    "Italy"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "croissants",
+   "key": "croissants",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Cuarto Palta",
+   "key": "cuarto palta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "curly fries",
+   "key": "curly fries",
+   "countries": [
+    "China"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Curry Beef Delight",
+   "key": "curry beef delight",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "curry sauce dip",
+   "key": "curry sauce dip",
+   "countries": [
+    "Singapore"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "D24 Durian McFlurry Party",
+   "key": "d24 durian mcflurry party",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Daim McFlurry",
+   "key": "daim mcflurry",
+   "countries": [
+    "Denmark"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Dairy Milk",
+   "key": "dairy milk",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Deluxe fries",
+   "key": "deluxe fries",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Donuts (stylized as Li'L Donuts)",
+   "key": "donuts (stylized as li'l donuts)",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "double beef big tasty",
+   "key": "double beef big tasty",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Double GCB",
+   "key": "double gcb",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Double Spicy Chicken McDeluxe",
+   "key": "double spicy chicken mcdeluxe",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "eggs Benedict sandwich",
+   "key": "eggs benedict sandwich",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Egyptian cookies",
+   "key": "egyptian cookies",
+   "countries": [
+    "Egypt"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "El Maco burger",
+   "key": "el maco burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "El Maco Salsa",
+   "key": "el maco salsa",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "El Maco variant Shaker Fries",
+   "key": "el maco variant shaker fries",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "ELT McMuffin",
+   "key": "elt mcmuffin",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "empanadas",
+   "key": "empanadas",
+   "countries": [
+    "Venezuela"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "empanadas de pino",
+   "key": "empanadas de pino",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Es Kopi Durian Jelly Float",
+   "key": "es kopi durian jelly float",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Extra Spicy Ayam Goreng",
+   "key": "extra spicy ayam goreng",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Festive Pie",
+   "key": "festive pie",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Fillet-O-Ebi",
+   "key": "fillet-o-ebi",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fish fingers",
+   "key": "fish fingers",
+   "countries": [
+    "Egypt"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Fish Mac",
+   "key": "fish mac",
+   "countries": [
+    "Egypt"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Fish Prosperity Burger",
+   "key": "fish prosperity burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Flaming Hot Doritos Quarter Pounder",
+   "key": "flaming hot doritos quarter pounder",
+   "countries": [
+    "Mexico"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Foldover",
+   "key": "foldover",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "French",
+   "key": "french",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fresh pineapple chunks",
+   "key": "fresh pineapple chunks",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried chicken",
+   "key": "fried chicken",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried chicken legs",
+   "key": "fried chicken legs",
+   "countries": [
+    "Taiwan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried shrimp",
+   "key": "fried shrimp",
+   "countries": [
+    "Slovenia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried shrimp with dipping sauce",
+   "key": "fried shrimp with dipping sauce",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried veggie snackers",
+   "key": "fried veggie snackers",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "fried yuca sticks",
+   "key": "fried yuca sticks",
+   "countries": [
+    "Venezuela"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Fristi",
+   "key": "fristi",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Fritessaus",
+   "key": "fritessaus",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "GCB",
+   "key": "gcb",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Georgie Pie",
+   "key": "georgie pie",
+   "countries": [
+    "New Zealand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Gold Ring",
+   "key": "gold ring",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Golden Prosperity Burger",
+   "key": "golden prosperity burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Grand Big Mac Bacon",
+   "key": "grand big mac bacon",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Gratin Korokke Burger",
+   "key": "gratin korokke burger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Greek Chicken",
+   "key": "greek chicken",
+   "countries": [
+    "Cyprus"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Greek Mac",
+   "key": "greek mac",
+   "countries": [
+    "Cyprus"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "green tea McFlurry",
+   "key": "green tea mcflurry",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Green tea-flavoured milkshakes",
+   "key": "green tea-flavoured milkshakes",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Grilled Chicken",
+   "key": "grilled chicken",
+   "countries": [
+    "Cyprus"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Grilled Chicken Burger",
+   "key": "grilled chicken burger",
+   "countries": [
+    "China"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Grilled Chicken Royale",
+   "key": "grilled chicken royale",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Grilled Pork Baguette",
+   "key": "grilled pork baguette",
+   "countries": [
+    "Vietnam"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Gula Melaka McFlurry",
+   "key": "gula melaka mcflurry",
+   "countries": [
+    "Singapore"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Halloumi Fries",
+   "key": "halloumi fries",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ham Cheese Baguette with Round Egg",
+   "key": "ham cheese baguette with round egg",
+   "countries": [
+    "Vietnam"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ham Cheese Baguette with Veggie",
+   "key": "ham cheese baguette with veggie",
+   "countries": [
+    "Vietnam"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hamburger Royal TS",
+   "key": "hamburger royal ts",
+   "countries": [
+    "Germany"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hamburguesa Italiana",
+   "key": "hamburguesa italiana",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hamburguesa Palta",
+   "key": "hamburguesa palta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hamdesal",
+   "key": "hamdesal",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "harira",
+   "key": "harira",
+   "countries": [
+    "Morocco"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "haupia pies",
+   "key": "haupia pies",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hawaiian Deluxe Burger",
+   "key": "hawaiian deluxe burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hershey's Sundae",
+   "key": "hershey's sundae",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hot & Spicy Chicken",
+   "key": "hot & spicy chicken",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hot & Spicy McShaker Fries",
+   "key": "hot & spicy mcshaker fries",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Hot and Spicy Grilled Thigh Fillet Burger",
+   "key": "hot and spicy grilled thigh fillet burger",
+   "countries": [
+    "China"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "iced Milo drink",
+   "key": "iced milo drink",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Inca Kola",
+   "key": "inca kola",
+   "countries": [
+    "Peru"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Indi-McSpicy",
+   "key": "indi-mcspicy",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Irn-bru",
+   "key": "irn-bru",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Jalapeño Chicken",
+   "key": "jalapeño chicken",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Jalapeño Chicken Double",
+   "key": "jalapeño chicken double",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Jalapeño Dipping Sauce",
+   "key": "jalapeño dipping sauce",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Jindo Onion Croquet",
+   "key": "jindo onion croquet",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Joppie Burger",
+   "key": "joppie burger",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Joppie sauce",
+   "key": "joppie sauce",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "kale soup",
+   "key": "kale soup",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "kao fan",
+   "key": "kao fan",
+   "countries": [
+    "Taiwan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Katsu Curry Chicken McNuggets",
+   "key": "katsu curry chicken mcnuggets",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Kentang Goreng Gulai Gurih",
+   "key": "kentang goreng gulai gurih",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Kiwiburger",
+   "key": "kiwiburger",
+   "countries": [
+    "New Zealand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Kofteburger",
+   "key": "kofteburger",
+   "countries": [
+    "Turkey"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Korean BBQ",
+   "key": "korean bbq",
+   "countries": [
+    "Sweden"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Kronenbourg Brewery beer",
+   "key": "kronenbourg brewery beer",
+   "countries": [
+    "France"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "la hamburguesa tica",
+   "key": "la hamburguesa tica",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Laksewrap",
+   "key": "laksewrap",
+   "countries": [
+    "Norway"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Lauku Mac",
+   "key": "lauku mac",
+   "countries": [
+    "Baltic countries"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Lazeez Foldover",
+   "key": "lazeez foldover",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Lomo Palta",
+   "key": "lomo palta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "longaniza",
+   "key": "longaniza",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Lychee Pie",
+   "key": "lychee pie",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "lángos",
+   "key": "lángos",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Maestro Beef",
+   "key": "maestro beef",
+   "countries": [
+    "Baltic countries"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Maestro Burger Egg",
+   "key": "maestro burger egg",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Maestro Chicken",
+   "key": "maestro chicken",
+   "countries": [
+    "Baltic countries"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Maestro family",
+   "key": "maestro family",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Maharaja Mac",
+   "key": "maharaja mac",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Markisa soda tea",
+   "key": "markisa soda tea",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mashwi Foldover",
+   "key": "mashwi foldover",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Matcha Green Tea ice cream",
+   "key": "matcha green tea ice cream",
+   "countries": [
+    "China"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mc Beefsteak",
+   "key": "mc beefsteak",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mc Currywurst",
+   "key": "mc currywurst",
+   "countries": [
+    "Germany"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mc Egg",
+   "key": "mc egg",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McBaguette",
+   "key": "mcbaguette",
+   "countries": [
+    "France"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McBifana",
+   "key": "mcbifana",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McBingsu",
+   "key": "mcbingsu",
+   "countries": [
+    "South Korea"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McBurrito",
+   "key": "mcburrito",
+   "countries": [
+    "Mexico"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McCrispy Chicken Sandwich",
+   "key": "mccrispy chicken sandwich",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McCrispy Strips",
+   "key": "mccrispy strips",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McCurry Pan",
+   "key": "mccurry pan",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McCurrywurst Chicken",
+   "key": "mccurrywurst chicken",
+   "countries": [
+    "Germany"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McDo",
+   "key": "mcdo",
+   "countries": [
+    "Dominican Republic"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McDonuts",
+   "key": "mcdonuts",
+   "countries": [
+    "Slovakia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFalafel",
+   "key": "mcfalafel",
+   "countries": [
+    "Egypt"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFalafel sandwich",
+   "key": "mcfalafel sandwich",
+   "countries": [
+    "Israel"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFarm",
+   "key": "mcfarm",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFeast sauce",
+   "key": "mcfeast sauce",
+   "countries": [
+    "Sweden"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFizz",
+   "key": "mcfizz",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFlurry Rujak Pedas",
+   "key": "mcflurry rujak pedas",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFlurry Sahne Nuss",
+   "key": "mcflurry sahne nuss",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFlurry with Teh botol",
+   "key": "mcflurry with teh botol",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McFtira",
+   "key": "mcftira",
+   "countries": [
+    "Malta"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McGrill",
+   "key": "mcgrill",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McHomard",
+   "key": "mchomard",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McItaly",
+   "key": "mcitaly",
+   "countries": [
+    "Italy"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McKebab",
+   "key": "mckebab",
+   "countries": [
+    "Israel"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McKroket",
+   "key": "mckroket",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McLavash",
+   "key": "mclavash",
+   "countries": [
+    "Ukraine"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McLobster",
+   "key": "mclobster",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McMini",
+   "key": "mcmini",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McMollete",
+   "key": "mcmollete",
+   "countries": [
+    "Mexico"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McMuffin Twarożek i Rzodkiewka",
+   "key": "mcmuffin twarożek i rzodkiewka",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McMór",
+   "key": "mcmór",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mcnifica",
+   "key": "mcnifica",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McNífica",
+   "key": "mcnífica",
+   "countries": [
+    "Colombia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McOz Burger",
+   "key": "mcoz burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPalta",
+   "key": "mcpalta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPaneer",
+   "key": "mcpaneer",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPinto",
+   "key": "mcpinto",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPizza",
+   "key": "mcpizza",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPops",
+   "key": "mcpops",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McPrego",
+   "key": "mcprego",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McRoyale",
+   "key": "mcroyale",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McRuis",
+   "key": "mcruis",
+   "countries": [
+    "Finland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McSahara",
+   "key": "mcsahara",
+   "countries": [
+    "Morocco"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McShaker Fries",
+   "key": "mcshaker fries",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McShakes",
+   "key": "mcshakes",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McShawarma",
+   "key": "mcshawarma",
+   "countries": [
+    "Israel"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McSmažák",
+   "key": "mcsmažák",
+   "countries": [
+    "Czech Republic"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McSoup",
+   "key": "mcsoup",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McSpaghetti",
+   "key": "mcspaghetti",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A",
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McTurco",
+   "key": "mcturco",
+   "countries": [
+    "Turkey"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McWrap",
+   "key": "mcwrap",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McWrap Palta",
+   "key": "mcwrap palta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McWrap Shrimp",
+   "key": "mcwrap shrimp",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "McZavtrak",
+   "key": "mczavtrak",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Medialuna",
+   "key": "medialuna",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mega animals Mac",
+   "key": "mega animals mac",
+   "countries": [
+    "Thailand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mega Muffin",
+   "key": "mega muffin",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mega Teriyaki",
+   "key": "mega teriyaki",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mexican",
+   "key": "mexican",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mexican Spice Chicken and Veg",
+   "key": "mexican spice chicken and veg",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mexicana Chicken Burger",
+   "key": "mexicana chicken burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Milli Burger",
+   "key": "milli burger",
+   "countries": [
+    "Turkey"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "mixed salad",
+   "key": "mixed salad",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Moroccan Burger",
+   "key": "moroccan burger",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Mozzarella Dippers",
+   "key": "mozzarella dippers",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "mushroom burgers",
+   "key": "mushroom burgers",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "mustard pork burger",
+   "key": "mustard pork burger",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "My selection",
+   "key": "my selection",
+   "countries": [
+    "Italy"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "naan wraps",
+   "key": "naan wraps",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Nasi Lemak Burger",
+   "key": "nasi lemak burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Nasi Lemak McD",
+   "key": "nasi lemak mcd",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Nasi Uduk",
+   "key": "nasi uduk",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "nuggets with spicy sausage",
+   "key": "nuggets with spicy sausage",
+   "countries": [
+    "Ecuador"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "oatmeal",
+   "key": "oatmeal",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "PaNas",
+   "key": "panas",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "papas duquesas",
+   "key": "papas duquesas",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "party buckets",
+   "key": "party buckets",
+   "countries": [
+    "Slovenia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Passion Fruit",
+   "key": "passion fruit",
+   "countries": [
+    "Costa Rica"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "pasta salad",
+   "key": "pasta salad",
+   "countries": [
+    "Italy"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Peruvian Foods",
+   "key": "peruvian foods",
+   "countries": [
+    "Peru"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pesto Chicken",
+   "key": "pesto chicken",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Petit Plaisir",
+   "key": "petit plaisir",
+   "countries": [
+    "France"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Petit Plaisirs",
+   "key": "petit plaisirs",
+   "countries": [
+    "Morocco"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pho -flavoured burger",
+   "key": "pho -flavoured burger",
+   "countries": [
+    "Vietnam"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pie à la Mode",
+   "key": "pie à la mode",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pineapple",
+   "key": "pineapple",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pineapple and taro pies",
+   "key": "pineapple and taro pies",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pizza McPuff",
+   "key": "pizza mcpuff",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Plazma",
+   "key": "plazma",
+   "countries": [
+    "Serbia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pollo Crujiente",
+   "key": "pollo crujiente",
+   "countries": [
+    "Peru"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pommes Frites and Pepper Sauce",
+   "key": "pommes frites and pepper sauce",
+   "countries": [
+    "Denmark"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Portuguese sausage",
+   "key": "portuguese sausage",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "potato pancakes",
+   "key": "potato pancakes",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "potato tortilla sandwiches",
+   "key": "potato tortilla sandwiches",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "potato wedges",
+   "key": "potato wedges",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "poutine",
+   "key": "poutine",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "poutine with crispy chicken and buffalo sauce",
+   "key": "poutine with crispy chicken and buffalo sauce",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Premium Grilled Thigh Fillet Burger",
+   "key": "premium grilled thigh fillet burger",
+   "countries": [
+    "China"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Prime",
+   "key": "prime",
+   "countries": [
+    "Switzerland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Prosperity Burger",
+   "key": "prosperity burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Pulut Hitam",
+   "key": "pulut hitam",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Quorn Premiere",
+   "key": "quorn premiere",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Recette Moutarde",
+   "key": "recette moutarde",
+   "countries": [
+    "Morocco"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Red Chikker",
+   "key": "red chikker",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Red Velvet McFlurry",
+   "key": "red velvet mcflurry",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "rice bowls",
+   "key": "rice bowls",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Rice Fantastic",
+   "key": "rice fantastic",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Rio",
+   "key": "rio",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Romano Burger",
+   "key": "romano burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ruby Spark",
+   "key": "ruby spark",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "SA Breakfast",
+   "key": "sa breakfast",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "saimin",
+   "key": "saimin",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "salad shaker",
+   "key": "salad shaker",
+   "countries": [
+    "Thailand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Salsa Burger",
+   "key": "salsa burger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "salt & pepper shaker fries",
+   "key": "salt & pepper shaker fries",
+   "countries": [
+    "Singapore"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Salted Caramel Pie",
+   "key": "salted caramel pie",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Salted Egg Yolk Chicken Burger",
+   "key": "salted egg yolk chicken burger",
+   "countries": [
+    "Singapore"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Samurai",
+   "key": "samurai",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Samurai Pork Burger",
+   "key": "samurai pork burger",
+   "countries": [
+    "Thailand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Scrambled Egg McMuffin",
+   "key": "scrambled egg mcmuffin",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Shaka Shaka Chicken",
+   "key": "shaka shaka chicken",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Shake Shake fries",
+   "key": "shake shake fries",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Shaker Fries",
+   "key": "shaker fries",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Shogun Burger",
+   "key": "shogun burger",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "shrimp burgers",
+   "key": "shrimp burgers",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "shrimps",
+   "key": "shrimps",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Signature Collection",
+   "key": "signature collection",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Soda Asam Jawa",
+   "key": "soda asam jawa",
+   "countries": [
+    "Indonesia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Som Lolly",
+   "key": "som lolly",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Southern Fried Chicken",
+   "key": "southern fried chicken",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spam",
+   "key": "spam",
+   "countries": [
+    "United States"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Beef Deluxe",
+   "key": "spicy beef deluxe",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Cajun Chicken Deluxe",
+   "key": "spicy cajun chicken deluxe",
+   "countries": [
+    "South Africa"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Chicken Fillet",
+   "key": "spicy chicken fillet",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Chicken McDeluxe",
+   "key": "spicy chicken mcdeluxe",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "spicy French fries",
+   "key": "spicy french fries",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Korean Burger",
+   "key": "spicy korean burger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Nuggets",
+   "key": "spicy nuggets",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy pork burger",
+   "key": "spicy pork burger",
+   "countries": [
+    "Hungary"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Spicy Thai",
+   "key": "spicy thai",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "spring rolls",
+   "key": "spring rolls",
+   "countries": [
+    "Greece"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Steak Mince 'n' Cheese",
+   "key": "steak mince 'n' cheese",
+   "countries": [
+    "New Zealand"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "stroopwafel McFlurries",
+   "key": "stroopwafel mcflurries",
+   "countries": [
+    "Netherlands"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Summer Chorizo Supreme",
+   "key": "summer chorizo supreme",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Sweet Curry Sauce",
+   "key": "sweet curry sauce",
+   "countries": [
+    "United Kingdom and Ireland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "sweet potato fries",
+   "key": "sweet potato fries",
+   "countries": [
+    "Fiji"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Sweety",
+   "key": "sweety",
+   "countries": [
+    "Italy"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "taco flatbreads",
+   "key": "taco flatbreads",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Tamago Double Mac",
+   "key": "tamago double mac",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Tandoori Burger",
+   "key": "tandoori burger",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Teri Tama Burger",
+   "key": "teri tama burger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Teriyaki McBurger",
+   "key": "teriyaki mcburger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Thai Fish Burger with Green Curry Sauce",
+   "key": "thai fish burger with green curry sauce",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "toast with jamon Iberico",
+   "key": "toast with jamon iberico",
+   "countries": [
+    "Spain"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Toasted Deli Sandwich",
+   "key": "toasted deli sandwich",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "B"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Tostado Queso Bacon",
+   "key": "tostado queso bacon",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Tostado Queso Palta",
+   "key": "tostado queso palta",
+   "countries": [
+    "Chile"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Triple Cheeseburger",
+   "key": "triple cheeseburger",
+   "countries": [
+    "Malaysia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Truffle mayo",
+   "key": "truffle mayo",
+   "countries": [
+    "Sweden"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Tsukimi Burger",
+   "key": "tsukimi burger",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Turkish",
+   "key": "turkish",
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Twister Fries",
+   "key": "twister fries",
+   "countries": [
+    "Philippines"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Ume Nuggets",
+   "key": "ume nuggets",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Valio Oltermanni Juustonapit",
+   "key": "valio oltermanni juustonapit",
+   "countries": [
+    "Finland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Veg Maharaja Mac",
+   "key": "veg maharaja mac",
+   "countries": [
+    "India"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "vegan burger",
+   "key": "vegan burger",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Vegemite shaker fries",
+   "key": "vegemite shaker fries",
+   "countries": [
+    "Australia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "vegetarian burger",
+   "key": "vegetarian burger",
+   "countries": [
+    "Brazil"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Vietnamese coffee",
+   "key": "vietnamese coffee",
+   "countries": [
+    "Vietnam"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Wasabi Filet O' Fish",
+   "key": "wasabi filet o' fish",
+   "countries": [
+    "Hong Kong"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "white bean and spinach soup",
+   "key": "white bean and spinach soup",
+   "countries": [
+    "Portugal"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "WieśMac",
+   "key": "wieśmac",
+   "countries": [
+    "Poland"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Yasai Seikatsu mixed vegetable juice",
+   "key": "yasai seikatsu mixed vegetable juice",
+   "countries": [
+    "Japan"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Zesty Mango",
+   "key": "zesty mango",
+   "countries": [
+    "Canada"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  },
+  {
+   "name": "Биф А-ля Рус (Beef à la Russe)",
+   "key": "биф а-ля рус (beef à la russe)",
+   "countries": [
+    "Russia"
+   ],
+   "n": 1,
+   "sources": [
+    "A"
+   ],
+   "sole": true
+  }
+ ]
+}
