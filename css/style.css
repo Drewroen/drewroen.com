@@ -213,6 +213,16 @@ nav a + a { margin-left: var(--sp-8); }
   text-decoration: none;
 }
 
+/* blog index: the date under each post title, and no rule on an empty list */
+.post-list .post-date {
+  display: block;
+  margin-top: var(--sp-4);
+  font-size: var(--caption);
+  color: var(--text-tertiary);
+}
+
+.post-list:empty { border-top: 0; }
+
 .empty {
   margin: var(--sp-24) 0 0;
   font-size: var(--body-3);
@@ -340,6 +350,74 @@ figcaption {
   font-size: var(--caption);
   color: var(--text-tertiary);
 }
+
+/* blog posts: the rendered markdown */
+.post > :first-child { margin-top: 0; }
+
+.post p { margin: 0 0 var(--sp-16); }
+
+.post h1 { margin: 0 0 var(--sp-16); }
+
+.post h2 { margin-top: var(--sp-32); }
+
+.post h3 {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-medium);
+  font-size: var(--body-2);
+  margin: var(--sp-24) 0 var(--sp-8);
+}
+
+.post ul,
+.post ol {
+  margin: 0 0 var(--sp-16);
+  padding-left: 1.2em;
+}
+
+.post li { margin-bottom: var(--sp-8); }
+
+.post a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.post code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  padding: 1px 4px;
+  background: var(--bg-subtle);
+  border-radius: var(--br-6);
+}
+
+.post pre {
+  margin: 0 0 var(--sp-16);
+  padding: var(--sp-16);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--br-12);
+  overflow-x: auto;
+}
+
+.post pre code {
+  padding: 0;
+  font-size: var(--body-3);
+  background: none;
+}
+
+.post blockquote {
+  margin: 0 0 var(--sp-16);
+  padding-left: var(--sp-16);
+  border-left: 2px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.post hr {
+  margin: var(--sp-32) 0;
+  border: 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.post img { max-width: 100%; height: auto; }
 
 @media (max-width: 480px) {
   .chart { height: 260px; padding: var(--sp-8); }
