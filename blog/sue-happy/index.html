@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drew&rsquo;s Blog</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+  <main>
+    <p class="back"><a href="../">&larr; Drew&rsquo;s Blog</a></p>
+
+    <article class="post" id="post"></article>
+
+    <p class="empty" id="post-fallback">
+      This post needs JavaScript to render &mdash;
+      <a href="index.md">read it as markdown</a>.
+    </p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@18.1.1/lib/marked.umd.js"
+          integrity="sha384-rATToyt6602Jnq8c7w8HZwmyOUgPL7mzxX01FBWoV48ns/EgkakGozpES+PnaYOI"
+          crossorigin="anonymous"></script>
+  <script src="../../js/markdown.js"></script>
+</body>
+</html>
